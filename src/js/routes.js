@@ -112,11 +112,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
 
       .state('starting', {
         url: '/starting',
-        template: '<ion-view id="starting"><ion-content>{{starting}}</ion-content></ion-view>',
-        controller: function($scope, $log, gettextCatalog) {
-          $log.info('Starting...');
-          $scope.starting = gettextCatalog.getString('Starting...');
-        }
+        template: '<ion-view id="starting"><ion-content><div class="block-spinner row"><ion-spinner class="spinner-stable" icon="crescent"></ion-spinner></div></ion-content></ion-view>'
       })
 
       /*
@@ -135,10 +131,6 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
             });
           })
         }
-      })
-      .state('uripayment', {
-        url: '/uri-payment/:url',
-        templateUrl: 'views/paymentUri.html'
       })
 
       /*
@@ -198,6 +190,25 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           'tab-home@tabs': {
             templateUrl: 'views/backup.html',
             controller: 'backupController'
+          }
+        }
+      })
+
+      .state('tabs.wallet.addresses', {
+        url: '/addresses/:walletId/:toAddress',
+        views: {
+          'tab-home@tabs': {
+            controller: 'addressesController',
+            templateUrl: 'views/addresses.html'
+          }
+        }
+      })
+      .state('tabs.wallet.allAddresses', {
+        url: '/allAddresses/:walletId',
+        views: {
+          'tab-home@tabs': {
+            controller: 'addressesController',
+            templateUrl: 'views/allAddresses.html'
           }
         }
       })
@@ -1123,7 +1134,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         }
       });
   })
-  .run(function($rootScope, $state, $location, $log, $timeout, startupService, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ coinbaseService, glideraService, amazonService, bitpayCardService, applicationService) {
+  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ coinbaseService, glideraService, amazonService, bitpayCardService, applicationService) {
 
     uxLanguage.init();
 
@@ -1170,10 +1181,12 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           $ionicHistory.goBack();
         } else
         if ($rootScope.backButtonPressedOnceToExit) {
-          ionic.Platform.exitApp();
+          navigator.app.exitApp();
         } else {
           $rootScope.backButtonPressedOnceToExit = true;
-          window.plugins.toast.showShortBottom(gettextCatalog.getString('Press again to exit'));
+          $rootScope.$apply(function() {
+            ionicToast.show(gettextCatalog.getString('Press again to exit'), 'bottom', false, 1000);
+          });
           $timeout(function() {
             $rootScope.backButtonPressedOnceToExit = false;
           }, 3000);
