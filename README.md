@@ -23,6 +23,8 @@ In order to run/package for these targets:
 docker-compose up <target>
 ```
 
+As of right now only the testing server is working and tested.
+
 ## Original Documentation
 
 <img src="https://raw.githubusercontent.com/bitpay/copay/master/resources/copay/android/icon/drawable-xxxhdpi-icon.png" alt="Copay" width="79">
