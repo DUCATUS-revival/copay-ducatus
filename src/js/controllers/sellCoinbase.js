@@ -36,7 +36,7 @@ angular.module('copayApp.controllers').controller('sellCoinbaseController', func
 
   var checkTransaction = lodash.throttle(function(count, txp) {
     $log.warn('Check if transaction has been received by Coinbase. Try ' + count + '/5');
-    // TX amount in BTC
+    // TX amount in DTC
     var satToBtc = 1 / 100000000;
     var amountBTC = (txp.amount * satToBtc).toFixed(8);
     coinbaseService.init(function(err, res) {
@@ -125,7 +125,7 @@ angular.module('copayApp.controllers').controller('sellCoinbaseController', func
   });
 
   $scope.$on("$ionicView.beforeEnter", function(event, data) {
-    $scope.isFiat = data.stateParams.currency != 'bits' && data.stateParams.currency != 'BTC' ? true : false;
+    $scope.isFiat = data.stateParams.currency != 'bits' && data.stateParams.currency != 'DTC' ? true : false;
     var parsedAmount = txFormatService.parseAmount(
       data.stateParams.amount, 
       data.stateParams.currency);
@@ -231,7 +231,7 @@ angular.module('copayApp.controllers').controller('sellCoinbaseController', func
     var configWallet = config.wallet;
     var walletSettings = configWallet.settings;
 
-    var message = 'Selling bitcoin for ' + amount + ' ' + currency;
+    var message = 'Selling ducatuscoin for ' + amount + ' ' + currency;
     var okText = 'Confirm';
     var cancelText = 'Cancel';
     popupService.showConfirm(null, message, okText, cancelText, function(ok) {
@@ -259,7 +259,7 @@ angular.module('copayApp.controllers').controller('sellCoinbaseController', func
           var outputs = [];
           var toAddress = data.data.address;
           var amountSat = parseInt(($scope.sellRequestInfo.amount.amount * 100000000).toFixed(0));
-          var comment = 'Sell bitcoin (Coinbase)';
+          var comment = 'Sell ducatuscoin (Coinbase)';
 
           outputs.push({
             'toAddress': toAddress,

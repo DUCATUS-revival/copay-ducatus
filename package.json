@@ -1,11 +1,11 @@
 {
   "//": "        Modify it in the app-template directory",
   "name": "copay",
-  "description": "A Secure Bitcoin Wallet",
+  "description": "A Secure DucatusCoin Wallet",
   "author": "BitPay",
   "version": "3.6.2",
   "keywords": [
-    "bitcoin",
+    "ducatuscoin",
     "wallet",
     "bitpay",
     "copay",
@@ -15,7 +15,7 @@
   "main": "www/index.html",
   "title": "Copay",
   "window": {
-    "title": "Copay - Copay Bitcoin Wallet",
+    "title": "Copay - Copay DucatusCoin Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,
