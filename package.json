@@ -2,14 +2,18 @@
   "//": "        Modify it in the app-template directory",
   "name": "copay",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "description": "A Secure Ducatuscoin Wallet",
 =======
   "description": "A Secure DucatusCoin Wallet",
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
+=======
+  "description": "A Secure Bitcoin Wallet",
+>>>>>>> parent of fc2811a... Added changes in names
   "author": "BitPay",
   "version": "3.6.2",
   "keywords": [
-    "ducatuscoin",
+    "bitcoin",
     "wallet",
     "bitpay",
     "copay",
@@ -20,10 +24,14 @@
   "title": "Copay",
   "window": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "title": "Copay - Copay Ducatuscoin Wallet",
 =======
     "title": "Copay - Copay DucatusCoin Wallet",
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
+=======
+    "title": "Copay - Copay Bitcoin Wallet",
+>>>>>>> parent of fc2811a... Added changes in names
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,

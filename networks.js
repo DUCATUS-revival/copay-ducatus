@@ -8,7 +8,7 @@ var networkMaps = {};
 
 /**
  * A network is merely a map containing values that correspond to version
- * numbers for each ducatuscoin network. Currently only supporting "livenet"
+ * numbers for each bitcoin network. Currently only supporting "livenet"
  * (a.k.a. "mainnet") and "testnet".
  * @constructor
  */
@@ -168,10 +168,10 @@ var TESTNET = {
   PORT: 18333,
   NETWORK_MAGIC: BufferUtil.integerAsBuffer(0x0b110907),
   DNS_SEEDS: [
-    'testnet-seed.ducatuscoin.petertodd.org',
+    'testnet-seed.bitcoin.petertodd.org',
     'testnet-seed.bluematt.me',
     'testnet-seed.alexykot.me',
-    'testnet-seed.ducatuscoin.schildbach.de'
+    'testnet-seed.bitcoin.schildbach.de'
   ]
 };
 

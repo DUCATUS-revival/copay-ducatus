@@ -5,18 +5,18 @@ angular.module('copayApp.controllers').controller('paymentUriController',
       return (parseFloat(number.toPrecision(12)));
     };
 
-    // Build ducatuscoinURI with querystring
+    // Build bitcoinURI with querystring
     this.init = function() {
       var query = [];
-      this.ducatuscoinURI = $stateParams.url;
+      this.bitcoinURI = $stateParams.url;
 
       var URI = bitcore.URI;
-      var isUriValid = URI.isValid(this.ducatuscoinURI);
-      if (!URI.isValid(this.ducatuscoinURI)) {
+      var isUriValid = URI.isValid(this.bitcoinURI);
+      if (!URI.isValid(this.bitcoinURI)) {
         this.error = true;
         return;
       }
-      var uri = new URI(this.ducatuscoinURI);
+      var uri = new URI(this.bitcoinURI);
 
       if (uri && uri.address) {
         var config = configService.getSync().wallet.settings;
@@ -50,7 +50,7 @@ angular.module('copayApp.controllers').controller('paymentUriController',
       $ionicHistory.removeBackView();
       $state.go('tabs.home');
       $timeout(function() {
-        $rootScope.$emit('paymentUri', self.ducatuscoinURI);
+        $rootScope.$emit('paymentUri', self.bitcoinURI);
       }, 1000);
     };
   });

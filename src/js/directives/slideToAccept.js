@@ -25,7 +25,7 @@ angular.module('copayApp.directives')
         var elm = element[0];
         var isSliding = false;
         var curSliderPct = getKnobWidthPercentage();
-        var curDucatuscoinPct = 0;
+        var curBitcoinPct = 0;
         var curTextPct = 0;
         var currentEaseStartTime;
         var bezier = $window.BezierEasing(0.175, 0.885, 0.320, 1.275);
@@ -88,7 +88,7 @@ angular.module('copayApp.directives')
           scope.isSlidFully = false;
           isSliding = false;
           setNewSliderStyle(getKnobWidthPercentage());
-          setNewDucatuscoinStyle(0);
+          setNewBitcoinStyle(0);
           setNewTextStyle(0);
         }
 
@@ -102,10 +102,10 @@ angular.module('copayApp.directives')
           curSliderPct = pct;
         }
 
-        function setNewDucatuscoinStyle(pct) {
+        function setNewBitcoinStyle(pct) {
           var translatePct = -2.25 * pct;
-          scope.ducatuscoinStyle = getTransformStyle(translatePct);
-          curDucatuscoinPct = pct;
+          scope.bitcoinStyle = getTransformStyle(translatePct);
+          curBitcoinPct = pct;
         }
 
         function setNewTextStyle(pct) {
@@ -127,7 +127,7 @@ angular.module('copayApp.directives')
 
         function setSliderPosition(pct) {
           setNewSliderStyle(pct);
-          setNewDucatuscoinStyle(pct);
+          setNewBitcoinStyle(pct);
           setNewTextStyle(pct);
         }
 
@@ -136,8 +136,8 @@ angular.module('copayApp.directives')
           easePosition(curSliderPct, pct, duration, JIGGLE_EASING, function(pct) {
             setNewSliderStyle(pct);
           });
-          easePosition(curDucatuscoinPct, pct, duration, JIGGLE_EASING, function(pct) {
-            setNewDucatuscoinStyle(pct);
+          easePosition(curBitcoinPct, pct, duration, JIGGLE_EASING, function(pct) {
+            setNewBitcoinStyle(pct);
           });
           easePosition(curTextPct, pct, duration, JIGGLE_EASING, function(pct) {
             setNewTextStyle(pct);
@@ -150,8 +150,8 @@ angular.module('copayApp.directives')
           var p1 = easePosition(curSliderPct, pct, duration, JIGGLE_EASING, function(pct) {
             setNewSliderStyle(pct);
           });
-          var p2 = easePosition(curDucatuscoinPct, pct, duration, JIGGLE_EASING, function(pct) {
-            setNewDucatuscoinStyle(pct);
+          var p2 = easePosition(curBitcoinPct, pct, duration, JIGGLE_EASING, function(pct) {
+            setNewBitcoinStyle(pct);
           });
 
           $q.all([p1, p2]).then(function() {
@@ -164,8 +164,8 @@ angular.module('copayApp.directives')
           easePosition(curSliderPct, getKnobWidthPercentage(), duration, easeInOutBack, function(pct) {
             setNewSliderStyle(pct);
           });
-          easePosition(curDucatuscoinPct, 0, duration, easeInOutBack, function(pct) {
-            setNewDucatuscoinStyle(pct);
+          easePosition(curBitcoinPct, 0, duration, easeInOutBack, function(pct) {
+            setNewBitcoinStyle(pct);
           });
           easePosition(curTextPct, 0, duration, easeInOutBack, function(pct) {
             setNewTextStyle(pct);

@@ -67,8 +67,8 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
       }, 100);
     }
     // data extensions for Payment Protocol with non-backwards-compatible request
-    if ((/^ducatuscoin:\?r=[\w+]/).exec(data)) {
-      data = decodeURIComponent(data.replace('ducatuscoin:?r=', ''));
+    if ((/^bitcoin:\?r=[\w+]/).exec(data)) {
+      data = decodeURIComponent(data.replace('bitcoin:?r=', ''));
       $state.go('tabs.send', {}, {
         'reload': true,
         'notify': $state.current.name == 'tabs.send' ? false : true
@@ -122,7 +122,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
       if ($state.includes('tabs.scan')) {
         root.showMenu({
           data: data,
-          type: 'ducatuscoinAddress'
+          type: 'bitcoinAddress'
         });
       } else {
         goToAmountPage(data);

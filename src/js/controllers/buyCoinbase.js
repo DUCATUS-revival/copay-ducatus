@@ -23,7 +23,7 @@ angular.module('copayApp.controllers').controller('buyCoinbaseController', funct
 
   var statusChangeHandler = function (processName, showName, isOn) {
     $log.debug('statusChangeHandler: ', processName, showName, isOn);
-    if ( processName == 'buyingDucatuscoin' && !isOn) {
+    if ( processName == 'buyingBitcoin' && !isOn) {
       $scope.sendStatus = 'success';
       $timeout(function() {
         $scope.$digest();
@@ -42,14 +42,14 @@ angular.module('copayApp.controllers').controller('buyCoinbaseController', funct
   });
 
   $scope.$on("$ionicView.beforeEnter", function(event, data) {
-    $scope.isFiat = data.stateParams.currency != 'bits' && data.stateParams.currency != 'DTC' ? true : false;
+    $scope.isFiat = data.stateParams.currency != 'bits' && data.stateParams.currency != 'BTC' ? true : false;
     var parsedAmount = txFormatService.parseAmount(
       data.stateParams.amount,
       data.stateParams.currency);
 
-    // Buy always in DTC
+    // Buy always in BTC
     amount = (parsedAmount.amountSat / 100000000).toFixed(8);
-    currency = 'DTC';
+    currency = 'BTC';
 
     $scope.amountUnitStr = parsedAmount.amountUnitStr;
 
@@ -150,16 +150,16 @@ angular.module('copayApp.controllers').controller('buyCoinbaseController', funct
   };
 
   $scope.buyConfirm = function() {
-    var message = 'Buy ducatuscoin for ' + $scope.amountUnitStr;
+    var message = 'Buy bitcoin for ' + $scope.amountUnitStr;
     var okText = 'Confirm';
     var cancelText = 'Cancel';
     popupService.showConfirm(null, message, okText, cancelText, function(ok) {
       if (!ok) return;
 
-      ongoingProcess.set('buyingDucatuscoin', true, statusChangeHandler);
+      ongoingProcess.set('buyingBitcoin', true, statusChangeHandler);
       coinbaseService.init(function(err, res) {
         if (err) {
-          ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+          ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
           showError(err);
           return;
         }
@@ -173,27 +173,27 @@ angular.module('copayApp.controllers').controller('buyCoinbaseController', funct
         };
         coinbaseService.buyRequest(accessToken, accountId, dataSrc, function(err, b) {
           if (err) {
-            ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+            ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
             showError(err);
             return;
           }
 
           var processBuyTx = function (tx) {
             if (!tx) {
-              ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+              ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
               showError('Transaction not found');
               return;
             }
 
             coinbaseService.getTransaction(accessToken, accountId, tx.id, function(err, updatedTx) {
               if (err) {
-                ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+                ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
                 showError(err);
                 return;
               }
               walletService.getAddress($scope.wallet, false, function(err, walletAddr) {
                 if (err) {
-                  ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+                  ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
                   showError(err);
                   return;
                 }
@@ -202,7 +202,7 @@ angular.module('copayApp.controllers').controller('buyCoinbaseController', funct
 
                 $log.debug('Saving transaction to process later...');
                 coinbaseService.savePendingTransaction(updatedTx.data, {}, function(err) {
-                  ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+                  ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
                   if (err) $log.debug(err);
                 });
               });
@@ -217,7 +217,7 @@ angular.module('copayApp.controllers').controller('buyCoinbaseController', funct
             else {
               coinbaseService.getBuyOrder(accessToken, accountId, b.data.id, function (err, buyResp) {
                 if (err) {
-                  ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+                  ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
                   showError(err);
                   return;
                 }

@@ -15,7 +15,7 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
     $scope.hasWallets = lodash.isEmpty($scope.wallets) ? false : true;
   };
 
-  // THIS is ONLY to show the 'buy ducatuscoins' message
+  // THIS is ONLY to show the 'buy bitcoins' message
   // does not has any other function.
 
   var updateHasFunds = function() {
@@ -34,7 +34,7 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
         if (err && !status) {
           $log.error(err);
           // error updating the wallet. Probably a network error, do not show
-          // the 'buy ducatuscoins' message.
+          // the 'buy bitcoins' message.
 
           $scope.hasFunds = true;
         } else if (status.availableBalanceSat > 0) {
@@ -199,7 +199,7 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
     });
   };
 
-  $scope.buyDucatuscoin = function() {
+  $scope.buyBitcoin = function() {
     $state.go('tabs.home').then(function() {
       $state.go('tabs.buyandsell');
     });
