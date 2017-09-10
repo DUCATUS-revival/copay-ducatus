@@ -213,7 +213,11 @@ msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
 msgstr ""
 
 #: www/views/addresses.html:94
+<<<<<<< HEAD
 msgid "Approximate Ducatuscoin network fee to transfer wallet's balance (with normal priority)"
+=======
+msgid "Approximate DucatusCoin network fee to transfer wallet's balance (with normal priority)"
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr ""
 
 #: www/views/backupWarning.html:10
@@ -328,12 +332,17 @@ msgid "BitPay Visa&reg; Cards"
 msgstr ""
 
 #: www/views/addressbook.add.html:38
+<<<<<<< HEAD
 msgid "Ducatuscoin Address"
+=======
+msgid "DucatusCoin Address"
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr ""
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
+<<<<<<< HEAD
 msgid "Ducatuscoin Network Fee Policy"
 msgstr ""
 
@@ -359,6 +368,33 @@ msgstr ""
 
 #: www/views/preferencesFee.html:11
 msgid "Ducatuscoin transactions include a fee collected by miners on the network."
+=======
+msgid "DucatusCoin Network Fee Policy"
+msgstr ""
+
+#: www/views/paymentUri.html:10
+msgid "DucatusCoin URI is NOT valid!"
+msgstr ""
+
+#: www/views/tab-settings.html:63
+msgid "DucatusCoin Unit"
+msgstr ""
+
+#: www/views/onboarding/tour.html:31
+msgid "DucatusCoin is a currency."
+msgstr ""
+
+#: www/views/onboarding/disclaimer.html:15
+msgid "DucatusCoin is different &ndash; it cannot be safely held with a bank or web service."
+msgstr ""
+
+#: www/views/onboarding/tour.html:18
+msgid "DucatusCoin is secure,<br>digital money."
+msgstr ""
+
+#: www/views/preferencesFee.html:11
+msgid "DucatusCoin transactions include a fee collected by miners on the network."
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr ""
 
 #: www/views/modals/txp-details.html:36
@@ -379,6 +415,7 @@ msgid "Browser unsupported"
 msgstr ""
 
 #: www/views/includes/buyAndSellCard.html:4
+<<<<<<< HEAD
 msgid "Buy &amp; Sell Ducatuscoin"
 msgstr ""
 
@@ -388,6 +425,17 @@ msgstr ""
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying Ducatuscoin..."
+=======
+msgid "Buy &amp; Sell DucatusCoin"
+msgstr ""
+
+#: www/views/tab-send.html:35
+msgid "Buy DucatusCoin"
+msgstr ""
+
+#: src/js/services/onGoingProcess.js:40
+msgid "Buying DucatusCoin..."
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:12
@@ -2193,7 +2241,11 @@ msgid "Self-signed Certificate"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:41
+<<<<<<< HEAD
 msgid "Selling Ducatuscoin..."
+=======
+msgid "Selling DucatusCoin..."
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr ""
 
 #: www/views/feedback/send.html:13
@@ -2384,7 +2436,11 @@ msgid "Spending Password needed"
 msgstr ""
 
 #: www/views/walletDetails.html:162
+<<<<<<< HEAD
 msgid "Spending this balance will need significant Ducatuscoin network fees"
+=======
+msgid "Spending this balance will need significant DucatusCoin network fees"
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr ""
 
 #: www/views/tab-send.html:28
@@ -2589,7 +2645,11 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr ""
 
 #: www/views/tx-details.html:93
+<<<<<<< HEAD
 msgid "This transaction amount is too small compared to current Ducatuscoin network fees. Spending these funds will need a Ducatuscoin network fee cost comparable to the funds itself."
+=======
+msgid "This transaction amount is too small compared to current DucatusCoin network fees. Spending these funds will need a DucatusCoin network fee cost comparable to the funds itself."
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr ""
 
 #: www/views/tx-details.html:89

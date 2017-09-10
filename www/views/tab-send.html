@@ -32,7 +32,11 @@
           <span ng-show="hasWallets" translate>To get started, buy ducatuscoin or share your address. You can receive ducatuscoin from any wallet or service.</span>
           <span ng-show="!hasWallets" translate>To get started, you'll need to create a ducatuscoin wallet and get some ducatuscoin.</span>
           <div class="padding">
+<<<<<<< HEAD
             <button class="button button-standard button-primary" ng-click="buyDucatuscoin()" ng-show="hasWallets" translate>Buy Ducatuscoin</button>
+=======
+            <button class="button button-standard button-primary" ng-click="buyBitcoin()" ng-show="hasWallets" translate>Buy DucatusCoin</button>
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
             <button class="button button-standard button-primary" ng-click="createWallet()" ng-show="!hasWallets" translate>Create ducatuscoin wallet</button>
             <button class="button button-standard button-secondary" ui-sref="tabs.receive" ng-show="hasWallets" translate>Show ducatuscoin address</button>
           </div>

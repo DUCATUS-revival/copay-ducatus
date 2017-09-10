@@ -14,7 +14,11 @@ Nous avons développé les fonctionnalités suivantes dans cette version de Copa
 • Sécurité basée sur l'appareil : toutes les clés privées sont stockées localement, pas dans le cloud.
 • Prise en charge des portefeuilles ducatuscoin testnet.
 • Accès synchrone sur toutes les principales plateformes mobiles et de bureau.
+<<<<<<< HEAD
 • Prise en charge de Payment protocol (BIP70-BIP73) : demandes de paiement facilement identifiables et paiements ducatuscoins sécurisés et vérifiables.
+=======
+• Prise en charge de Payment protocol (BIP70-BIP73) : demandes de paiement facilement identifiables et paiements bitcoins sécurisés et vérifiables.
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 • Prise en charge de plus de 150 devises et dénomination d'unité en DTC ou en bits.
 • Notifications e-mail pour les paiements et les transferts.
 • Nom de portefeuille et couleurs de fond personnalisables.

@@ -46,7 +46,11 @@ Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFil
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
 
 [Registry]
+<<<<<<< HEAD
 Root: HKCR; Subkey: "ducatuscoin"; ValueType: "string"; ValueData: "URL:Ducatuscoin Custom Protocol"; Flags: uninsdeletekey
+=======
+Root: HKCR; Subkey: "ducatuscoin"; ValueType: "string"; ValueData: "URL:DucatusCoin Custom Protocol"; Flags: uninsdeletekey
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 Root: HKCR; Subkey: "ducatuscoin"; ValueType: "string"; ValueName: "URL Protocol"; ValueData: ""
 Root: HKCR; Subkey: "ducatuscoin\DefaultIcon"; ValueType: "string"; ValueData: "{app}\{#MyAppExeName},0"
 Root: HKCR; Subkey: "ducatuscoin\shell\open\command"; ValueType: "string"; ValueData: """{app}\{#MyAppExeName}"" ""%1"""

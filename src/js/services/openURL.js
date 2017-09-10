@@ -58,7 +58,11 @@ angular.module('copayApp.services').factory('openURLService', function($rootScop
       // This event is sent to an existent instance of Copay (only for standalone apps)
       gui.App.on('open', function(pathData) {
         if (pathData.indexOf('ducatuscoin:') != -1) {
+<<<<<<< HEAD
           $log.debug('Ducatuscoin URL found');
+=======
+          $log.debug('DucatusCoin URL found');
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
           handleOpenURL({
             url: pathData.substring(pathData.indexOf('ducatuscoin:'))
           });
@@ -83,7 +87,11 @@ angular.module('copayApp.services').factory('openURLService', function($rootScop
 
       if (navigator.registerProtocolHandler) {
         $log.debug('Registering Browser handlers base:' + base);
+<<<<<<< HEAD
         navigator.registerProtocolHandler('ducatuscoin', url, 'Copay Ducatuscoin Handler');
+=======
+        navigator.registerProtocolHandler('ducatuscoin', url, 'Copay DucatusCoin Handler');
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
         navigator.registerProtocolHandler('web+copay', url, 'Copay Wallet Handler');
         navigator.registerProtocolHandler('web+bitpay', url, 'BitPay Wallet Handler');
       }

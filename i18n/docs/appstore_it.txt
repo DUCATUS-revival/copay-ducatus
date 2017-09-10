@@ -12,7 +12,11 @@ Sicurezza multifirma intuitiva per portafogli personali o condivisi
 Proposte di pagamento facili da iniziare per portafogli condivisi e pagamenti di gruppo
 Generazione di portafogli gerarchici deterministici (HD) e funzionalità di backup 
 Sicurezza integrata nel dispositivo: tutte le chiave private sono memorizzate localmente, non nel cloud
+<<<<<<< HEAD
 Supporto per portafogli della testnet Ducatuscoin
+=======
+Supporto per portafogli della testnet DucatusCoin
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 Accesso sincrono in tutte le piattaforme mobile e desktop
 Supporto per il protocollo di pagamento (BIP70-BIP73): richieste di pagamento facilmente identificabili e pagamenti ducatuscoin sicuri e verificabili
 Supporto per 150+ valute e denominazione in DTC o bits

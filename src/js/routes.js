@@ -893,7 +893,11 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
 
       /*
        *
+<<<<<<< HEAD
        * Buy or Sell Ducatuscoin
+=======
+       * Buy or Sell DucatusCoin
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
        *
        */
 

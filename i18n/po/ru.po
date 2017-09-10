@@ -169,11 +169,19 @@ msgstr "Все"
 msgid "All Addresses"
 msgstr "Все адреса"
 
+<<<<<<< HEAD
 #: www/views/modals/wallet-balance.html:18
 msgid "All of your ducatuscoin wallet balance may not be available for immediate spending."
 msgstr "В данный момент весь баланс вашего кошелька может быть недоступен для совершения платежей."
 
 #: www/views/tab-receive.html:25
+=======
+#: www/views/modals/wallet-balance.html:18
+msgid "All of your ducatuscoin wallet balance may not be available for immediate spending."
+msgstr "В данный момент весь баланс вашего кошелька может быть недоступен для совершения платежей."
+
+#: www/views/tab-receive.html:25
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "All signing devices must be added to this multisig wallet before ducatuscoin addresses can be created."
 msgstr "Все совладельцы должны быть добавлены в этот общий кошелек, прежде чем можно будет получать переводы."
 
@@ -217,19 +225,32 @@ msgstr ""
 msgid "An update to this app is available. For your security, please update to the latest version."
 msgstr "Доступно обновление. Для вашей же безопасности, пожалуйста, обновитесь до последней версии."
 
+<<<<<<< HEAD
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
 msgstr "Любой, у кого есть доступ к вашему ключевому словосочетанию, может потратить ваши биткойны."
 
 #: www/views/addresses.html:94
 msgid "Approximate Ducatuscoin network fee to transfer wallet's balance (with normal priority)"
+=======
+#: www/views/backupWarning.html:14
+msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
+msgstr "Любой, у кого есть доступ к вашему ключевому словосочетанию, может потратить ваши биткойны."
+
+#: www/views/addresses.html:94
+msgid "Approximate DucatusCoin network fee to transfer wallet's balance (with normal priority)"
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr ""
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
 msgstr "За вами сейчас кто-нибудь смотрит?"
 
+<<<<<<< HEAD
 #: src/js/controllers/preferencesExternal.js:15
+=======
+#: src/js/controllers/preferencesExternal.js:15
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your ducatuscoin."
 msgstr "За вами подглядывают? Любой у кого есть ваша фраза восстановления может получить или потратить ваши биткойны."
 
@@ -336,6 +357,7 @@ msgstr "Сохраните ваше ключевое словосочетани�
 msgid "BitPay Visa&reg; Cards"
 msgstr "BitPay Visa® картыllllll"
 
+<<<<<<< HEAD
 #: www/views/addressbook.add.html:38
 msgid "Ducatuscoin Address"
 msgstr "Биткойн-адрес"
@@ -369,6 +391,41 @@ msgstr "Биткойн это безопасные,<br>цифровые день
 #: www/views/preferencesFee.html:11
 msgid "Ducatuscoin transactions include a fee collected by miners on the network."
 msgstr "Ducatuscoin transactions include a fee collected by miners on the network."
+=======
+#: www/views/addressbook.add.html:38
+msgid "DucatusCoin Address"
+msgstr "Биткойн-адрес"
+
+#: www/views/modals/chooseFeeLevel.html:4
+#: www/views/preferencesFee.html:4
+#: www/views/tab-settings.html:85
+msgid "DucatusCoin Network Fee Policy"
+msgstr "Политика комиссии сети Биткойн"
+
+#: www/views/paymentUri.html:10
+msgid "DucatusCoin URI is NOT valid!"
+msgstr "Биткойн URI недействителен!"
+
+#: www/views/tab-settings.html:63
+msgid "DucatusCoin Unit"
+msgstr "Единица измерения"
+
+#: www/views/onboarding/tour.html:31
+msgid "DucatusCoin is a currency."
+msgstr "Биткойн - это валюта."
+
+#: www/views/onboarding/disclaimer.html:15
+msgid "DucatusCoin is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "DucatusCoin is different &ndash; it cannot be safely held with a bank or web service."
+
+#: www/views/onboarding/tour.html:18
+msgid "DucatusCoin is secure,<br>digital money."
+msgstr "Биткойн это безопасные,<br>цифровые деньги."
+
+#: www/views/preferencesFee.html:11
+msgid "DucatusCoin transactions include a fee collected by miners on the network."
+msgstr "DucatusCoin transactions include a fee collected by miners on the network."
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 
 #: www/views/modals/txp-details.html:36
 msgid "Broadcast Payment"
@@ -387,6 +444,7 @@ msgstr "Отправка транзакции"
 msgid "Browser unsupported"
 msgstr "Браузер не поддерживается"
 
+<<<<<<< HEAD
 #: www/views/includes/buyAndSellCard.html:4
 msgid "Buy &amp; Sell Ducatuscoin"
 msgstr "Купить &amp; продать биткойн"
@@ -397,6 +455,18 @@ msgstr "Купить биткойн"
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying Ducatuscoin..."
+=======
+#: www/views/includes/buyAndSellCard.html:4
+msgid "Buy &amp; Sell DucatusCoin"
+msgstr "Купить &amp; продать биткойн"
+
+#: www/views/tab-send.html:35
+msgid "Buy DucatusCoin"
+msgstr "Купить биткойн"
+
+#: src/js/services/onGoingProcess.js:40
+msgid "Buying DucatusCoin..."
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr "Покупка биткойн..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -707,9 +777,15 @@ msgstr "Создать личный кошелёк"
 msgid "Create Shared Wallet"
 msgstr "Создать общий кошелёк"
 
+<<<<<<< HEAD
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
+=======
+#: www/views/onboarding/tour.html:51
+#: www/views/tab-home.html:77
+#: www/views/tab-send.html:36
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Create ducatuscoin wallet"
 msgstr "Создать биткойн-кошелёк"
 
@@ -815,7 +891,11 @@ msgstr "Не видите свой язык на Crowdin? Свяжитесь с 
 msgid "Download"
 msgstr "Скачать"
 
+<<<<<<< HEAD
 #: www/views/addresses.html:19
+=======
+#: www/views/addresses.html:19
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Each ducatuscoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 msgstr "Любой биткойн-кошелёк может создать миллиарды адресов из вашей ключевой фразы. Новый адрес автоматически генерируется каждый раз, когда вы получаете платеж."
 
@@ -1270,7 +1350,11 @@ msgstr "Ужасное приложение."
 msgid "I understand"
 msgstr "Я понимаю"
 
+<<<<<<< HEAD
 #: www/views/onboarding/disclaimer.html:21
+=======
+#: www/views/onboarding/disclaimer.html:21
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "I understand that if this app is moved to another device or deleted, my ducatuscoin can only be recovered with the backup phrase."
 msgstr "Я осознаю, что если {{appName}} будет перемещён на другое устройство, или удален, мои биткойны будут восстановимы только с помощью ключевого словосочетания."
 
@@ -1413,8 +1497,13 @@ msgstr "Правильно?"
 msgid "Is this email address correct?"
 msgstr "Это правильный email?"
 
+<<<<<<< HEAD
 #: www/views/addresses.html:25
 msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
+=======
+#: www/views/addresses.html:25
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr "Не используйте адреса повторно - это защитит вашу конфиденциальность и сохранит ваши биткойны в безопасности от возможных атак на квантовых компьютерах."
 
 #: src/js/controllers/backup.js:76
@@ -1609,7 +1698,11 @@ msgstr "Дальнейшие шаги"
 msgid "No Wallet"
 msgstr "Нет кошельков"
 
+<<<<<<< HEAD
 #: www/views/onboarding/backupRequest.html:5
+=======
+#: www/views/onboarding/backupRequest.html:5
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "No backup, no ducatuscoin."
 msgstr "Нет резервной копии - нет биткойнов."
 
@@ -1686,7 +1779,11 @@ msgstr "Потом"
 msgid "Note"
 msgstr "Примечание"
 
+<<<<<<< HEAD
 #: www/views/modals/wallets.html:25
+=======
+#: www/views/modals/wallets.html:25
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell ducatuscoin"
 msgstr "Внимание: только 1-1 кошельки (требующие одной подписи) могут быть использованы для продажи биткойн"
 
@@ -1801,7 +1898,11 @@ msgstr "Вставьте приглашение сюда"
 msgid "Paste the backup plain text code"
 msgstr "Вставьте код резервной копии обычным текстом"
 
+<<<<<<< HEAD
 #: www/views/bitpayCardIntro.html:28
+=======
+#: www/views/bitpayCardIntro.html:28
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Pay 0% fees to turn ducatuscoin into dollars."
 msgstr "Платите нулевую комиссию за конвертацию биткойн в доллары США."
 
@@ -2172,7 +2273,11 @@ msgstr "Скриншоты не безопасны"
 msgid "Search Transactions"
 msgstr "Поиск транзакций"
 
+<<<<<<< HEAD
 #: www/views/tab-send.html:13
+=======
+#: www/views/tab-send.html:13
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Search or enter ducatuscoin address"
 msgstr "Найти или ввести биткойн-адрес"
 
@@ -2201,8 +2306,13 @@ msgstr "Выберите кошелёк"
 msgid "Self-signed Certificate"
 msgstr "Самозаверенные сертификат"
 
+<<<<<<< HEAD
 #: src/js/services/onGoingProcess.js:41
 msgid "Selling Ducatuscoin..."
+=======
+#: src/js/services/onGoingProcess.js:41
+msgid "Selling DucatusCoin..."
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr "Продажа биткойн..."
 
 #: www/views/feedback/send.html:13
@@ -2341,7 +2451,11 @@ msgstr "Показать адрес"
 msgid "Show advanced options"
 msgstr "Показать дополнительные параметры"
 
+<<<<<<< HEAD
 #: www/views/tab-send.html:37
+=======
+#: www/views/tab-send.html:37
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Show ducatuscoin address"
 msgstr "Показать биткойн-адрес"
 
@@ -2392,11 +2506,19 @@ msgstr "Платёж не найден"
 msgid "Spending Password needed"
 msgstr "Необходим платёжный пароль"
 
+<<<<<<< HEAD
 #: www/views/walletDetails.html:162
 msgid "Spending this balance will need significant Ducatuscoin network fees"
 msgstr ""
 
 #: www/views/tab-send.html:28
+=======
+#: www/views/walletDetails.html:162
+msgid "Spending this balance will need significant DucatusCoin network fees"
+msgstr ""
+
+#: www/views/tab-send.html:28
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Start sending ducatuscoin"
 msgstr "Начать отправку ducatuscoin"
 
@@ -2432,7 +2554,11 @@ msgstr "Считывание кошелька..."
 msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "ЭТО ДЕЙСТВИЕ НЕ МОЖЕТ БЫТЬ ОТМЕНЕНО"
 
+<<<<<<< HEAD
 #: www/views/onboarding/welcome.html:5
+=======
+#: www/views/onboarding/welcome.html:5
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Take control of your money,<br>get started with ducatuscoin."
 msgstr "Возьмите ваши финансы под контроль,<br>начните пользоваться Биткойн."
 
@@ -2481,6 +2607,7 @@ msgstr ""
 msgid "The Ledger Chrome application is not installed"
 msgstr "Приложение Ledger для Chrome не установлено"
 
+<<<<<<< HEAD
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of ducatuscoin immediately spendable from this wallet."
 msgstr "Сумма биткойнов доступных для совершения платежей."
@@ -2490,6 +2617,17 @@ msgid "The amount of ducatuscoin stored in this wallet that is allocated as inpu
 msgstr "Сумма биткойнов, выделенных в качестве входов для ожидающих рассмотрения платежей. Сумма определяется непотраченными выходами, ассоциированными с этим кошельком, и может превышать сумму, ассоциированную с предложенными платежами."
 
 #: www/views/modals/wallet-balance.html:74
+=======
+#: www/views/modals/wallet-balance.html:55
+msgid "The amount of ducatuscoin immediately spendable from this wallet."
+msgstr "Сумма биткойнов доступных для совершения платежей."
+
+#: www/views/modals/wallet-balance.html:93
+msgid "The amount of ducatuscoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr "Сумма биткойнов, выделенных в качестве входов для ожидающих рассмотрения платежей. Сумма определяется непотраченными выходами, ассоциированными с этим кошельком, и может превышать сумму, ассоциированную с предложенными платежами."
+
+#: www/views/modals/wallet-balance.html:74
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "The amount of ducatuscoin stored in this wallet with less than 1 blockchain confirmation."
 msgstr "Сумма биткойнов с менее, чем одним подтверждением."
 
@@ -2544,7 +2682,11 @@ msgstr ""
 msgid "The spend proposal is not pending"
 msgstr "Предложенный платёж больше не на рассмотрении"
 
+<<<<<<< HEAD
 #: www/views/modals/wallet-balance.html:36
+=======
+#: www/views/modals/wallet-balance.html:36
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "The total amount of ducatuscoin stored in this wallet."
 msgstr "Сумма биткойнов в этом кошельке."
 
@@ -2579,11 +2721,19 @@ msgstr ""
 msgid "This app is fantastic!"
 msgstr "Замечательное приложение!"
 
+<<<<<<< HEAD
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your ducatuscoin with cutting-edge security."
 msgstr ""
 
 #: src/js/controllers/confirm.js:464
+=======
+#: www/views/onboarding/tour.html:47
+msgid "This app stores your ducatuscoin with cutting-edge security."
+msgstr ""
+
+#: src/js/controllers/confirm.js:464
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "This ducatuscoin payment request has expired."
 msgstr "Этот запрос платежа истёк."
 
@@ -2597,8 +2747,13 @@ msgstr ""
 msgid "This recovery phrase was created with a password. To recover this wallet both the recovery phrase and password are needed."
 msgstr "Это ключевое словосочетание было создано с паролем. Для восстановления кошелька необходимо ключевое словосочетание и его пароль."
 
+<<<<<<< HEAD
 #: www/views/tx-details.html:93
 msgid "This transaction amount is too small compared to current Ducatuscoin network fees. Spending these funds will need a Ducatuscoin network fee cost comparable to the funds itself."
+=======
+#: www/views/tx-details.html:93
+msgid "This transaction amount is too small compared to current DucatusCoin network fees. Spending these funds will need a DucatusCoin network fee cost comparable to the funds itself."
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgstr ""
 
 #: www/views/tx-details.html:89
@@ -2624,11 +2779,19 @@ msgstr "Хронология"
 msgid "To"
 msgstr "Кому"
 
+<<<<<<< HEAD
 #: www/views/tab-send.html:32
 msgid "To get started, buy ducatuscoin or share your address. You can receive ducatuscoin from any wallet or service."
 msgstr "Чтобы начать работу, купите биткойн или поделитесь вашим адресом. Вы можете получать биткойны из любого кошелька или сервиса."
 
 #: www/views/tab-send.html:33
+=======
+#: www/views/tab-send.html:32
+msgid "To get started, buy ducatuscoin or share your address. You can receive ducatuscoin from any wallet or service."
+msgstr "Чтобы начать работу, купите биткойн или поделитесь вашим адресом. Вы можете получать биткойны из любого кошелька или сервиса."
+
+#: www/views/tab-send.html:33
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "To get started, you'll need to create a ducatuscoin wallet and get some ducatuscoin."
 msgstr "Чтобы начать работу, вам нужно создать кошелёк и получить биткойн."
 
@@ -2712,7 +2875,11 @@ msgstr "Перевод в кошелёк"
 msgid "Try again in {{expires}}"
 msgstr "Попробуйте снова через {{expires}}"
 
+<<<<<<< HEAD
 #: www/views/bitpayCardIntro.html:18
+=======
+#: www/views/bitpayCardIntro.html:18
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Turn ducatuscoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
 msgstr "Превращайте биткойны в доллары США - платите везде, где принимают карты Visa<sup>&reg;</sup>."
 
@@ -3069,7 +3236,11 @@ msgstr "Вы можете создать резервную копию позж�
 msgid "You can make contributions by signing up on our Crowdin community translation website. We’re looking forward to hearing from you!"
 msgstr ""
 
+<<<<<<< HEAD
 #: www/views/tab-scan.html:16
+=======
+#: www/views/tab-scan.html:16
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "You can scan ducatuscoin addresses, payment requests, paper wallets, and more."
 msgstr "Вы можете сканировать биткойн-адреса, запросы платежей, бумажные кошельки, и многое другое."
 
@@ -3077,7 +3248,11 @@ msgstr "Вы можете сканировать биткойн-адреса, з
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
 msgstr ""
 
+<<<<<<< HEAD
 #: www/views/onboarding/tour.html:19
+=======
+#: www/views/onboarding/tour.html:19
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "You can spend ducatuscoin at millions of websites and stores worldwide."
 msgstr ""
 
@@ -3089,7 +3264,11 @@ msgstr "Вы можете экспортировать её в Дополнит�
 msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr ""
 
+<<<<<<< HEAD
 #: www/views/onboarding/tour.html:46
+=======
+#: www/views/onboarding/tour.html:46
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "You control your ducatuscoin."
 msgstr "Вы контролируете Ваши ducatuscoin-ы."
 
@@ -3105,11 +3284,19 @@ msgstr "Вы будете получать email-уведомления о вх�
 msgid "Your BitPay Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
 msgstr ""
 
+<<<<<<< HEAD
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your ducatuscoin wallet is backed up!"
 msgstr "Резервная копия кошелька создана!"
 
 #: www/views/tab-home.html:36
+=======
+#: www/views/includes/confirmBackupPopup.html:6
+msgid "Your ducatuscoin wallet is backed up!"
+msgstr "Резервная копия кошелька создана!"
+
+#: www/views/tab-home.html:36
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Your ducatuscoin wallet is ready!"
 msgstr "Ваш кошелёк готов!"
 
@@ -3181,11 +3368,19 @@ msgstr "оплатить"
 msgid "to send"
 msgstr "отправить"
 
+<<<<<<< HEAD
 #: www/views/preferencesBwsUrl.html:21
 msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
 msgstr "{{appName}} требует Bitcore для координации совладельцев и получения информации из блокчейна. По-умолчанию используется сервер http://bws-1.twocatus.org:3232 (публичный сервер Bitcore компании BitPay)."
 
 #: src/js/controllers/confirm.js:354
+=======
+#: www/views/preferencesBwsUrl.html:21
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://127.0.0.1:3232 (BitPay's public BWS instance)."
+msgstr "{{appName}} требует Bitcore для координации совладельцев и получения информации из блокчейна. По-умолчанию используется сервер http://127.0.0.1:3232 (публичный сервер Bitcore компании BitPay)."
+
+#: src/js/controllers/confirm.js:354
+>>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "{{fee}} will be deducted for ducatuscoin networking fees."
 msgstr "{{fee}} будет использовано для оплаты комиссии."
 
