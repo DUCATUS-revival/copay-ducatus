@@ -111,8 +111,8 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
     }
 
     var outputs = [];
-    var toAddress = invoice.bitcoinAddress;
-    var amountSat = parseInt(invoice.btcDue * 100000000); // BTC to Satoshi
+    var toAddress = invoice.ducatuscoinAddress;
+    var amountSat = parseInt(invoice.btcDue * 100000000); // DTC to Satoshi
 
     outputs.push({
       'toAddress': toAddress,
@@ -161,7 +161,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
 
         var maxAmountBtc = Number((maxValues.amount / 100000000).toFixed(8));
 
-        createInvoice({amount: maxAmountBtc, currency: 'BTC'}, function(err, inv) {
+        createInvoice({amount: maxAmountBtc, currency: 'DTC'}, function(err, inv) {
           if (err) return cb(err);
 
           var invoiceFeeSat = parseInt((inv.buyerPaidBtcMinerFee * 100000000).toFixed());

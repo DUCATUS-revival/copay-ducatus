@@ -14,6 +14,8 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
+COPY ./networks.js node_modules/bitcore-lib/lib/
+
 RUN npm run clean-all
 RUN bower install --allow-root
 RUN npm run apply:copay
