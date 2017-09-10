@@ -1,3 +1,32 @@
+## Ducatuspay Information
+
+Ducatuspay is built off of copay (information on copay is below) which is very messy to build, so in order to keep the development environment clean and easier for new people to build, we'll be utilizing docker for building the packages and running the test server.
+
+First you'll need to build the docker image (in the repo's directory):
+
+```
+./build.sh
+```
+
+After the image is built you have the following targets for packaging:
+
+- testing
+- android
+- ios
+- desktop
+
+`testing` is useful for, well, testing, it runs as a server on http://localhost:8100
+
+In order to run/package for these targets:
+
+```
+docker-compose up <target>
+```
+
+As of right now only the testing server is working and tested.
+
+## Original Documentation
+
 <img src="https://raw.githubusercontent.com/bitpay/copay/master/resources/copay/android/icon/drawable-xxxhdpi-icon.png" alt="Copay" width="79">
 
 [![Build Status](https://secure.travis-ci.org/bitpay/copay.svg)](http://travis-ci.org/bitpay/copay)
