@@ -89,15 +89,7 @@ angular.module('copayApp.controllers').controller('preferencesHistory',
             var _fee = (it.fees * satToBtc).toFixed(8)
             $scope.csvContent.push({
               'Date': formatDate(it.time * 1000),
-<<<<<<< HEAD
-<<<<<<< HEAD
-              'Destination': 'Ducatuscoin Network Fees',
-=======
               'Destination': 'DucatusCoin Network Fees',
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-              'Destination': 'Ducatuscoin Network Fees',
->>>>>>> parent of fc2811a... Added changes in names
               'Description': '',
               'Amount': '-' + _fee,
               'Currency': 'DTC',

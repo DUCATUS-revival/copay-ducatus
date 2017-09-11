@@ -25,7 +25,7 @@ angular.module('copayApp.controllers').controller('buyGlideraController', functi
 
   var statusChangeHandler = function (processName, showName, isOn) {
     $log.debug('statusChangeHandler: ', processName, showName, isOn);
-    if ( processName == 'buyingDucatuscoin' && !isOn) {
+    if ( processName == 'buyingBitcoin' && !isOn) {
       $scope.sendStatus = 'success';
       $timeout(function() {
         $scope.$digest();
@@ -117,23 +117,23 @@ angular.module('copayApp.controllers').controller('buyGlideraController', functi
     var cancelText = 'Cancel';
     popupService.showConfirm(null, message, okText, cancelText, function(ok) {
       if (!ok) return; 
-      ongoingProcess.set('buyingDucatuscoin', true, statusChangeHandler);
+      ongoingProcess.set('buyingBitcoin', true, statusChangeHandler);
       glideraService.get2faCode($scope.token, function(err, tfa) {
         if (err) {
-          ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+          ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
           showError(err);
           return;
         }
         ask2FaCode(tfa.mode, function(twoFaCode) {
           if (tfa.mode != 'NONE' && lodash.isEmpty(twoFaCode)) {
-            ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+            ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
             showError('No code entered');
             return;
           }
 
           walletService.getAddress($scope.wallet, false, function(err, walletAddr) {
             if (err) {
-              ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+              ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
               showError(err);
               return;
             }
@@ -145,7 +145,7 @@ angular.module('copayApp.controllers').controller('buyGlideraController', functi
               ip: null
             };
             glideraService.buy($scope.token, twoFaCode, data, function(err, data) {
-              ongoingProcess.set('buyingDucatuscoin', false, statusChangeHandler);
+              ongoingProcess.set('buyingBitcoin', false, statusChangeHandler);
               if (err) return showError(err);
               $log.info(data);
             });

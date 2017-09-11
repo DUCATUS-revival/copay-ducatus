@@ -37,18 +37,8 @@ angular.module('copayApp.services').factory('ongoingProcess', function($log, $ti
     'generatingNewAddress': gettext('Generating new address...'),
     'sendingByEmail': gettext('Preparing addresses...'),
     'sending2faCode': gettext('Sending 2FA code...'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-    'buyingDucatuscoin': gettext('Buying Ducatuscoin...'),
-    'sellingDucatuscoin': gettext('Selling Ducatuscoin...'),
-=======
-    'buyingDucatuscoin': gettext('Buying DucatusCoin...'),
-    'sellingDucatuscoin': gettext('Selling DucatusCoin...'),
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-    'buyingDucatuscoin': gettext('Buying Ducatuscoin...'),
-    'sellingDucatuscoin': gettext('Selling Ducatuscoin...'),
->>>>>>> parent of fc2811a... Added changes in names
+    'buyingBitcoin': gettext('Buying DucatusCoin...'),
+    'sellingBitcoin': gettext('Selling DucatusCoin...'),
     'fetchingBitPayAccount': gettext('Fetching BitPay Account...'),
     'updatingGiftCards': 'Updating Gift Cards...',
     'updatingGiftCard': 'Updating Gift Card...',

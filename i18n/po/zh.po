@@ -169,24 +169,12 @@ msgstr "全选"
 msgid "All Addresses"
 msgstr "所有地址"
 
-<<<<<<< HEAD
 #: www/views/modals/wallet-balance.html:18
 msgid "All of your ducatuscoin wallet balance may not be available for immediate spending."
 msgstr "所有您的比特币的钱包余额可能无法用于直接支出。"
 
 #: www/views/tab-receive.html:25
-<<<<<<< HEAD
-=======
-#: www/views/modals/wallet-balance.html:18
-msgid "All of your ducatuscoin wallet balance may not be available for immediate spending."
-msgstr "所有您的比特币的钱包余额可能无法用于直接支出。"
-
-#: www/views/tab-receive.html:25
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "All signing devices must be added to this multisig wallet before ducatuscoin addresses can be created."
-=======
-msgid "All signing devices must be added to this multisig wallet before ducatuscoin addresses can be created."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "比特币地址可以创建之前，签名的所有设备都必须都添加到这个对数钱包。"
 
 #: www/views/tab-scan.html:21
@@ -229,41 +217,20 @@ msgstr ""
 msgid "An update to this app is available. For your security, please update to the latest version."
 msgstr "本程序有一个可用的更新。为了您的安全，请更新到最新版本。"
 
-<<<<<<< HEAD
-#: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
-msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的比特币。"
-
-#: www/views/addresses.html:94
-<<<<<<< HEAD
-msgid "Approximate Ducatuscoin network fee to transfer wallet's balance (with normal priority)"
-=======
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
 msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的比特币。"
 
 #: www/views/addresses.html:94
 msgid "Approximate DucatusCoin network fee to transfer wallet's balance (with normal priority)"
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-msgid "Approximate Ducatuscoin network fee to transfer wallet's balance (with normal priority)"
->>>>>>> parent of fc2811a... Added changes in names
 msgstr ""
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
 msgstr "你正在被监视吗？"
 
-<<<<<<< HEAD
 #: src/js/controllers/preferencesExternal.js:15
-<<<<<<< HEAD
-=======
-#: src/js/controllers/preferencesExternal.js:15
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your ducatuscoin."
-=======
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your ducatuscoin."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr ""
 
 #: src/js/controllers/copayers.js:56
@@ -369,41 +336,6 @@ msgstr "请务必将您的恢复短语存储在一个安全的地方。如果这
 msgid "BitPay Visa&reg; Cards"
 msgstr "BitPay Visa&reg; 牌"
 
-<<<<<<< HEAD
-#: www/views/addressbook.add.html:38
-msgid "Ducatuscoin Address"
-msgstr "比特币地址"
-
-#: www/views/modals/chooseFeeLevel.html:4
-#: www/views/preferencesFee.html:4
-#: www/views/tab-settings.html:85
-msgid "Ducatuscoin Network Fee Policy"
-msgstr "比特币网络手续费策略"
-
-#: www/views/paymentUri.html:10
-msgid "Ducatuscoin URI is NOT valid!"
-msgstr "比特币 URI 无效！"
-
-#: www/views/tab-settings.html:63
-msgid "Ducatuscoin Unit"
-msgstr "比特币单位"
-
-#: www/views/onboarding/tour.html:31
-msgid "Ducatuscoin is a currency."
-msgstr "比特币是一种货币。"
-
-#: www/views/onboarding/disclaimer.html:15
-msgid "Ducatuscoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "比特币是不同 — — 它不能安全地举行以银行或 web 服务。"
-
-#: www/views/onboarding/tour.html:18
-msgid "Ducatuscoin is secure,<br>digital money."
-msgstr "比特币是安全的 <br>数字货币。"
-
-#: www/views/preferencesFee.html:11
-<<<<<<< HEAD
-msgid "Ducatuscoin transactions include a fee collected by miners on the network."
-=======
 #: www/views/addressbook.add.html:38
 msgid "DucatusCoin Address"
 msgstr "比特币地址"
@@ -436,10 +368,6 @@ msgstr "比特币是安全的 <br>数字货币。"
 
 #: www/views/preferencesFee.html:11
 msgid "DucatusCoin transactions include a fee collected by miners on the network."
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-msgid "Ducatuscoin transactions include a fee collected by miners on the network."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "比特币交易包括在网络上被矿工所收取的费用。"
 
 #: www/views/modals/txp-details.html:36
@@ -459,19 +387,6 @@ msgstr "正在广播交易"
 msgid "Browser unsupported"
 msgstr "不受支持的浏览器"
 
-<<<<<<< HEAD
-#: www/views/includes/buyAndSellCard.html:4
-msgid "Buy &amp; Sell Ducatuscoin"
-msgstr "购买或出售比特币"
-
-#: www/views/tab-send.html:35
-msgid "Buy Ducatuscoin"
-msgstr "购买比特币"
-
-#: src/js/services/onGoingProcess.js:40
-<<<<<<< HEAD
-msgid "Buying Ducatuscoin..."
-=======
 #: www/views/includes/buyAndSellCard.html:4
 msgid "Buy &amp; Sell DucatusCoin"
 msgstr "购买或出售比特币"
@@ -482,10 +397,6 @@ msgstr "购买比特币"
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying DucatusCoin..."
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-msgid "Buying Ducatuscoin..."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "正在发送 比特币..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -796,20 +707,10 @@ msgstr "创建个人的钱包"
 msgid "Create Shared Wallet"
 msgstr "创建自己的免费钱包"
 
-<<<<<<< HEAD
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
-<<<<<<< HEAD
-=======
-#: www/views/onboarding/tour.html:51
-#: www/views/tab-home.html:77
-#: www/views/tab-send.html:36
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Create ducatuscoin wallet"
-=======
-msgid "Create ducatuscoin wallet"
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "创建比特币的钱包"
 
 #: www/views/tab-create-personal.html:129
@@ -914,16 +815,8 @@ msgstr "在 Crowdin 找不到你的语言？请联系 Crowdin 的所有者！我
 msgid "Download"
 msgstr "下载"
 
-<<<<<<< HEAD
 #: www/views/addresses.html:19
-<<<<<<< HEAD
-=======
-#: www/views/addresses.html:19
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Each ducatuscoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-=======
-msgid "Each ducatuscoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "每个比特币钱包可以从您的 12 字备份生成亿万个地址。一个新的地址是自动生成和显示每个时间你收到付款。"
 
 #: src/js/services/feeService.js:13
@@ -1377,16 +1270,8 @@ msgstr "这个应用程序是可怕。"
 msgid "I understand"
 msgstr "我知道了"
 
-<<<<<<< HEAD
 #: www/views/onboarding/disclaimer.html:21
-<<<<<<< HEAD
-=======
-#: www/views/onboarding/disclaimer.html:21
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "I understand that if this app is moved to another device or deleted, my ducatuscoin can only be recovered with the backup phrase."
-=======
-msgid "I understand that if this app is moved to another device or deleted, my ducatuscoin can only be recovered with the backup phrase."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "我明白是否这个应用程序是搬到另一个设备或删除，我比特币可以只能进行恢复与备份的短语。"
 
 #: www/views/onboarding/disclaimer.html:18
@@ -1528,17 +1413,8 @@ msgstr "这是正确的吗？"
 msgid "Is this email address correct?"
 msgstr "此电子邮件地址是正确的？"
 
-<<<<<<< HEAD
 #: www/views/addresses.html:25
-<<<<<<< HEAD
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
-=======
-#: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
->>>>>>> parent of fc2811a... Added changes in names
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
 msgstr "它是一个好主意，以避免重用地址 — — 这既能保护您的隐私又保持您的比特币安全假设攻击由量子计算机。"
 
 #: src/js/controllers/backup.js:76
@@ -1733,16 +1609,8 @@ msgstr "接下来的步骤"
 msgid "No Wallet"
 msgstr "没钱包"
 
-<<<<<<< HEAD
 #: www/views/onboarding/backupRequest.html:5
-<<<<<<< HEAD
-=======
-#: www/views/onboarding/backupRequest.html:5
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "No backup, no ducatuscoin."
-=======
-msgid "No backup, no ducatuscoin."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "没有备份，没有比特币。"
 
 #: www/views/addressbook.html:19
@@ -1818,16 +1686,8 @@ msgstr "不是现在"
 msgid "Note"
 msgstr "备注"
 
-<<<<<<< HEAD
 #: www/views/modals/wallets.html:25
-<<<<<<< HEAD
-=======
-#: www/views/modals/wallets.html:25
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell ducatuscoin"
-=======
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell ducatuscoin"
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "注意︰ 只有 1-1 （单签名） 钱包可以用于卖比特币"
 
 #: www/views/preferencesNotifications.html:3
@@ -1941,16 +1801,8 @@ msgstr "在此粘贴邀请"
 msgid "Paste the backup plain text code"
 msgstr "粘贴备份的纯文本代码"
 
-<<<<<<< HEAD
 #: www/views/bitpayCardIntro.html:28
-<<<<<<< HEAD
-=======
-#: www/views/bitpayCardIntro.html:28
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Pay 0% fees to turn ducatuscoin into dollars."
-=======
-msgid "Pay 0% fees to turn ducatuscoin into dollars."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "0%付费以比特币变成美元。"
 
 #: www/views/modals/paypro.html:18
@@ -2320,16 +2172,8 @@ msgstr "截图是不安全的"
 msgid "Search Transactions"
 msgstr "搜索交易"
 
-<<<<<<< HEAD
 #: www/views/tab-send.html:13
-<<<<<<< HEAD
-=======
-#: www/views/tab-send.html:13
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Search or enter ducatuscoin address"
-=======
-msgid "Search or enter ducatuscoin address"
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "搜索或输入比特币地址"
 
 #: www/views/modals/search.html:16
@@ -2357,17 +2201,8 @@ msgstr "选择钱包"
 msgid "Self-signed Certificate"
 msgstr "自签名证书"
 
-<<<<<<< HEAD
-#: src/js/services/onGoingProcess.js:41
-<<<<<<< HEAD
-msgid "Selling Ducatuscoin..."
-=======
 #: src/js/services/onGoingProcess.js:41
 msgid "Selling DucatusCoin..."
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-msgid "Selling Ducatuscoin..."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "出售比特币......"
 
 #: www/views/feedback/send.html:13
@@ -2506,16 +2341,8 @@ msgstr ""
 msgid "Show advanced options"
 msgstr "显示高级选项"
 
-<<<<<<< HEAD
 #: www/views/tab-send.html:37
-<<<<<<< HEAD
-=======
-#: www/views/tab-send.html:37
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Show ducatuscoin address"
-=======
-msgid "Show ducatuscoin address"
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "显示比特币地址"
 
 #: www/views/tab-send.html:59
@@ -2565,24 +2392,12 @@ msgstr "找不到花费提议"
 msgid "Spending Password needed"
 msgstr "需要支付密码"
 
-<<<<<<< HEAD
-#: www/views/walletDetails.html:162
-msgid "Spending this balance will need significant Ducatuscoin network fees"
-msgstr ""
-
-#: www/views/tab-send.html:28
-<<<<<<< HEAD
-=======
 #: www/views/walletDetails.html:162
 msgid "Spending this balance will need significant DucatusCoin network fees"
 msgstr ""
 
 #: www/views/tab-send.html:28
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Start sending ducatuscoin"
-=======
-msgid "Start sending ducatuscoin"
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "开始发送比特币"
 
 #: src/js/routes.js:118
@@ -2617,16 +2432,8 @@ msgstr "正在导出钱包"
 msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "此操作无法撤消"
 
-<<<<<<< HEAD
 #: www/views/onboarding/welcome.html:5
-<<<<<<< HEAD
-=======
-#: www/views/onboarding/welcome.html:5
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Take control of your money,<br>get started with ducatuscoin."
-=======
-msgid "Take control of your money,<br>get started with ducatuscoin."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "把你的钱，<br>得到控制开始用比特币。"
 
 #: www/views/walletDetails.html:140
@@ -2674,7 +2481,6 @@ msgstr "这是令人兴奋的听到。我们愿意赚五明星从你 — — 我
 msgid "The Ledger Chrome application is not installed"
 msgstr "Ledger Chrome 应用程序未安装"
 
-<<<<<<< HEAD
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of ducatuscoin immediately spendable from this wallet."
 msgstr "比特币立即可从这个钱包的金额。"
@@ -2684,22 +2490,7 @@ msgid "The amount of ducatuscoin stored in this wallet that is allocated as inpu
 msgstr "比特币存储在分配作为你挂起的事务建议的输入这个钱包中的金额。量确定使用未用余额交易记录输出与这个钱包关联，可能会与您挂起的事务建议相关联的实际数额超过。"
 
 #: www/views/modals/wallet-balance.html:74
-<<<<<<< HEAD
-=======
-#: www/views/modals/wallet-balance.html:55
-msgid "The amount of ducatuscoin immediately spendable from this wallet."
-msgstr "比特币立即可从这个钱包的金额。"
-
-#: www/views/modals/wallet-balance.html:93
-msgid "The amount of ducatuscoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "比特币存储在分配作为你挂起的事务建议的输入这个钱包中的金额。量确定使用未用余额交易记录输出与这个钱包关联，可能会与您挂起的事务建议相关联的实际数额超过。"
-
-#: www/views/modals/wallet-balance.html:74
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "The amount of ducatuscoin stored in this wallet with less than 1 blockchain confirmation."
-=======
-msgid "The amount of ducatuscoin stored in this wallet with less than 1 blockchain confirmation."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "比特币存储在与小于 1 blockchain 确认这个钱包中的金额。"
 
 #: www/views/tab-import-phrase.html:5
@@ -2753,16 +2544,8 @@ msgstr "还原过程将停止 20 地址生成行包含没有资金中时。要�
 msgid "The spend proposal is not pending"
 msgstr "花费提议不是未决"
 
-<<<<<<< HEAD
 #: www/views/modals/wallet-balance.html:36
-<<<<<<< HEAD
-=======
-#: www/views/modals/wallet-balance.html:36
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "The total amount of ducatuscoin stored in this wallet."
-=======
-msgid "The total amount of ducatuscoin stored in this wallet."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "比特币存储在这个钱包的总量。"
 
 #: www/views/preferencesHistory.html:27
@@ -2796,24 +2579,12 @@ msgstr "显然是我们正在做的事情错了。"
 msgid "This app is fantastic!"
 msgstr "这个应用程序太棒了 ！"
 
-<<<<<<< HEAD
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your ducatuscoin with cutting-edge security."
 msgstr "此应用程序商店你比特币与尖端的安全。"
 
 #: src/js/controllers/confirm.js:464
-<<<<<<< HEAD
-=======
-#: www/views/onboarding/tour.html:47
-msgid "This app stores your ducatuscoin with cutting-edge security."
-msgstr "此应用程序商店你比特币与尖端的安全。"
-
-#: src/js/controllers/confirm.js:464
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "This ducatuscoin payment request has expired."
-=======
-msgid "This ducatuscoin payment request has expired."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "这比特币付款请求已过期。"
 
 #: www/views/join.html:130
@@ -2826,17 +2597,8 @@ msgstr "此密码将无法恢复。如果密码丢失，有是没有办法，你
 msgid "This recovery phrase was created with a password. To recover this wallet both the recovery phrase and password are needed."
 msgstr "此恢复短语是用密码创建。为了恢复此钱包，需要恢复短语和密码。"
 
-<<<<<<< HEAD
-#: www/views/tx-details.html:93
-<<<<<<< HEAD
-msgid "This transaction amount is too small compared to current Ducatuscoin network fees. Spending these funds will need a Ducatuscoin network fee cost comparable to the funds itself."
-=======
 #: www/views/tx-details.html:93
 msgid "This transaction amount is too small compared to current DucatusCoin network fees. Spending these funds will need a DucatusCoin network fee cost comparable to the funds itself."
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-msgid "This transaction amount is too small compared to current Ducatuscoin network fees. Spending these funds will need a Ducatuscoin network fee cost comparable to the funds itself."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr ""
 
 #: www/views/tx-details.html:89
@@ -2862,24 +2624,12 @@ msgstr "时间轴"
 msgid "To"
 msgstr "发送到"
 
-<<<<<<< HEAD
 #: www/views/tab-send.html:32
 msgid "To get started, buy ducatuscoin or share your address. You can receive ducatuscoin from any wallet or service."
 msgstr "若要开始，请买比特币或共享您的地址。你可以从任何钱包或服务接收比特币。"
 
 #: www/views/tab-send.html:33
-<<<<<<< HEAD
-=======
-#: www/views/tab-send.html:32
-msgid "To get started, buy ducatuscoin or share your address. You can receive ducatuscoin from any wallet or service."
-msgstr "若要开始，请买比特币或共享您的地址。你可以从任何钱包或服务接收比特币。"
-
-#: www/views/tab-send.html:33
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "To get started, you'll need to create a ducatuscoin wallet and get some ducatuscoin."
-=======
-msgid "To get started, you'll need to create a ducatuscoin wallet and get some ducatuscoin."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "若要开始，您将需要创建一个比特币的钱包，并获得一些比特币。"
 
 #: src/js/services/bitpayAccountService.js:73
@@ -2962,16 +2712,8 @@ msgstr "转移到钱包"
 msgid "Try again in {{expires}}"
 msgstr ""
 
-<<<<<<< HEAD
 #: www/views/bitpayCardIntro.html:18
-<<<<<<< HEAD
-=======
-#: www/views/bitpayCardIntro.html:18
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Turn ducatuscoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-=======
-msgid "Turn ducatuscoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "比特币变成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
 
 #: www/views/tab-import-phrase.html:17
@@ -3327,32 +3069,16 @@ msgstr "你可以从你的钱包设置以后创建备份。"
 msgid "You can make contributions by signing up on our Crowdin community translation website. We’re looking forward to hearing from you!"
 msgstr "您可以通过签约我们 Crowdin 社区翻译网站作出贡献。我们期待你的听力 ！"
 
-<<<<<<< HEAD
 #: www/views/tab-scan.html:16
-<<<<<<< HEAD
-=======
-#: www/views/tab-scan.html:16
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "You can scan ducatuscoin addresses, payment requests, paper wallets, and more."
-=======
-msgid "You can scan ducatuscoin addresses, payment requests, paper wallets, and more."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "您可以扫描比特币地址、 付款申请、 纸钱包和更多。"
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
 msgstr "你可以看到最新的事态发展和贡献这个开放源码应用程序通过在 GitHub 上访问我们的项目。"
 
-<<<<<<< HEAD
 #: www/views/onboarding/tour.html:19
-<<<<<<< HEAD
-=======
-#: www/views/onboarding/tour.html:19
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "You can spend ducatuscoin at millions of websites and stores worldwide."
-=======
-msgid "You can spend ducatuscoin at millions of websites and stores worldwide."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "你可以花比特币在数以百万计的网站和世界各地的商店。"
 
 #: www/views/backup.html:12
@@ -3363,16 +3089,8 @@ msgstr "你仍然可以将其导出从高级 &gt; 出口。"
 msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr "你可以换其他货币，如美元、 欧元或英镑。"
 
-<<<<<<< HEAD
 #: www/views/onboarding/tour.html:46
-<<<<<<< HEAD
-=======
-#: www/views/onboarding/tour.html:46
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "You control your ducatuscoin."
-=======
-msgid "You control your ducatuscoin."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "您可以控制您的比特币。"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
@@ -3387,24 +3105,12 @@ msgstr "在您的钱包进行付款操作时发送通知。"
 msgid "Your BitPay Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
 msgstr ""
 
-<<<<<<< HEAD
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your ducatuscoin wallet is backed up!"
 msgstr "你的比特币钱包被备份 ！"
 
 #: www/views/tab-home.html:36
-<<<<<<< HEAD
-=======
-#: www/views/includes/confirmBackupPopup.html:6
-msgid "Your ducatuscoin wallet is backed up!"
-msgstr "你的比特币钱包被备份 ！"
-
-#: www/views/tab-home.html:36
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Your ducatuscoin wallet is ready!"
-=======
-msgid "Your ducatuscoin wallet is ready!"
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "你的比特币钱包是准备好了 ！"
 
 #: www/views/feedback/send.html:42
@@ -3475,24 +3181,12 @@ msgstr "付款"
 msgid "to send"
 msgstr "发送"
 
-<<<<<<< HEAD
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)、网络和 Copayer synchronization。默认配置指向 http://bws-1.twocatus.org:3232 (BitPay 的公共 BWS 实例)。"
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://127.0.0.1:3232 (BitPay's public BWS instance)."
+msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)、网络和 Copayer synchronization。默认配置指向 http://127.0.0.1:3232 (BitPay 的公共 BWS 实例)。"
 
 #: src/js/controllers/confirm.js:354
-<<<<<<< HEAD
-=======
-#: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)、网络和 Copayer synchronization。默认配置指向 http://bws-1.twocatus.org:3232 (BitPay 的公共 BWS 实例)。"
-
-#: src/js/controllers/confirm.js:354
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "{{fee}} will be deducted for ducatuscoin networking fees."
-=======
-msgid "{{fee}} will be deducted for ducatuscoin networking fees."
->>>>>>> parent of fc2811a... Added changes in names
 msgstr "{{fee}} 将比特币网络费用中扣除。"
 
 #: www/views/confirm.html:87

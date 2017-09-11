@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-Asegura tus ducatuscoin con tus propias reglas con el monedero de código abierto, multifirma de BitPay. 
-=======
 Asegura tus ducatuscoin con tus propias reglas con el monedero de código abierto, multifirma de BitPay.
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-Asegura tus ducatuscoin con tus propias reglas con el monedero de código abierto, multifirma de BitPay. 
->>>>>>> parent of fc2811a... Added changes in names
 Los usuario de Copay pueden mantener sus fondos individuales o compartir sus finanzas de forma segura con otros usuarios utilizando monederos multifirmas, que previenen de pagos sin autorización al requerir múltiples aprobaciones. Estas son algunas formas en que puede ser utilizado Copay con otros usuarios:
 
 Ahorrar para vacaciones o compras conjuntas con amigos 

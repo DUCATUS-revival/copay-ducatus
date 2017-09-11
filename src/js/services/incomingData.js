@@ -122,7 +122,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
       if ($state.includes('tabs.scan')) {
         root.showMenu({
           data: data,
-          type: 'ducatuscoinAddress'
+          type: 'bitcoinAddress'
         });
       } else {
         goToAmountPage(data);

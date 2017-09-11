@@ -27,23 +27,23 @@ angular.module('copayApp.directives')
         scope.goToUrl = function(url) {
           externalLinkService.open(url);
         };
-        scope.sendPaymentToAddress = function(ducatuscoinAddress) {
+        scope.sendPaymentToAddress = function(bitcoinAddress) {
           scope.showMenu = false;
           $state.go('tabs.send').then(function() {
             $timeout(function() {
               $state.transitionTo('tabs.send.amount', {
-                toAddress: ducatuscoinAddress
+                toAddress: bitcoinAddress
               });
             }, 50);
           });
         };
-        scope.addToAddressBook = function(ducatuscoinAddress) {
+        scope.addToAddressBook = function(bitcoinAddress) {
           scope.showMenu = false;
           $timeout(function() {
             $state.go('tabs.send').then(function() {
               $timeout(function() {
                 $state.transitionTo('tabs.send.addressbook', {
-                  addressbookEntry: ducatuscoinAddress
+                  addressbookEntry: bitcoinAddress
                 });
               });
             });

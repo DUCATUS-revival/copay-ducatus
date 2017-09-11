@@ -1,23 +1,9 @@
 {
   "packageName": "copay",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "packageDescription": "Copay Ducatuscoin Wallet",
-  "packageNameId": "com.bitpay.copay",
-  "userVisibleName": "Copay",
-  "purposeLine": "Copay Ducatuscoin Wallet",
-=======
   "packageDescription": "Copay DucatusCoin Wallet",
   "packageNameId": "com.bitpay.copay",
   "userVisibleName": "Copay",
   "purposeLine": "Copay DucatusCoin Wallet",
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-  "packageDescription": "Copay Ducatuscoin Wallet",
-  "packageNameId": "com.bitpay.copay",
-  "userVisibleName": "Copay",
-  "purposeLine": "Copay Ducatuscoin Wallet",
->>>>>>> parent of fc2811a... Added changes in names
   "bundleName": "copay",
   "appUri": "copay",
   "name": "copay",
@@ -29,31 +15,13 @@
   "gitHubRepoBugs": "https://github.com/bitpay/copay/issues",
   "disclaimerUrl": "https://copay.io/disclaimer",
   "url": "https://copay.io",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "appDescription": "Copay Ducatuscoin Wallet",
-=======
-  "appDescription": "Copay Ducatuscoin Wallet",
->>>>>>> parent of fc2811a... Added changes in names
-  "winAppName": "CopayWallet",
-  "WindowsStoreIdentityName": "18C7659D.Copay-SecureDucatuscoinWallet",
-  "WindowsStoreDisplayName": "Copay - Secure Ducatuscoin Wallet",
-  "windowsAppId": "804636ee-b017-4cad-8719-e58ac97ffa5c",
-  "pushSenderId": "1036948132229",
-<<<<<<< HEAD
-  "description": "A Secure Ducatuscoin Wallet",
-=======
   "appDescription": "Copay DucatusCoin Wallet",
   "winAppName": "CopayWallet",
-  "WindowsStoreIdentityName": "18C7659D.Copay-SecureDucatuscoinWallet",
+  "WindowsStoreIdentityName": "18C7659D.Copay-SecureBitcoinWallet",
   "WindowsStoreDisplayName": "Copay - Secure DucatusCoin Wallet",
   "windowsAppId": "804636ee-b017-4cad-8719-e58ac97ffa5c",
   "pushSenderId": "1036948132229",
   "description": "A Secure DucatusCoin Wallet",
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-  "description": "A Secure Ducatuscoin Wallet",
->>>>>>> parent of fc2811a... Added changes in names
   "version": "3.6.2",
   "androidVersion": "362000",
   "_extraCSS": null,

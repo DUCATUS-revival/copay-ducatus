@@ -1,32 +1,3 @@
-## Ducatuspay Information
-
-Ducatuspay is built off of copay (information on copay is below) which is very messy to build, so in order to keep the development environment clean and easier for new people to build, we'll be utilizing docker for building the packages and running the test server.
-
-First you'll need to build the docker image (in the repo's directory):
-
-```
-./build.sh
-```
-
-After the image is built you have the following targets for packaging:
-
-- testing
-- android
-- ios
-- desktop
-
-`testing` is useful for, well, testing, it runs as a server on http://localhost:8100
-
-In order to run/package for these targets:
-
-```
-docker-compose up <target>
-```
-
-As of right now only the testing server is working and tested.
-
-## Original Documentation
-
 <img src="https://raw.githubusercontent.com/bitpay/copay/master/resources/copay/android/icon/drawable-xxxhdpi-icon.png" alt="Copay" width="79">
 
 [![Build Status](https://secure.travis-ci.org/bitpay/copay.svg)](http://travis-ci.org/bitpay/copay)
@@ -45,15 +16,7 @@ For a list of frequently asked questions please visit the [Copay FAQ](https://gi
 - Easy spending proposal flow for shared wallets and group payments
 - [BIP32](https://github.com/ducatuscoin/bips/blob/master/bip-0032.mediawiki) Hierarchical deterministic (HD) address generation and wallet backups
 - Device-based security: all private keys are stored locally, not in the cloud
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Support for Ducatuscoin testnet wallets
-=======
 - Support for DucatusCoin testnet wallets
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-- Support for Ducatuscoin testnet wallets
->>>>>>> parent of fc2811a... Added changes in names
 - Synchronous access across all major mobile and desktop platforms
 - Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiable, secure ducatuscoin payments
 - Support for over 150 currency pricing options and unit denomination in DTC or bits
@@ -194,15 +157,7 @@ BITPAY_EXTERNAL_SERVICES_CONFIG_LOCATION="~/.bitpay/externalServices.json" npm r
 
 Copay implements a multisig wallet using [p2sh](https://en.ducatuscoin.it/wiki/Pay_to_script_hash) addresses.  It supports multiple wallets, each with its own configuration, such as 3-of-5 (3 required signatures from 5 participant peers) or 2-of-3.  To create a multisig wallet shared between multiple participants, Copay requires the extended public keys of all the wallet participants.  Those public keys are then incorporated into the wallet configuration and combined to generate a payment address where funds can be sent into the wallet.  Conversely, each participant manages their own private key and that private key is never transmitted anywhere.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-To unlock a payment and spend the wallet's funds, a quorum of participant signatures must be collected and assembled in the transaction.  The funds cannot be spent without at least the minimum number of signatures required by the wallet configuration (2-of-3, 3-of-5, 6-of-6, etc.).  Once a transaction proposal is created, the proposal is distributed among the wallet participants for each to sign the transaction locally.  Finally, when the transaction is signed, the last signing participant will broadcast the transaction to the Ducatuscoin network.
-=======
 To unlock a payment and spend the wallet's funds, a quorum of participant signatures must be collected and assembled in the transaction.  The funds cannot be spent without at least the minimum number of signatures required by the wallet configuration (2-of-3, 3-of-5, 6-of-6, etc.).  Once a transaction proposal is created, the proposal is distributed among the wallet participants for each to sign the transaction locally.  Finally, when the transaction is signed, the last signing participant will broadcast the transaction to the DucatusCoin network.
->>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
-=======
-To unlock a payment and spend the wallet's funds, a quorum of participant signatures must be collected and assembled in the transaction.  The funds cannot be spent without at least the minimum number of signatures required by the wallet configuration (2-of-3, 3-of-5, 6-of-6, etc.).  Once a transaction proposal is created, the proposal is distributed among the wallet participants for each to sign the transaction locally.  Finally, when the transaction is signed, the last signing participant will broadcast the transaction to the Ducatuscoin network.
->>>>>>> parent of fc2811a... Added changes in names
 
 Copay also implements [BIP32](https://github.com/ducatuscoin/bips/blob/master/bip-0032.mediawiki) to generate new addresses for peers.  The public key that each participant contributes to the wallet is a BIP32 extended public key.  As additional public keys are needed for wallet operations (to produce new addresses to receive payments into the wallet, for example) new public keys can be derived from the participants' original extended public keys.  Once again, it's important to stress that each participant keeps their own private keys locally - private keys are not shared - and are used to sign transaction proposals to make payments from the shared wallet.
 
@@ -243,7 +198,7 @@ Since version 1.5, Copay uses the root `m/48'` for hardware multisignature walle
 
 ## Bitcore Wallet Service
 
-Copay depends on [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for blockchain information, networking and Copayer synchronization.  A BWS instance can be setup and operational within minutes or you can use a public instance like `http://bws-1.twocatus.org:3232`.  Switching between BWS instances is very simple and can be done with a click from within Copay.  BWS also allows Copay to interoperate with other wallets like [Bitcore Wallet CLI] (https://github.com/bitpay/bitcore-wallet).
+Copay depends on [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for blockchain information, networking and Copayer synchronization.  A BWS instance can be setup and operational within minutes or you can use a public instance like `http://127.0.0.1:3232`.  Switching between BWS instances is very simple and can be done with a click from within Copay.  BWS also allows Copay to interoperate with other wallets like [Bitcore Wallet CLI] (https://github.com/bitpay/bitcore-wallet).
 
 ## Hardware Wallet Support
 
