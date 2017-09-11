@@ -171,9 +171,9 @@ angular.module('copayApp.services').factory('coinbaseService', function($http, $
     var txNormalFeeKB = 450 / 1000;
     feeService.getFeeRate(null, 'normal', function(err, feePerKB) {
       if (err) return cb(err);
-      var feeBTC = (feePerKB * txNormalFeeKB / 100000000).toFixed(8);
+      var feeDTC = (feePerKB * txNormalFeeKB / 100000000).toFixed(8);
 
-      return cb(null, amount - feeBTC, feeBTC);
+      return cb(null, amount - feeDTC, feeDTC);
     });
   };
 
@@ -681,7 +681,7 @@ angular.module('copayApp.services').factory('coinbaseService', function($http, $
   var _sendToWallet = function(tx, accessToken, accountId, coinbasePendingTransactions) {
     if (!tx) return;
     var desc = appConfigService.nameCase + ' Wallet';
-    _getNetAmount(tx.amount.amount, function(err, amountBTC, feeBTC) {
+    _getNetAmount(tx.amount.amount, function(err, amountDTC, feeDTC) {
       if (err) {
         _savePendingTransaction(tx, {
           status: 'error',
@@ -695,10 +695,10 @@ angular.module('copayApp.services').factory('coinbaseService', function($http, $
 
       var data = {
         to: tx.toAddr,
-        amount: amountBTC,
+        amount: amountDTC,
         currency: tx.amount.currency,
         description: desc,
-        fee: feeBTC
+        fee: feeDTC
       };
       root.sendTo(accessToken, accountId, data, function(err, res) {
         if (err) {

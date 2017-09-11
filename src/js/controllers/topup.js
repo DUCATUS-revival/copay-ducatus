@@ -111,7 +111,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
     }
 
     var outputs = [];
-    var toAddress = invoice.bitcoinAddress;
+    var toAddress = invoice.ducatuscoinAddress;
     var amountSat = parseInt(invoice.btcDue * 100000000); // DTC to Satoshi
 
     outputs.push({

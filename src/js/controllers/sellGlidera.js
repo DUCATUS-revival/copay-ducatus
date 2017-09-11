@@ -25,7 +25,7 @@ angular.module('copayApp.controllers').controller('sellGlideraController', funct
 
   var statusChangeHandler = function (processName, showName, isOn) {
     $log.debug('statusChangeHandler: ', processName, showName, isOn);
-    if ( processName == 'sellingBitcoin' && !isOn) {
+    if ( processName == 'sellingDucatuscoin' && !isOn) {
       $scope.sendStatus = 'success';
       $timeout(function() {
         $scope.$digest();
@@ -120,16 +120,16 @@ angular.module('copayApp.controllers').controller('sellGlideraController', funct
     var cancelText = 'Cancel';
     popupService.showConfirm(null, message, okText, cancelText, function(ok) {
       if (!ok) return; 
-      ongoingProcess.set('sellingBitcoin', true, statusChangeHandler);
+      ongoingProcess.set('sellingDucatuscoin', true, statusChangeHandler);
       glideraService.get2faCode($scope.token, function(err, tfa) {
         if (err) {
-          ongoingProcess.set('sellingBitcoin', false, statusChangeHandler);
+          ongoingProcess.set('sellingDucatuscoin', false, statusChangeHandler);
           showError(err);
           return;
         }
         ask2FaCode(tfa.mode, function(twoFaCode) {
           if (tfa.mode != 'NONE' && lodash.isEmpty(twoFaCode)) {
-            ongoingProcess.set('sellingBitcoin', false, statusChangeHandler);
+            ongoingProcess.set('sellingDucatuscoin', false, statusChangeHandler);
             showError('No code entered');
             return;
           }
@@ -141,13 +141,13 @@ angular.module('copayApp.controllers').controller('sellGlideraController', funct
 
           walletService.getAddress($scope.wallet, null, function(err, refundAddress) {
             if (!refundAddress) {
-              ongoingProcess.set('sellingBitcoin', false, statusChangeHandler);
+              ongoingProcess.set('sellingDucatuscoin', false, statusChangeHandler);
               showError('Could not create address');
               return;
             }
             glideraService.getSellAddress($scope.token, function(err, sellAddress) {
               if (!sellAddress || err) {
-                ongoingProcess.set('sellingBitcoin', false, statusChangeHandler);
+                ongoingProcess.set('sellingDucatuscoin', false, statusChangeHandler);
                 showError(err);
                 return;
               }
@@ -175,25 +175,25 @@ angular.module('copayApp.controllers').controller('sellGlideraController', funct
 
               walletService.createTx($scope.wallet, txp, function(err, createdTxp) {
                 if (err) {
-                  ongoingProcess.set('sellingBitcoin', false, statusChangeHandler);
+                  ongoingProcess.set('sellingDucatuscoin', false, statusChangeHandler);
                   showError(err);
                   return;
                 }
                 walletService.prepare($scope.wallet, function(err, password) {
                   if (err) {
-                    ongoingProcess.set('sellingBitcoin', false, statusChangeHandler);
+                    ongoingProcess.set('sellingDucatuscoin', false, statusChangeHandler);
                     showError(err);
                     return;
                   }
                   walletService.publishTx($scope.wallet, createdTxp, function(err, publishedTxp) {
                     if (err) {
-                      ongoingProcess.set('sellingBitcoin', false, statusChangeHandler);
+                      ongoingProcess.set('sellingDucatuscoin', false, statusChangeHandler);
                       showError(err);
                       return;
                     }
                     walletService.signTx($scope.wallet, publishedTxp, password, function(err, signedTxp) {
                       if (err) {
-                        ongoingProcess.set('sellingBitcoin', false, statusChangeHandler);
+                        ongoingProcess.set('sellingDucatuscoin', false, statusChangeHandler);
                         showError(err);
                         walletService.removeTx($scope.wallet, signedTxp, function(err) {
                           if (err) $log.debug(err);
@@ -209,7 +209,7 @@ angular.module('copayApp.controllers').controller('sellGlideraController', funct
                         ip: null
                       };
                       glideraService.sell($scope.token, twoFaCode, data, function(err, data) {
-                        ongoingProcess.set('sellingBitcoin', false, statusChangeHandler);
+                        ongoingProcess.set('sellingDucatuscoin', false, statusChangeHandler);
                         if (err) return showError(err);
                         $log.info(data);
                       });

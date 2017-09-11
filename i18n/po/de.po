@@ -219,7 +219,7 @@ msgstr "Ein Aktualisierung für diese App ist verfügbar. Zu Ihrer Sicherheit bi
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
-msgstr "Jeder mit Ihrer Wiederherstellungsphrase hat Zugriff auf ihre Bitcoins und kann diese ausgeben."
+msgstr "Jeder mit Ihrer Wiederherstellungsphrase hat Zugriff auf ihre Ducatuscoins und kann diese ausgeben."
 
 #: www/views/addresses.html:94
 msgid "Approximate DucatusCoin network fee to transfer wallet's balance (with normal priority)"
@@ -360,7 +360,7 @@ msgstr "DucatusCoin ist eine Währung."
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "DucatusCoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "Bitcoins sind anders &ndash; sie können nicht sicher in einer Bank oder einem Onlinedienst aufbewahrt werden."
+msgstr "Ducatuscoins sind anders &ndash; sie können nicht sicher in einer Bank oder einem Onlinedienst aufbewahrt werden."
 
 #: www/views/onboarding/tour.html:18
 msgid "DucatusCoin is secure,<br>digital money."
@@ -389,15 +389,15 @@ msgstr "Browser wird nicht unterstützt"
 
 #: www/views/includes/buyAndSellCard.html:4
 msgid "Buy &amp; Sell DucatusCoin"
-msgstr "Kaufe &amp; Verkaufe Bitcoins"
+msgstr "Kaufe &amp; Verkaufe Ducatuscoins"
 
 #: www/views/tab-send.html:35
 msgid "Buy DucatusCoin"
-msgstr "Kaufe Bitcoins"
+msgstr "Kaufe Ducatuscoins"
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying DucatusCoin..."
-msgstr "Kaufe Bitcoins..."
+msgstr "Kaufe Ducatuscoins..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -1272,7 +1272,7 @@ msgstr "Ich verstehe"
 
 #: www/views/onboarding/disclaimer.html:21
 msgid "I understand that if this app is moved to another device or deleted, my ducatuscoin can only be recovered with the backup phrase."
-msgstr "Ich verstehe, dass wenn diese App auf ein anderes Gerät verschoben oder gelöscht wird, meine Bitcoins nur mit der Wiederherstellungsphrase wiederhergestellt werden können."
+msgstr "Ich verstehe, dass wenn diese App auf ein anderes Gerät verschoben oder gelöscht wird, meine Ducatuscoins nur mit der Wiederherstellungsphrase wiederhergestellt werden können."
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1414,8 +1414,8 @@ msgid "Is this email address correct?"
 msgstr "Ist diese E-Mail Adresse korrekt?"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
-msgstr "Es ist eine gute Idee Adressen nicht wiederzuverwenden - dies schützt Ihre Privatsphäre und hält Ihre Bitcoins vor hypothetischen Angriffen durch Quanten-Computern sicher."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
+msgstr "Es ist eine gute Idee Adressen nicht wiederzuverwenden - dies schützt Ihre Privatsphäre und hält Ihre Ducatuscoins vor hypothetischen Angriffen durch Quanten-Computern sicher."
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1611,7 +1611,7 @@ msgstr "Keine Wallet"
 
 #: www/views/onboarding/backupRequest.html:5
 msgid "No backup, no ducatuscoin."
-msgstr "Keine Sicherung, keine Bitcoins."
+msgstr "Keine Sicherung, keine Ducatuscoins."
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1688,7 +1688,7 @@ msgstr "Notiz"
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell ducatuscoin"
-msgstr "Hinweis: nur 1-1 (Einzelunterschrift) Wallets können verwendet werden um Bitcoins zu verkaufen"
+msgstr "Hinweis: nur 1-1 (Einzelunterschrift) Wallets können verwendet werden um Ducatuscoins zu verkaufen"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:46
@@ -1803,7 +1803,7 @@ msgstr "Den Klartext der Sicherung einfügen"
 
 #: www/views/bitpayCardIntro.html:28
 msgid "Pay 0% fees to turn ducatuscoin into dollars."
-msgstr "Zahle 0 % Gebühren um Bitcoins in Dollar zu wechseln."
+msgstr "Zahle 0 % Gebühren um Ducatuscoins in Dollar zu wechseln."
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2203,7 +2203,7 @@ msgstr "Selbstsigniertes Zertifikat"
 
 #: src/js/services/onGoingProcess.js:41
 msgid "Selling DucatusCoin..."
-msgstr "Verkauf von Bitcoins..."
+msgstr "Verkauf von Ducatuscoins..."
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2398,7 +2398,7 @@ msgstr ""
 
 #: www/views/tab-send.html:28
 msgid "Start sending ducatuscoin"
-msgstr "Starte mit dem Senden der Bitcoins"
+msgstr "Starte mit dem Senden der Ducatuscoins"
 
 #: src/js/routes.js:118
 msgid "Starting..."
@@ -2434,7 +2434,7 @@ msgstr "DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN"
 
 #: www/views/onboarding/welcome.html:5
 msgid "Take control of your money,<br>get started with ducatuscoin."
-msgstr "Übernehmen Sie die Kontrolle über Ihr Geld, <br>Legen Sie los mit Bitcoins."
+msgstr "Übernehmen Sie die Kontrolle über Ihr Geld, <br>Legen Sie los mit Ducatuscoins."
 
 #: www/views/walletDetails.html:140
 #: www/views/walletDetails.html:60
@@ -2483,15 +2483,15 @@ msgstr "Die Chrome-Anwendung für Ledger ist nicht installiert"
 
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of ducatuscoin immediately spendable from this wallet."
-msgstr "Den Betrag an Bitcoins sofort aus dieser Wallet zahlen."
+msgstr "Den Betrag an Ducatuscoins sofort aus dieser Wallet zahlen."
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of ducatuscoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "Der Betrag an Bitcoins gespeichert in dieser Wallet ist zugewiesen als Einsatz für die ausstehende Transaktion. Dem Betrag wurde zugewiesen unverbrauchte Transaktions-Ausgänge zu verwenden, welche mit dieser Brieftasche verbunden sind, und entspricht möglicherweise mehr als die tatsächlichen Beträge welche im Zusammenhang mit Ihren ausstehenden Transaktions-Betrag stehen."
+msgstr "Der Betrag an Ducatuscoins gespeichert in dieser Wallet ist zugewiesen als Einsatz für die ausstehende Transaktion. Dem Betrag wurde zugewiesen unverbrauchte Transaktions-Ausgänge zu verwenden, welche mit dieser Brieftasche verbunden sind, und entspricht möglicherweise mehr als die tatsächlichen Beträge welche im Zusammenhang mit Ihren ausstehenden Transaktions-Betrag stehen."
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of ducatuscoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "Die Menge an Bitcoins sind in dieser Geldbörse mit weniger als 1 Blockchain Bestätigung gespeichert."
+msgstr "Die Menge an Ducatuscoins sind in dieser Geldbörse mit weniger als 1 Blockchain Bestätigung gespeichert."
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2546,7 +2546,7 @@ msgstr "Der Zahlungsvorschlag ist nicht ausstehend"
 
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of ducatuscoin stored in this wallet."
-msgstr "Der Gesamtbetrag an Bitcoins vorrätig in dieser Wallet."
+msgstr "Der Gesamtbetrag an Ducatuscoins vorrätig in dieser Wallet."
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2581,7 +2581,7 @@ msgstr "Diese App ist fantastisch!"
 
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your ducatuscoin with cutting-edge security."
-msgstr "Diese App speichert Ihre Bitcoins mit modernster Sicherheit."
+msgstr "Diese App speichert Ihre Ducatuscoins mit modernster Sicherheit."
 
 #: src/js/controllers/confirm.js:464
 msgid "This ducatuscoin payment request has expired."
@@ -2626,11 +2626,11 @@ msgstr "An"
 
 #: www/views/tab-send.html:32
 msgid "To get started, buy ducatuscoin or share your address. You can receive ducatuscoin from any wallet or service."
-msgstr "Um loszulegen kaufe Bitcoins oder teilen Sie ihre Adresse. Sie können Bitcoins von jeder beliebigen Wallet oder von einem Dienstleister/Broker empfangen."
+msgstr "Um loszulegen kaufe Ducatuscoins oder teilen Sie ihre Adresse. Sie können Ducatuscoins von jeder beliebigen Wallet oder von einem Dienstleister/Broker empfangen."
 
 #: www/views/tab-send.html:33
 msgid "To get started, you'll need to create a ducatuscoin wallet and get some ducatuscoin."
-msgstr "Um loszulegen müssen Sie eine DucatusCoin-Wallet erstellen und einige Bitcoins erhalten."
+msgstr "Um loszulegen müssen Sie eine DucatusCoin-Wallet erstellen und einige Ducatuscoins erhalten."
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
@@ -2714,7 +2714,7 @@ msgstr "Versuchen Sie es erneut in {{expires}}"
 
 #: www/views/bitpayCardIntro.html:18
 msgid "Turn ducatuscoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Wechseln Sie Bitcoins in Dollar, wechseln Sie überall wo Visa<sup>&reg;</sup> akzeptiert wird."
+msgstr "Wechseln Sie Ducatuscoins in Dollar, wechseln Sie überall wo Visa<sup>&reg;</sup> akzeptiert wird."
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3079,7 +3079,7 @@ msgstr "Sie können auf GitHub die neuesten Entwicklungen ansehen und zu dieser 
 
 #: www/views/onboarding/tour.html:19
 msgid "You can spend ducatuscoin at millions of websites and stores worldwide."
-msgstr "Sie können Bitcoins auf Millionen von Webseiten und Shops weltweit ausgeben."
+msgstr "Sie können Ducatuscoins auf Millionen von Webseiten und Shops weltweit ausgeben."
 
 #: www/views/backup.html:12
 msgid "You can still export it from Advanced &gt; Export."
@@ -3091,7 +3091,7 @@ msgstr "Sie können auch mit andere Währungen wie US-Dollar, Euro oder Pfund ha
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your ducatuscoin."
-msgstr "Sie kontrollieren Ihre Bitcoins."
+msgstr "Sie kontrollieren Ihre Ducatuscoins."
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."
@@ -3182,8 +3182,8 @@ msgid "to send"
 msgstr "zu senden"
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://127.0.0.1:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}} hängt von Bitcore Wallet Service (BWS) ab bezüglich Blockchain Informationen, Vernetzung und Copayer Synchronisation. Die Standard Konfiguration verweist auf http://127.0.0.1:3232 (BitPays öffentlicher BWS Instanz)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
+msgstr "{{appName}} hängt von Bitcore Wallet Service (BWS) ab bezüglich Blockchain Informationen, Vernetzung und Copayer Synchronisation. Die Standard Konfiguration verweist auf http://bws-1.twocatus.org:3232 (BitPays öffentlicher BWS Instanz)."
 
 #: src/js/controllers/confirm.js:354
 msgid "{{fee}} will be deducted for ducatuscoin networking fees."

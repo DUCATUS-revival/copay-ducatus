@@ -219,7 +219,7 @@ msgstr "Actualización disponible. Por seguridad, actualiza a la versión más r
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
-msgstr "Cualquier persona con tu copia de seguridad puede gastar tus bitcoins."
+msgstr "Cualquier persona con tu copia de seguridad puede gastar tus ducatuscoins."
 
 #: www/views/addresses.html:94
 msgid "Approximate DucatusCoin network fee to transfer wallet's balance (with normal priority)"
@@ -231,7 +231,7 @@ msgstr "¿Estás siendo observado?"
 
 #: src/js/controllers/preferencesExternal.js:15
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your ducatuscoin."
-msgstr "¿Estás siendo observado? Cualquier persona con tu copia de seguridad puede gastar tus bitcoins."
+msgstr "¿Estás siendo observado? Cualquier persona con tu copia de seguridad puede gastar tus ducatuscoins."
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -368,7 +368,7 @@ msgstr "DucatusCoin es seguro,<br> dinero digital."
 
 #: www/views/preferencesFee.html:11
 msgid "DucatusCoin transactions include a fee collected by miners on the network."
-msgstr "Las transacciones de bitcoins incluyen una comisión recogida por los mineros de la red."
+msgstr "Las transacciones de ducatuscoins incluyen una comisión recogida por los mineros de la red."
 
 #: www/views/modals/txp-details.html:36
 msgid "Broadcast Payment"
@@ -397,7 +397,7 @@ msgstr "Comprar DucatusCoin"
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying DucatusCoin..."
-msgstr "Comprando Bitcoins..."
+msgstr "Comprando Ducatuscoins..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -1414,7 +1414,7 @@ msgid "Is this email address correct?"
 msgstr "¿Es correcta esta dirección de correo electrónico?"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
 msgstr "Es una buena idea evitar el reuso de las direcciones. Esto protege tu privacidad y mantiene tus fondos seguros contra hipotéticos ataques de ordenadores cuánticos."
 
 #: src/js/controllers/backup.js:76
@@ -1611,7 +1611,7 @@ msgstr "Sin billetera"
 
 #: www/views/onboarding/backupRequest.html:5
 msgid "No backup, no ducatuscoin."
-msgstr "Sin copia de seguridad, no hay bitcoins."
+msgstr "Sin copia de seguridad, no hay ducatuscoins."
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -2203,7 +2203,7 @@ msgstr "Certificado autofirmado"
 
 #: src/js/services/onGoingProcess.js:41
 msgid "Selling DucatusCoin..."
-msgstr "Vendiendo Bitcoins..."
+msgstr "Vendiendo Ducatuscoins..."
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2483,15 +2483,15 @@ msgstr "La aplicación Ledger de Chrome no esta instalada"
 
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of ducatuscoin immediately spendable from this wallet."
-msgstr "Total de bitcoins disponibles en esta billetera para su uso inmediato."
+msgstr "Total de ducatuscoins disponibles en esta billetera para su uso inmediato."
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of ducatuscoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "La cantidad de bitcoins almacenados en esta billetera que se utilizan como \"inputs\" en la transacción pendiente. Esa cantidad se determina en base a los \"unspent transaction outputs\" asociados con la billetera, estos pueden que sean mayor al monto enviado en la transacción en cuestión."
+msgstr "La cantidad de ducatuscoins almacenados en esta billetera que se utilizan como \"inputs\" en la transacción pendiente. Esa cantidad se determina en base a los \"unspent transaction outputs\" asociados con la billetera, estos pueden que sean mayor al monto enviado en la transacción en cuestión."
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of ducatuscoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "La cantidad de bitcoins almacenados en esta billetera que poseen menos de 1 confirmación en \"Blockchain\"."
+msgstr "La cantidad de ducatuscoins almacenados en esta billetera que poseen menos de 1 confirmación en \"Blockchain\"."
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2546,7 +2546,7 @@ msgstr "La propuesta de gasto no esta pendiente"
 
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of ducatuscoin stored in this wallet."
-msgstr "El total de bitcoins almacenados en esta billetera."
+msgstr "El total de ducatuscoins almacenados en esta billetera."
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2581,7 +2581,7 @@ msgstr "¡Esta aplicación es fantástica!"
 
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your ducatuscoin with cutting-edge security."
-msgstr "Esta aplicación almacena tus bitcoins con seguridad avanzada."
+msgstr "Esta aplicación almacena tus ducatuscoins con seguridad avanzada."
 
 #: src/js/controllers/confirm.js:464
 msgid "This ducatuscoin payment request has expired."
@@ -2630,7 +2630,7 @@ msgstr "Para empezar, compra ducatuscoin o comparte tu dirección. Puedes recibi
 
 #: www/views/tab-send.html:33
 msgid "To get started, you'll need to create a ducatuscoin wallet and get some ducatuscoin."
-msgstr "Para empezar, necesitarás crear una billetera y obtener bitcoins."
+msgstr "Para empezar, necesitarás crear una billetera y obtener ducatuscoins."
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
@@ -2714,7 +2714,7 @@ msgstr "Intenta de nuevo en {{expires}}"
 
 #: www/views/bitpayCardIntro.html:18
 msgid "Turn ducatuscoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Convierta Bitcoins en Dólares, use Visa<sup>&reg;</sup>."
+msgstr "Convierta Ducatuscoins en Dólares, use Visa<sup>&reg;</sup>."
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3091,7 +3091,7 @@ msgstr "Puedes cambiarlo por otras monedas como Dólares, Euros o Libras."
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your ducatuscoin."
-msgstr "Controlas tus bitcoins."
+msgstr "Controlas tus ducatuscoins."
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."
@@ -3182,8 +3182,8 @@ msgid "to send"
 msgstr "para enviar"
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://127.0.0.1:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}} depende de Bitcore Wallet Service (BWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a http://127.0.0.1:3232 (instancia pública de BitPay)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
+msgstr "{{appName}} depende de Bitcore Wallet Service (BWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a http://bws-1.twocatus.org:3232 (instancia pública de BitPay)."
 
 #: src/js/controllers/confirm.js:354
 msgid "{{fee}} will be deducted for ducatuscoin networking fees."
