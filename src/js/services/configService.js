@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'http://127.0.0.1:3232/bws/api',
+      url: 'http://bws-1.twocatus.org:3232/bws/api',
     },
 
     download: {
@@ -46,7 +46,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       reconnectDelay: 5000,
       idleDurationMin: 4,
       settings: {
-        unitName: 'BTC',
+        unitName: 'DTC',
         unitToSatoshi: 100000000,
         unitDecimals: 8,
         unitCode: 'btc',

@@ -1,11 +1,11 @@
-Bezpieczne bitcoiny na twoich własnych warunkach, z elektronicznym portfelem open source z multipodpisami od BitPay. 
+Bezpieczne ducatuscoiny na twoich własnych warunkach, z elektronicznym portfelem open source z multipodpisami od BitPay. 
 Użytkownicy Copay mogą posiadać fundusze indywidualnie lub bezpiecznie dzielić je z innymi użytkownikami w portfelach z multipodpisami, które uniemożliwiają nieautoryzowane płatności wymagając wielu potwierdzeń. Oto kilka sposobów, jak portfele Copay mogą być używane w połączeniu z innymi użytkownikami:
 
 Oszczędzanie na wakacje lub wspólne zakupy z przyjaciółmi 
 Monitorowanie wydatków i dochodów rodzinnych
 Zarządzanie wydatkami firm, klubów lub organizacji
 
-Stworzyliśmy następujące funkcje portfela bitcoin w tej wersji Copay, które nie zagrażają bezpieczeństwu lub dostępności:
+Stworzyliśmy następujące funkcje portfela ducatuscoin w tej wersji Copay, które nie zagrażają bezpieczeństwu lub dostępności:
 
 Tworzenie i zarządzanie wieloma portfelami w aplikacji 
 Intuicyjne bezpieczeństwo dzięki multipodpisom dla portfeli prywatnych i współdzielonych
@@ -19,11 +19,11 @@ Wsparcie dla Ducatuscoin testnet wallets
 Wsparcie dla DucatusCoin testnet wallets
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-Wsparcie dla Bitcoin testnet wallets
+Wsparcie dla Ducatuscoin testnet wallets
 >>>>>>> parent of fc2811a... Added changes in names
 Jednoczesny dostęp ze wszystkich głównych platform mobilnych i stacjonarnych
-Wsparcie protokołów płatności (BIP70-BIP73): łatwe do zidentyfikowania wnioski o płatność i bezpieczne, weryfikowalne płatności bitcoin
-Wsparcie dla wyświetlania ponad 150 walut w jednostkach BTC lub bit
+Wsparcie protokołów płatności (BIP70-BIP73): łatwe do zidentyfikowania wnioski o płatność i bezpieczne, weryfikowalne płatności ducatuscoin
+Wsparcie dla wyświetlania ponad 150 walut w jednostkach DTC lub bit
 Powiadomienia o płatnościach i transferach za pośrednictwem poczty elektronicznej
 Konfigurowanie nazwy i koloru tła portfela
 9 obsługiwanych języków (EN, CS, FR, DE, IT, ES, JA, PL, RU)

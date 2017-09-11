@@ -171,7 +171,7 @@ msgstr "全アドレス"
 
 <<<<<<< HEAD
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your ducatuscoin wallet balance may not be available for immediate spending."
 msgstr "ビットコインのウォレットの残高の内、即座に送れないビットコインが含まれている可能性があります。"
 
 #: www/views/tab-receive.html:25
@@ -185,7 +185,7 @@ msgstr "ビットコインのウォレットの残高の内、即座に送れな
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "All signing devices must be added to this multisig wallet before ducatuscoin addresses can be created."
 =======
-msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
+msgid "All signing devices must be added to this multisig wallet before ducatuscoin addresses can be created."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "この共有ウォレットの必要参加者の人数が集まるまではビットコインアドレスを発行することができません。"
 
@@ -231,7 +231,7 @@ msgstr "このアプリのアップデートがあります。セキュリティ
 
 <<<<<<< HEAD
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your bitcoin."
+msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
 msgstr "復元フレーズを知る者はあなたのビットコインが勝手に送れてしまいます。"
 
 #: www/views/addresses.html:94
@@ -246,7 +246,7 @@ msgstr "復元フレーズを知る者はあなたのビットコインが勝手
 msgid "Approximate DucatusCoin network fee to transfer wallet's balance (with normal priority)"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate Ducatuscoin network fee to transfer wallet's balance (with normal priority)"
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ウォレットの残高を送るために推測される必要なビットコインネットワーク手数料(優先度：普通)"
 
@@ -262,7 +262,7 @@ msgstr "見られていませんか？"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your ducatuscoin."
 =======
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your bitcoin."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your ducatuscoin."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "見られていますか？ 復元フレーズを知る者はあなたのビットコインが勝手に送れてしまいます。"
 
@@ -373,33 +373,33 @@ msgstr "BitPayのVISA&reg; カード"
 
 <<<<<<< HEAD
 #: www/views/addressbook.add.html:38
-msgid "Bitcoin Address"
+msgid "Ducatuscoin Address"
 msgstr "ビットコインアドレス"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
-msgid "Bitcoin Network Fee Policy"
+msgid "Ducatuscoin Network Fee Policy"
 msgstr "ビットコインネットワークの手数料設定"
 
 #: www/views/paymentUri.html:10
-msgid "Bitcoin URI is NOT valid!"
-msgstr "Bitcoin URI が無効です！"
+msgid "Ducatuscoin URI is NOT valid!"
+msgstr "Ducatuscoin URI が無効です！"
 
 #: www/views/tab-settings.html:63
-msgid "Bitcoin Unit"
-msgstr "Bitcoin 単位"
+msgid "Ducatuscoin Unit"
+msgstr "Ducatuscoin 単位"
 
 #: www/views/onboarding/tour.html:31
-msgid "Bitcoin is a currency."
+msgid "Ducatuscoin is a currency."
 msgstr "ビットコインは通貨の一つ"
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
+msgid "Ducatuscoin is different &ndash; it cannot be safely held with a bank or web service."
 msgstr "ビットコインは違う &ndash; 銀行やウェブのサービスに安全に預けることはできません。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Bitcoin is secure,<br>digital money."
+msgid "Ducatuscoin is secure,<br>digital money."
 msgstr "ビットコインは世界で<br>最も安全な仮想通貨。"
 
 #: www/views/preferencesFee.html:11
@@ -440,7 +440,7 @@ msgstr "ビットコインは世界で<br>最も安全な仮想通貨。"
 msgid "DucatusCoin transactions include a fee collected by miners on the network."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "Bitcoin transactions include a fee collected by miners on the network."
+msgid "Ducatuscoin transactions include a fee collected by miners on the network."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ビットコインの取引はネットワークの安全を守る「採掘者」と呼ばれる者達に送る手数料が含まれます。"
 
@@ -463,11 +463,11 @@ msgstr "ブラウザ未対応"
 
 <<<<<<< HEAD
 #: www/views/includes/buyAndSellCard.html:4
-msgid "Buy &amp; Sell Bitcoin"
+msgid "Buy &amp; Sell Ducatuscoin"
 msgstr "ビットコインの購入&amp;売却"
 
 #: www/views/tab-send.html:35
-msgid "Buy Bitcoin"
+msgid "Buy Ducatuscoin"
 msgstr "ビットコインを購入"
 
 #: src/js/services/onGoingProcess.js:40
@@ -486,7 +486,7 @@ msgstr "ビットコインを購入"
 msgid "Buying DucatusCoin..."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "Buying Bitcoin..."
+msgid "Buying Ducatuscoin..."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ビットコインを購入中..."
 
@@ -810,7 +810,7 @@ msgstr "共有ウォレットを作成"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Create ducatuscoin wallet"
 =======
-msgid "Create bitcoin wallet"
+msgid "Create ducatuscoin wallet"
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ビットコインウォレット作成"
 
@@ -924,7 +924,7 @@ msgstr "ダウンロード"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Each ducatuscoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 =======
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each ducatuscoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "12個の単語から無限大のアドレスを生成することができ、それをビットコインウォレットと呼びます。送金を受け取る度に新しいアドレスを生成して受取画面でお見せします。"
 
@@ -1387,7 +1387,7 @@ msgstr "承知しました"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "I understand that if this app is moved to another device or deleted, my ducatuscoin can only be recovered with the backup phrase."
 =======
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
+msgid "I understand that if this app is moved to another device or deleted, my ducatuscoin can only be recovered with the backup phrase."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "このアプリが別の端末に移動されたり、削除されたりした場合に、含まれたビットコインが復元フレーズからのみ復元ができることを理解しています。"
 
@@ -1536,10 +1536,10 @@ msgstr "このメールアドレスで宜しいですか？"
 msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
 =======
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "アドレスの再利用は避けましょう。これはプライバシーを守ることももちろんのこと、将来的にあり得るかもしれない量子コンピューターからの、ある攻撃からビットコインを守ることもできます。"
 
@@ -1743,7 +1743,7 @@ msgstr "ウォレットが無いよ…(´・ω・`)"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "No backup, no ducatuscoin."
 =======
-msgid "No backup, no bitcoin."
+msgid "No backup, no ducatuscoin."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "バックアップは非常に重要です！"
 
@@ -1828,7 +1828,7 @@ msgstr "メモ"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell ducatuscoin"
 =======
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell ducatuscoin"
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "注意： ビットコインの売却は 1-of-1 (単一署名) のウォレットからしか行えません。"
 
@@ -1951,7 +1951,7 @@ msgstr "バックアップの文字をここに貼り付けて下さい"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Pay 0% fees to turn ducatuscoin into dollars."
 =======
-msgid "Pay 0% fees to turn bitcoin into dollars."
+msgid "Pay 0% fees to turn ducatuscoin into dollars."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "0% 手数料でビットコインを米ドルに替える"
 
@@ -2330,7 +2330,7 @@ msgstr "取引を検索"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Search or enter ducatuscoin address"
 =======
-msgid "Search or enter bitcoin address"
+msgid "Search or enter ducatuscoin address"
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "連絡先検索かビットコインアドレスを指定"
 
@@ -2368,7 +2368,7 @@ msgid "Selling Ducatuscoin..."
 msgid "Selling DucatusCoin..."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "Selling Bitcoin..."
+msgid "Selling Ducatuscoin..."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ビットコインを売却中..."
 
@@ -2518,7 +2518,7 @@ msgstr "詳細設定を表示"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Show ducatuscoin address"
 =======
-msgid "Show bitcoin address"
+msgid "Show ducatuscoin address"
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ビットコインアドレスを表示"
 
@@ -2571,7 +2571,7 @@ msgstr "パスワードが必要"
 
 <<<<<<< HEAD
 #: www/views/walletDetails.html:162
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Ducatuscoin network fees"
 msgstr "この入力の組み合わせを送金するために膨大なビットコインネットワーク手数料を必要とします"
 
 #: www/views/tab-send.html:28
@@ -2585,7 +2585,7 @@ msgstr "この入力の組み合わせを送金するために膨大なビット
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Start sending ducatuscoin"
 =======
-msgid "Start sending bitcoin"
+msgid "Start sending ducatuscoin"
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ビットコインの送金を始めましょう"
 
@@ -2629,7 +2629,7 @@ msgstr "＊＊＊注意＊＊＊ このアクションを元に戻すことは�
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Take control of your money,<br>get started with ducatuscoin."
 =======
-msgid "Take control of your money,<br>get started with bitcoin."
+msgid "Take control of your money,<br>get started with ducatuscoin."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "お金のコントロールを取り戻そう、<br>ビットコインをはじめよう"
 
@@ -2680,11 +2680,11 @@ msgstr "Ledgerのクロームアプリがインストールされていません
 
 <<<<<<< HEAD
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of bitcoin immediately spendable from this wallet."
+msgid "The amount of ducatuscoin immediately spendable from this wallet."
 msgstr "このウォレットからすぐに送金できる額"
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgid "The amount of ducatuscoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
 msgstr "現在協議中の送金の提案によってロックされてしまっている金額です。この金額は未使用出力の割り当てられた合計額になりますので、必ずしも送金提案の送金額だけがロックされるというものではありません。"
 
 #: www/views/modals/wallet-balance.html:74
@@ -2702,7 +2702,7 @@ msgstr "現在協議中の送金の提案によってロックされてしまっ
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "The amount of ducatuscoin stored in this wallet with less than 1 blockchain confirmation."
 =======
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
+msgid "The amount of ducatuscoin stored in this wallet with less than 1 blockchain confirmation."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "このウォレットの1承認未満の残高。"
 
@@ -2767,7 +2767,7 @@ msgstr "送金の提案が協議中ではありません。"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "The total amount of ducatuscoin stored in this wallet."
 =======
-msgid "The total amount of bitcoin stored in this wallet."
+msgid "The total amount of ducatuscoin stored in this wallet."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "このウォレットのビットコインの総残高"
 
@@ -2804,7 +2804,7 @@ msgstr "このアプリは素晴らしいです!"
 
 <<<<<<< HEAD
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your bitcoin with cutting-edge security."
+msgid "This app stores your ducatuscoin with cutting-edge security."
 msgstr "このアプリは、最先端のセキュリティであなたのビットコインをお守りします。"
 
 #: src/js/controllers/confirm.js:464
@@ -2818,7 +2818,7 @@ msgstr "このアプリは、最先端のセキュリティであなたのビッ
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "This ducatuscoin payment request has expired."
 =======
-msgid "This bitcoin payment request has expired."
+msgid "This ducatuscoin payment request has expired."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ビットコインペイメントの請求期限が切れています。"
 
@@ -2841,7 +2841,7 @@ msgid "This transaction amount is too small compared to current Ducatuscoin netw
 msgid "This transaction amount is too small compared to current DucatusCoin network fees. Spending these funds will need a DucatusCoin network fee cost comparable to the funds itself."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current Ducatuscoin network fees. Spending these funds will need a Ducatuscoin network fee cost comparable to the funds itself."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "この取引の金額はビットコインネットワーク手数料より低いです。送金額より大きい手数料を払ってしまうことになります。"
 
@@ -2870,7 +2870,7 @@ msgstr "宛先"
 
 <<<<<<< HEAD
 #: www/views/tab-send.html:32
-msgid "To get started, buy bitcoin or share your address. You can receive bitcoin from any wallet or service."
+msgid "To get started, buy ducatuscoin or share your address. You can receive ducatuscoin from any wallet or service."
 msgstr "はじめるには、ビットコインを購入したり、アドレスを他の人に共有したりしましょう。どのビットコインウォレットやサービスから受け取れます。"
 
 #: www/views/tab-send.html:33
@@ -2884,7 +2884,7 @@ msgstr "はじめるには、ビットコインを購入したり、アドレス
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "To get started, you'll need to create a ducatuscoin wallet and get some ducatuscoin."
 =======
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
+msgid "To get started, you'll need to create a ducatuscoin wallet and get some ducatuscoin."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "はじめに、ビットコインウォレットを作成し、ビットコインを入手する必要があります。"
 
@@ -2976,7 +2976,7 @@ msgstr "{{expires}} 経過後にもう一度試してください。"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Turn ducatuscoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
 =======
-msgid "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgid "Turn ducatuscoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "瞬時にビットコインを米ドルに変換！Visa<sup>&reg;</sup>カード利用可能店舗ならどこでも！"
 
@@ -3341,7 +3341,7 @@ msgstr "Crowdinのサイトにて翻訳者登録をして、今すぐに投稿�
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "You can scan ducatuscoin addresses, payment requests, paper wallets, and more."
 =======
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
+msgid "You can scan ducatuscoin addresses, payment requests, paper wallets, and more."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ビットコインアドレス、支払い請求、ペーパーウォレットなどをスキャンできます。"
 
@@ -3357,7 +3357,7 @@ msgstr "GitHubのページにて最近の開発動向を見たり、改善案の
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "You can spend ducatuscoin at millions of websites and stores worldwide."
 =======
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
+msgid "You can spend ducatuscoin at millions of websites and stores worldwide."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "世界中のECサイトや店舗でビットコインを使って支払いができます。"
 
@@ -3377,7 +3377,7 @@ msgstr "米ドル、ユーロ、ポンドなど他の通貨との取引ができ
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "You control your ducatuscoin."
 =======
-msgid "You control your bitcoin."
+msgid "You control your ducatuscoin."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ビットコインの自己管理"
 
@@ -3395,7 +3395,7 @@ msgstr "BitPayカードの準備が整いました。入金して全世界のお
 
 <<<<<<< HEAD
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your bitcoin wallet is backed up!"
+msgid "Your ducatuscoin wallet is backed up!"
 msgstr "ビットコインウォレットがバックアップされました!"
 
 #: www/views/tab-home.html:36
@@ -3409,7 +3409,7 @@ msgstr "ビットコインウォレットがバックアップされました!"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Your ducatuscoin wallet is ready!"
 =======
-msgid "Your bitcoin wallet is ready!"
+msgid "Your ducatuscoin wallet is ready!"
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "ビットコインウォレットが完成しました!"
 
@@ -3483,21 +3483,21 @@ msgstr "送金する"
 
 <<<<<<< HEAD
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://127.0.0.1:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}}はブロックチェーンの情報を取得したり参加者を同期させたりするためにBitcore Wallet Service (BWS)に依存します。初期値としてBitPay社が提供する http://127.0.0.1:3232 (BitPay公式のBWSサーバー)を設定していますが、独自で運用してウォレットをそちらに接続しても構いません。"
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
+msgstr "{{appName}}はブロックチェーンの情報を取得したり参加者を同期させたりするためにBitcore Wallet Service (BWS)に依存します。初期値としてBitPay社が提供する http://bws-1.twocatus.org:3232 (BitPay公式のBWSサーバー)を設定していますが、独自で運用してウォレットをそちらに接続しても構いません。"
 
 #: src/js/controllers/confirm.js:354
 <<<<<<< HEAD
 =======
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://127.0.0.1:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}}はブロックチェーンの情報を取得したり参加者を同期させたりするためにBitcore Wallet Service (BWS)に依存します。初期値としてBitPay社が提供する http://127.0.0.1:3232 (BitPay公式のBWSサーバー)を設定していますが、独自で運用してウォレットをそちらに接続しても構いません。"
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
+msgstr "{{appName}}はブロックチェーンの情報を取得したり参加者を同期させたりするためにBitcore Wallet Service (BWS)に依存します。初期値としてBitPay社が提供する http://bws-1.twocatus.org:3232 (BitPay公式のBWSサーバー)を設定していますが、独自で運用してウォレットをそちらに接続しても構いません。"
 
 #: src/js/controllers/confirm.js:354
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "{{fee}} will be deducted for ducatuscoin networking fees."
 =======
-msgid "{{fee}} will be deducted for bitcoin networking fees."
+msgid "{{fee}} will be deducted for ducatuscoin networking fees."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "{{fee}} のビットコインネットワーク手数料が差し引かれます。"
 

@@ -30,10 +30,10 @@ angular.module('copayApp.services').factory('buyAndSellService', function($log, 
         title: 'Buy or Sell DucatusCoin',
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-        title: 'Buy or Sell Bitcoin',
+        title: 'Buy or Sell Ducatuscoin',
 >>>>>>> parent of fc2811a... Added changes in names
         name: 'buyandsell',
-        icon: 'icon-buy-bitcoin',
+        icon: 'icon-buy-ducatuscoin',
         sref: 'tabs.buyandsell',
       });
     } else {

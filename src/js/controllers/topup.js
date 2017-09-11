@@ -115,12 +115,12 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
 <<<<<<< HEAD
     var toAddress = invoice.ducatuscoinAddress;
 =======
-    var toAddress = invoice.bitcoinAddress;
+    var toAddress = invoice.ducatuscoinAddress;
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
     var amountSat = parseInt(invoice.btcDue * 100000000); // DTC to Satoshi
 =======
-    var toAddress = invoice.bitcoinAddress;
-    var amountSat = parseInt(invoice.btcDue * 100000000); // BTC to Satoshi
+    var toAddress = invoice.ducatuscoinAddress;
+    var amountSat = parseInt(invoice.btcDue * 100000000); // DTC to Satoshi
 >>>>>>> parent of fc2811a... Added changes in names
 
     outputs.push({
@@ -170,7 +170,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
 
         var maxAmountBtc = Number((maxValues.amount / 100000000).toFixed(8));
 
-        createInvoice({amount: maxAmountBtc, currency: 'BTC'}, function(err, inv) {
+        createInvoice({amount: maxAmountBtc, currency: 'DTC'}, function(err, inv) {
           if (err) return cb(err);
 
           var invoiceFeeSat = parseInt((inv.buyerPaidBtcMinerFee * 100000000).toFixed());

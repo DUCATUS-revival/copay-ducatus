@@ -171,7 +171,7 @@ msgstr "Todas las direcciones"
 
 <<<<<<< HEAD
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your ducatuscoin wallet balance may not be available for immediate spending."
 msgstr "Todo el balance de tu billetera puede que no esté disponible para su uso inmediato."
 
 #: www/views/tab-receive.html:25
@@ -186,8 +186,8 @@ msgstr "Todo el balance de tu billetera puede que no esté disponible para su us
 msgid "All signing devices must be added to this multisig wallet before ducatuscoin addresses can be created."
 msgstr "Todos los dispositivos de los firmantes deben ser agregados a esta billetera compartido antes de que se puedan crear direcciones ducatuscoin."
 =======
-msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
-msgstr "Todos los dispositivos de los firmantes deben ser agregados a esta billetera compartido antes de que se puedan crear direcciones bitcoin."
+msgid "All signing devices must be added to this multisig wallet before ducatuscoin addresses can be created."
+msgstr "Todos los dispositivos de los firmantes deben ser agregados a esta billetera compartido antes de que se puedan crear direcciones ducatuscoin."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/tab-scan.html:21
@@ -232,8 +232,8 @@ msgstr "Actualización disponible. Por seguridad, actualiza a la versión más r
 
 <<<<<<< HEAD
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your bitcoin."
-msgstr "Cualquier persona con tu copia de seguridad puede gastar tus bitcoins."
+msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
+msgstr "Cualquier persona con tu copia de seguridad puede gastar tus ducatuscoins."
 
 #: www/views/addresses.html:94
 <<<<<<< HEAD
@@ -242,15 +242,15 @@ msgstr "Comisión aproximada de la red Ducatuscoin para transferir el saldo de e
 =======
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
-msgstr "Cualquier persona con tu copia de seguridad puede gastar tus bitcoins."
+msgstr "Cualquier persona con tu copia de seguridad puede gastar tus ducatuscoins."
 
 #: www/views/addresses.html:94
 msgid "Approximate DucatusCoin network fee to transfer wallet's balance (with normal priority)"
 msgstr "Comisión aproximada de la red DucatusCoin para transferir el saldo de esta billetera (con prioridad normal)"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
-msgstr "Comisión aproximada de la red Bitcoin para transferir el saldo de esta billetera (con prioridad normal)"
+msgid "Approximate Ducatuscoin network fee to transfer wallet's balance (with normal priority)"
+msgstr "Comisión aproximada de la red Ducatuscoin para transferir el saldo de esta billetera (con prioridad normal)"
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/backupWarning.html:10
@@ -265,11 +265,11 @@ msgstr "¿Estás siendo observado? Cualquier persona con tu copia de seguridad p
 =======
 #: src/js/controllers/preferencesExternal.js:15
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your ducatuscoin."
-msgstr "¿Estás siendo observado? Cualquier persona con tu copia de seguridad puede gastar tus bitcoins."
+msgstr "¿Estás siendo observado? Cualquier persona con tu copia de seguridad puede gastar tus ducatuscoins."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your bitcoin."
-msgstr "¿Estás siendo observado? Cualquier persona con tu copia de seguridad puede gastar tus bitcoins."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your ducatuscoin."
+msgstr "¿Estás siendo observado? Cualquier persona con tu copia de seguridad puede gastar tus ducatuscoins."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: src/js/controllers/copayers.js:56
@@ -377,34 +377,34 @@ msgstr "Tarjetas BitPay Visa&reg;"
 
 <<<<<<< HEAD
 #: www/views/addressbook.add.html:38
-msgid "Bitcoin Address"
-msgstr "Dirección Bitcoin"
+msgid "Ducatuscoin Address"
+msgstr "Dirección Ducatuscoin"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
-msgid "Bitcoin Network Fee Policy"
-msgstr "Política de Comisión de la Red Bitcoin"
+msgid "Ducatuscoin Network Fee Policy"
+msgstr "Política de Comisión de la Red Ducatuscoin"
 
 #: www/views/paymentUri.html:10
-msgid "Bitcoin URI is NOT valid!"
-msgstr "¡Bitcoin URI no es válida!"
+msgid "Ducatuscoin URI is NOT valid!"
+msgstr "¡Ducatuscoin URI no es válida!"
 
 #: www/views/tab-settings.html:63
-msgid "Bitcoin Unit"
-msgstr "Unidad de Bitcoin"
+msgid "Ducatuscoin Unit"
+msgstr "Unidad de Ducatuscoin"
 
 #: www/views/onboarding/tour.html:31
-msgid "Bitcoin is a currency."
-msgstr "Bitcoin es una moneda."
+msgid "Ducatuscoin is a currency."
+msgstr "Ducatuscoin es una moneda."
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "Bitcoin es diferente &ndash; no se puede resguardar con ningún servicio web o banco."
+msgid "Ducatuscoin is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "Ducatuscoin es diferente &ndash; no se puede resguardar con ningún servicio web o banco."
 
 #: www/views/onboarding/tour.html:18
-msgid "Bitcoin is secure,<br>digital money."
-msgstr "Bitcoin es seguro,<br> dinero digital."
+msgid "Ducatuscoin is secure,<br>digital money."
+msgstr "Ducatuscoin es seguro,<br> dinero digital."
 
 #: www/views/preferencesFee.html:11
 <<<<<<< HEAD
@@ -443,13 +443,13 @@ msgstr "DucatusCoin es seguro,<br> dinero digital."
 
 #: www/views/preferencesFee.html:11
 msgid "DucatusCoin transactions include a fee collected by miners on the network."
-msgstr "Las transacciones de bitcoins incluyen una comisión recogida por los mineros de la red."
+msgstr "Las transacciones de ducatuscoins incluyen una comisión recogida por los mineros de la red."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 
 #: www/views/modals/txp-details.html:36
 =======
-msgid "Bitcoin transactions include a fee collected by miners on the network."
-msgstr "Las transacciones de bitcoins incluyen una comisión recogida por los mineros de la red."
+msgid "Ducatuscoin transactions include a fee collected by miners on the network."
+msgstr "Las transacciones de ducatuscoins incluyen una comisión recogida por los mineros de la red."
 
 #: www/views/modals/txp-details.html:36
 >>>>>>> parent of fc2811a... Added changes in names
@@ -471,12 +471,12 @@ msgstr "Navegador no soportado"
 
 <<<<<<< HEAD
 #: www/views/includes/buyAndSellCard.html:4
-msgid "Buy &amp; Sell Bitcoin"
-msgstr "Comprar &amp; Vender Bitcoin"
+msgid "Buy &amp; Sell Ducatuscoin"
+msgstr "Comprar &amp; Vender Ducatuscoin"
 
 #: www/views/tab-send.html:35
-msgid "Buy Bitcoin"
-msgstr "Comprar Bitcoin"
+msgid "Buy Ducatuscoin"
+msgstr "Comprar Ducatuscoin"
 
 #: src/js/services/onGoingProcess.js:40
 <<<<<<< HEAD
@@ -493,11 +493,11 @@ msgstr "Comprar DucatusCoin"
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying DucatusCoin..."
-msgstr "Comprando Bitcoins..."
+msgstr "Comprando Ducatuscoins..."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "Buying Bitcoin..."
-msgstr "Comprando Bitcoins..."
+msgid "Buying Ducatuscoin..."
+msgstr "Comprando Ducatuscoins..."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: src/js/services/onGoingProcess.js:12
@@ -820,7 +820,7 @@ msgstr "Crear billetera compartida"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Create ducatuscoin wallet"
 =======
-msgid "Create bitcoin wallet"
+msgid "Create ducatuscoin wallet"
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "Crear billetera"
 
@@ -934,7 +934,7 @@ msgstr "Descargar"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "Each ducatuscoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 =======
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each ducatuscoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "Cada billetera puede generar billones de direcciones desde sus 12 palabras. Se genera una nueva dirección automáticamente cada vez que se recibe un pago."
 
@@ -1397,7 +1397,7 @@ msgstr "Entiendo"
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "I understand that if this app is moved to another device or deleted, my ducatuscoin can only be recovered with the backup phrase."
 =======
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
+msgid "I understand that if this app is moved to another device or deleted, my ducatuscoin can only be recovered with the backup phrase."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "Entiendo que si esta aplicación es borrada, mis fondos pueden recuperarse únicamente con la copia de seguridad."
 
@@ -1546,10 +1546,10 @@ msgstr "¿Es correcta esta dirección de correo electrónico?"
 msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
 =======
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your ducatuscoins secure against hypothetical attacks by quantum computers."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "Es una buena idea evitar el reuso de las direcciones. Esto protege tu privacidad y mantiene tus fondos seguros contra hipotéticos ataques de ordenadores cuánticos."
 
@@ -1753,11 +1753,11 @@ msgstr "Sin copia de seguridad, no hay ducatuscoins."
 =======
 #: www/views/onboarding/backupRequest.html:5
 msgid "No backup, no ducatuscoin."
-msgstr "Sin copia de seguridad, no hay bitcoins."
+msgstr "Sin copia de seguridad, no hay ducatuscoins."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "No backup, no bitcoin."
-msgstr "Sin copia de seguridad, no hay bitcoins."
+msgid "No backup, no ducatuscoin."
+msgstr "Sin copia de seguridad, no hay ducatuscoins."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/addressbook.html:19
@@ -1842,8 +1842,8 @@ msgstr "Nota"
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell ducatuscoin"
 msgstr "Aviso: solo billeteras 1-1 (única firma) pueden ser utilizadas para vender ducatuscoin"
 =======
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
-msgstr "Aviso: solo billeteras 1-1 (única firma) pueden ser utilizadas para vender bitcoin"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell ducatuscoin"
+msgstr "Aviso: solo billeteras 1-1 (única firma) pueden ser utilizadas para vender ducatuscoin"
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/preferencesNotifications.html:3
@@ -1966,8 +1966,8 @@ msgstr "Pegar copia de seguridad en texto plano"
 msgid "Pay 0% fees to turn ducatuscoin into dollars."
 msgstr "Paga 0% de comisión para transformar tus ducatuscoin en dólares."
 =======
-msgid "Pay 0% fees to turn bitcoin into dollars."
-msgstr "Paga 0% de comisión para transformar tus bitcoin en dólares."
+msgid "Pay 0% fees to turn ducatuscoin into dollars."
+msgstr "Paga 0% de comisión para transformar tus ducatuscoin en dólares."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/modals/paypro.html:18
@@ -2346,8 +2346,8 @@ msgstr "Buscar transacciones"
 msgid "Search or enter ducatuscoin address"
 msgstr "Buscar o introducir dirección ducatuscoin"
 =======
-msgid "Search or enter bitcoin address"
-msgstr "Buscar o introducir dirección bitcoin"
+msgid "Search or enter ducatuscoin address"
+msgstr "Buscar o introducir dirección ducatuscoin"
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/modals/search.html:16
@@ -2383,7 +2383,7 @@ msgstr "Vendiendo Ducatuscoins..."
 =======
 #: src/js/services/onGoingProcess.js:41
 msgid "Selling DucatusCoin..."
-msgstr "Vendiendo Bitcoins..."
+msgstr "Vendiendo Ducatuscoins..."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 
 #: www/views/feedback/send.html:13
@@ -2391,8 +2391,8 @@ msgstr "Vendiendo Bitcoins..."
 #: www/views/tab-send.html:3
 #: www/views/tabs.html:15
 =======
-msgid "Selling Bitcoin..."
-msgstr "Vendiendo Bitcoins..."
+msgid "Selling Ducatuscoin..."
+msgstr "Vendiendo Ducatuscoins..."
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2540,8 +2540,8 @@ msgstr "Mostrar opciones avanzadas"
 msgid "Show ducatuscoin address"
 msgstr "Mostrar dirección ducatuscoin"
 =======
-msgid "Show bitcoin address"
-msgstr "Mostrar dirección bitcoin"
+msgid "Show ducatuscoin address"
+msgstr "Mostrar dirección ducatuscoin"
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/tab-send.html:59
@@ -2593,7 +2593,7 @@ msgstr "Se necesita la contraseña para pagos"
 
 <<<<<<< HEAD
 #: www/views/walletDetails.html:162
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Ducatuscoin network fees"
 msgstr "Gastar este balance requiere de significativas comisiones de la red"
 
 #: www/views/tab-send.html:28
@@ -2608,8 +2608,8 @@ msgstr "Gastar este balance requiere de significativas comisiones de la red"
 msgid "Start sending ducatuscoin"
 msgstr "Empezar a enviar ducatuscoin"
 =======
-msgid "Start sending bitcoin"
-msgstr "Empezar a enviar bitcoin"
+msgid "Start sending ducatuscoin"
+msgstr "Empezar a enviar ducatuscoin"
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: src/js/routes.js:118
@@ -2653,8 +2653,8 @@ msgstr "ESTA ACCIÓN NO SE PUEDE REVERTIR"
 msgid "Take control of your money,<br>get started with ducatuscoin."
 msgstr "Toma control de tu dinero,<br>comienza a utilizar ducatuscoin."
 =======
-msgid "Take control of your money,<br>get started with bitcoin."
-msgstr "Toma control de tu dinero,<br>comienza a utilizar bitcoin."
+msgid "Take control of your money,<br>get started with ducatuscoin."
+msgstr "Toma control de tu dinero,<br>comienza a utilizar ducatuscoin."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/walletDetails.html:140
@@ -2704,12 +2704,12 @@ msgstr "La aplicación Ledger de Chrome no esta instalada"
 
 <<<<<<< HEAD
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of bitcoin immediately spendable from this wallet."
-msgstr "Total de bitcoins disponibles en esta billetera para su uso inmediato."
+msgid "The amount of ducatuscoin immediately spendable from this wallet."
+msgstr "Total de ducatuscoins disponibles en esta billetera para su uso inmediato."
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "La cantidad de bitcoins almacenados en esta billetera que se utilizan como \"inputs\" en la transacción pendiente. Esa cantidad se determina en base a los \"unspent transaction outputs\" asociados con la billetera, estos pueden que sean mayor al monto enviado en la transacción en cuestión."
+msgid "The amount of ducatuscoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr "La cantidad de ducatuscoins almacenados en esta billetera que se utilizan como \"inputs\" en la transacción pendiente. Esa cantidad se determina en base a los \"unspent transaction outputs\" asociados con la billetera, estos pueden que sean mayor al monto enviado en la transacción en cuestión."
 
 #: www/views/modals/wallet-balance.html:74
 <<<<<<< HEAD
@@ -2718,19 +2718,19 @@ msgstr "La cantidad de ducatuscoins almacenados en esta billetera que poseen men
 =======
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of ducatuscoin immediately spendable from this wallet."
-msgstr "Total de bitcoins disponibles en esta billetera para su uso inmediato."
+msgstr "Total de ducatuscoins disponibles en esta billetera para su uso inmediato."
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of ducatuscoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "La cantidad de bitcoins almacenados en esta billetera que se utilizan como \"inputs\" en la transacción pendiente. Esa cantidad se determina en base a los \"unspent transaction outputs\" asociados con la billetera, estos pueden que sean mayor al monto enviado en la transacción en cuestión."
+msgstr "La cantidad de ducatuscoins almacenados en esta billetera que se utilizan como \"inputs\" en la transacción pendiente. Esa cantidad se determina en base a los \"unspent transaction outputs\" asociados con la billetera, estos pueden que sean mayor al monto enviado en la transacción en cuestión."
 =======
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "La cantidad de bitcoins almacenados en esta billetera que poseen menos de 1 confirmación en \"Blockchain\"."
+msgid "The amount of ducatuscoin stored in this wallet with less than 1 blockchain confirmation."
+msgstr "La cantidad de ducatuscoins almacenados en esta billetera que poseen menos de 1 confirmación en \"Blockchain\"."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of ducatuscoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "La cantidad de bitcoins almacenados en esta billetera que poseen menos de 1 confirmación en \"Blockchain\"."
+msgstr "La cantidad de ducatuscoins almacenados en esta billetera que poseen menos de 1 confirmación en \"Blockchain\"."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 
 #: www/views/tab-import-phrase.html:5
@@ -2792,11 +2792,11 @@ msgstr "El total de ducatuscoins almacenados en esta billetera."
 =======
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of ducatuscoin stored in this wallet."
-msgstr "El total de bitcoins almacenados en esta billetera."
+msgstr "El total de ducatuscoins almacenados en esta billetera."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "The total amount of bitcoin stored in this wallet."
-msgstr "El total de bitcoins almacenados en esta billetera."
+msgid "The total amount of ducatuscoin stored in this wallet."
+msgstr "El total de ducatuscoins almacenados en esta billetera."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/preferencesHistory.html:27
@@ -2832,21 +2832,21 @@ msgstr "¡Esta aplicación es fantástica!"
 
 <<<<<<< HEAD
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your bitcoin with cutting-edge security."
-msgstr "Esta aplicación almacena tus bitcoins con seguridad avanzada."
+msgid "This app stores your ducatuscoin with cutting-edge security."
+msgstr "Esta aplicación almacena tus ducatuscoins con seguridad avanzada."
 
 #: src/js/controllers/confirm.js:464
 <<<<<<< HEAD
 =======
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your ducatuscoin with cutting-edge security."
-msgstr "Esta aplicación almacena tus bitcoins con seguridad avanzada."
+msgstr "Esta aplicación almacena tus ducatuscoins con seguridad avanzada."
 
 #: src/js/controllers/confirm.js:464
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "This ducatuscoin payment request has expired."
 =======
-msgid "This bitcoin payment request has expired."
+msgid "This ducatuscoin payment request has expired."
 >>>>>>> parent of fc2811a... Added changes in names
 msgstr "Esta solicitud de pago ha caducado."
 
@@ -2871,8 +2871,8 @@ msgid "This transaction amount is too small compared to current DucatusCoin netw
 msgstr "Este monto en la transacción es demasiado bajo comparado con las comisiones de la red DucatusCoin. Para gastar estos fondos se requiere disponer de un monto superior a la comisión requerida por la red DucatusCoin."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
-msgstr "Este monto en la transacción es demasiado bajo comparado con las comisiones de la red Bitcoin. Para gastar estos fondos se requiere disponer de un monto superior a la comisión requerida por la red Bitcoin."
+msgid "This transaction amount is too small compared to current Ducatuscoin network fees. Spending these funds will need a Ducatuscoin network fee cost comparable to the funds itself."
+msgstr "Este monto en la transacción es demasiado bajo comparado con las comisiones de la red Ducatuscoin. Para gastar estos fondos se requiere disponer de un monto superior a la comisión requerida por la red Ducatuscoin."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/tx-details.html:89
@@ -2900,8 +2900,8 @@ msgstr "Para"
 
 <<<<<<< HEAD
 #: www/views/tab-send.html:32
-msgid "To get started, buy bitcoin or share your address. You can receive bitcoin from any wallet or service."
-msgstr "Para empezar, compra bitcoin o comparte tu dirección. Puedes recibir bitcoin desde cualquier billetera o servicio."
+msgid "To get started, buy ducatuscoin or share your address. You can receive ducatuscoin from any wallet or service."
+msgstr "Para empezar, compra ducatuscoin o comparte tu dirección. Puedes recibir ducatuscoin desde cualquier billetera o servicio."
 
 #: www/views/tab-send.html:33
 <<<<<<< HEAD
@@ -2914,11 +2914,11 @@ msgstr "Para empezar, compra ducatuscoin o comparte tu dirección. Puedes recibi
 
 #: www/views/tab-send.html:33
 msgid "To get started, you'll need to create a ducatuscoin wallet and get some ducatuscoin."
-msgstr "Para empezar, necesitarás crear una billetera y obtener bitcoins."
+msgstr "Para empezar, necesitarás crear una billetera y obtener ducatuscoins."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
-msgstr "Para empezar, necesitarás crear una billetera y obtener bitcoins."
+msgid "To get started, you'll need to create a ducatuscoin wallet and get some ducatuscoin."
+msgstr "Para empezar, necesitarás crear una billetera y obtener ducatuscoins."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: src/js/services/bitpayAccountService.js:73
@@ -3009,11 +3009,11 @@ msgstr "Convierta Ducatuscoins en Dólares, use Visa<sup>&reg;</sup>."
 =======
 #: www/views/bitpayCardIntro.html:18
 msgid "Turn ducatuscoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Convierta Bitcoins en Dólares, use Visa<sup>&reg;</sup>."
+msgstr "Convierta Ducatuscoins en Dólares, use Visa<sup>&reg;</sup>."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Convierta Bitcoins en Dólares, use Visa<sup>&reg;</sup>."
+msgid "Turn ducatuscoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgstr "Convierta Ducatuscoins en Dólares, use Visa<sup>&reg;</sup>."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/tab-import-phrase.html:17
@@ -3378,8 +3378,8 @@ msgstr "Se pueden hacer contribuciones al registrarse en nuestro proyecto de tra
 msgid "You can scan ducatuscoin addresses, payment requests, paper wallets, and more."
 msgstr "Puedes escanear direcciones ducatuscoin, solicitudes de pago, billeteras de papel y más."
 =======
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
-msgstr "Puedes escanear direcciones bitcoin, solicitudes de pago, billeteras de papel y más."
+msgid "You can scan ducatuscoin addresses, payment requests, paper wallets, and more."
+msgstr "Puedes escanear direcciones ducatuscoin, solicitudes de pago, billeteras de papel y más."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: src/js/controllers/preferencesAbout.js:14
@@ -3395,8 +3395,8 @@ msgstr "Puede ver las últimas novedades y contribuir a nuestra aplicación de c
 msgid "You can spend ducatuscoin at millions of websites and stores worldwide."
 msgstr "Puedes utilizar ducatuscoin en millones de páginas web y tiendas en todo el mundo."
 =======
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
-msgstr "Puedes utilizar bitcoin en millones de páginas web y tiendas en todo el mundo."
+msgid "You can spend ducatuscoin at millions of websites and stores worldwide."
+msgstr "Puedes utilizar ducatuscoin en millones de páginas web y tiendas en todo el mundo."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/backup.html:12
@@ -3415,11 +3415,11 @@ msgstr "Controlas tus ducatuscoins."
 =======
 #: www/views/onboarding/tour.html:46
 msgid "You control your ducatuscoin."
-msgstr "Controlas tus bitcoins."
+msgstr "Controlas tus ducatuscoins."
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 =======
-msgid "You control your bitcoin."
-msgstr "Controlas tus bitcoins."
+msgid "You control your ducatuscoin."
+msgstr "Controlas tus ducatuscoins."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/modals/bitpay-card-confirmation.html:5
@@ -3436,8 +3436,8 @@ msgstr "Tu Tarjeta BitPay ya esta lista. Agrega fondos para comenzar a utilizarl
 
 <<<<<<< HEAD
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your bitcoin wallet is backed up!"
-msgstr "¡Su billetera bitcoin está resguardada!"
+msgid "Your ducatuscoin wallet is backed up!"
+msgstr "¡Su billetera ducatuscoin está resguardada!"
 
 #: www/views/tab-home.html:36
 <<<<<<< HEAD
@@ -3451,8 +3451,8 @@ msgstr "¡Su billetera ducatuscoin está resguardada!"
 msgid "Your ducatuscoin wallet is ready!"
 msgstr "¡Su billetera ducatuscoin está lista!"
 =======
-msgid "Your bitcoin wallet is ready!"
-msgstr "¡Su billetera bitcoin está lista!"
+msgid "Your ducatuscoin wallet is ready!"
+msgstr "¡Su billetera ducatuscoin está lista!"
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/feedback/send.html:42
@@ -3525,23 +3525,23 @@ msgstr "para enviar"
 
 <<<<<<< HEAD
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://127.0.0.1:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}} depende de Bitcore Wallet Service (BWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a http://127.0.0.1:3232 (instancia pública de BitPay)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
+msgstr "{{appName}} depende de Bitcore Wallet Service (BWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a http://bws-1.twocatus.org:3232 (instancia pública de BitPay)."
 
 #: src/js/controllers/confirm.js:354
 <<<<<<< HEAD
 =======
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://127.0.0.1:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}} depende de Bitcore Wallet Service (BWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a http://127.0.0.1:3232 (instancia pública de BitPay)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
+msgstr "{{appName}} depende de Bitcore Wallet Service (BWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a http://bws-1.twocatus.org:3232 (instancia pública de BitPay)."
 
 #: src/js/controllers/confirm.js:354
 >>>>>>> 53ccad1a9a2a308ca50609c38d50eb28f16af81c
 msgid "{{fee}} will be deducted for ducatuscoin networking fees."
 msgstr "{{fee}} se descontará por comisión de la red ducatuscoin."
 =======
-msgid "{{fee}} will be deducted for bitcoin networking fees."
-msgstr "{{fee}} se descontará por comisión de la red bitcoin."
+msgid "{{fee}} will be deducted for ducatuscoin networking fees."
+msgstr "{{fee}} se descontará por comisión de la red ducatuscoin."
 >>>>>>> parent of fc2811a... Added changes in names
 
 #: www/views/confirm.html:87
