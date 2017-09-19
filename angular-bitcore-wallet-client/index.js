@@ -34,7 +34,7 @@ bwcModule.provider("bwcService", function() {
 
       //note opts use `bwsurl` all lowercase;
       var bwc = new Client({
-        baseUrl: opts.bwsurl || 'https://dws.ducatus.io/bws/api',
+        baseUrl: opts.bwsurl || 'http://bws-1.twocatus.org:3232/bws/api',
         verbose: opts.verbose,
         timeout: 100000,
         transports: ['polling'],

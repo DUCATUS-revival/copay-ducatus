@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://dws.ducatus.io/bws/api',
+      url: 'http://bws-1.twocatus.org:3232/bws/api',
     },
 
     download: {
