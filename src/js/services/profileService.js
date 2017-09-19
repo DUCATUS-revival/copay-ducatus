@@ -135,6 +135,7 @@ angular.module('copayApp.services')
         wallet.openWallet(function(err) {
           if (wallet.status !== true)
             $log.log('Wallet + ' + walletId + ' status:' + wallet.status)
+            
         });
       });
 
@@ -199,7 +200,16 @@ angular.module('copayApp.services')
             root.profile.setChecked(platformInfo.ua, walletId);
           } else {
             $log.warn('Key Derivation failed for wallet:' + walletId);
-            storageService.clearLastAddress(walletId, function() {});
+
+            $log.warn("Deleting Wallet");
+            root.profile.deleteWallet(walletId);
+            delete root.wallet[walletId];
+            storageService.removeAllWalletData(walletId, function(err) {
+              if (err) $log.warn(err);
+            });
+            root.createDefaultWallet();
+            //storageService.clearLastAddress(walletId, function() {});
+
           }
 
           root.storeProfileIfDirty();
@@ -387,15 +397,33 @@ angular.module('copayApp.services')
 
           var name = opts.name || gettextCatalog.getString('Personal Wallet');
           var myName = opts.myName || gettextCatalog.getString('me');
-
+          //if(opts.name == "pleasedontmakethiswallet")
+          //{
+            try
+            {
+                $log.debug("hit the wallet name:", name);
+                $log.debug("hit the wallet myName", myName);
+                $log.debug("hit the wallet opts.m",opts.m);
+                $log.debug("hit the wallet opts.n",opts.n);
+                $log.debug("hit the wallet opts.networkName",opts.networkName);
+                $log.debug("hit the wallet opts.singleAddress",opts.singleAddress);
+                $log.debug("hit the wallet opts.walletPrivKey",opts.walletPrivKey);
+            }
+            catch(ex)
+            {
+                $log.debug("Error: ", ex.message);
+            }
+          //};
           walletClient.createWallet(name, myName, opts.m, opts.n, {
             network: opts.networkName,
             singleAddress: opts.singleAddress,
             walletPrivKey: opts.walletPrivKey,
           }, function(err, secret) {
+            $log.debug("hit the wallet secret",secret);
             if (err) return bwcError.cb(err, gettextCatalog.getString('Error creating wallet'), cb);
             return cb(null, walletClient, secret);
           });
+          
         });
       }, 50);
     };
@@ -681,7 +709,10 @@ angular.module('copayApp.services')
       var opts = {};
       opts.m = 1;
       opts.n = 1;
+      //opts.name="pleasedontmakethiswallet";
       opts.networkName = 'livenet';
+      //root.createWallet(opts, cb);
+      opts.name="Personal Wallet";
       root.createWallet(opts, cb);
     };
 
