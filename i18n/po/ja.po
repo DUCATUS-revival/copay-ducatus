@@ -3188,8 +3188,8 @@ msgid "to send"
 msgstr "送金する"
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}}はブロックチェーンの情報を取得したり参加者を同期させたりするためにBitcore Wallet Service (BWS)に依存します。初期値としてBitPay社が提供する http://bws-1.twocatus.org:3232 (BitPay公式のBWSサーバー)を設定していますが、独自で運用してウォレットをそちらに接続しても構いません。"
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://dws.ducatus.io (BitPay's public BWS instance)."
+msgstr "{{appName}}はブロックチェーンの情報を取得したり参加者を同期させたりするためにBitcore Wallet Service (BWS)に依存します。初期値としてBitPay社が提供する https://dws.ducatus.io (BitPay公式のBWSサーバー)を設定していますが、独自で運用してウォレットをそちらに接続しても構いません。"
 
 #: src/js/controllers/confirm.js:354
 msgid "{{fee}} will be deducted for ducatuscoin networking fees."
