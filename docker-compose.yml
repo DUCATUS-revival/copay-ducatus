@@ -4,7 +4,7 @@ services:
         testing:
                 image: ducatuspay
                 ports: 
-                        - "8100:8100"
+                        - "8101:8100"
                 command: bash -c "cp networks.js node_modules/bitcore-lib/lib/networks.js; npm start"
                 stdin_open: true
                 tty: true
