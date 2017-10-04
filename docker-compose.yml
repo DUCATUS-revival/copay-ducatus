@@ -16,11 +16,14 @@ services:
                 command: bash -c "cp networks.js node_modules/bitcore-lib/lib/networks.js; tail -f /dev/null;"
                 stdin_open: true
                 tty: true
+                volumes:
+                - "./webapp:/storage"
 
         android:
                 image: ducatuspay
-                command: bash -c "npm run apply:copay; npm run build:android"
-
+                command: bash -c "npm run apply:copay; npm run build:android; cp /usr/src/app/platforms/android/build/outputs/apk/android-debug.apk /storage"
+                volumes:
+                - "./webapp:/storage"
         ios:
                 image: ducatuspay
                 command: npm run final:ios
