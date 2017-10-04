@@ -14,7 +14,7 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
-COPY networks.js node_modules/bitcore-lib/lib/networks.js
+COPY networks.js node_modules/ducatuscore-lib/lib/networks.js
 
 RUN npm run clean-all
 RUN bower install --allow-root
