@@ -12,6 +12,10 @@ cache
 webkitbuilds/*
 !webkitbuilds/README.md
 
+# ssh key
+ssh_key/*
+!ssh_key/.placeholder
+
 # chrome extensions
 chrome-app/build/*
 chrome-app/*zip
