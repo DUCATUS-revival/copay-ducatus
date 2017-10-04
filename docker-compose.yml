@@ -19,7 +19,7 @@ services:
                 volumes:
                 - "./webapp:/storage"
 
-        android:
+        testing_exec:
                 image: ducatuspay
                 command: bash -c "npm run apply:copay; npm run build:android; cp /usr/src/app/platforms/android/build/outputs/apk/android-debug.apk /storage"
                 volumes:
