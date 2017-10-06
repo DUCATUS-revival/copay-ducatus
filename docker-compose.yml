@@ -6,6 +6,7 @@ services:
                 ports: 
                         - "8100:8100"
                 command: npm start
+                #command: bash -c "cp networks.js node_modules/bitcore-lib/lib/networks.js; npm start;"
                 stdin_open: true
                 tty: true
 
