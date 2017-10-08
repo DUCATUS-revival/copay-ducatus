@@ -1,8 +1,8 @@
 {
   "//": "        Modify it in the app-template directory",
-  "name": "ducatuspay",
+  "name": "copay",
   "description": "A Secure DucatusCoin Wallet",
-  "author": "Ducatus",
+  "author": "BitPay",
   "version": "3.6.2",
   "keywords": [
     "ducatuscoin",
@@ -13,9 +13,9 @@
     "bitcore"
   ],
   "main": "www/index.html",
-  "title": "Ducatuspay",
+  "title": "Copay",
   "window": {
-    "title": "Ducatuspay - Ducatuspay DucatusCoin Wallet",
+    "title": "Copay - Copay DucatusCoin Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,
@@ -57,15 +57,13 @@
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.1",
     "bitauth": "^0.2.1",
-    "bitcore-wallet-client": "5.3.0",
+    "ducatuscore-wallet-client": "git+ssh://git@github.com/Ducatus/ducatuscore-wallet-client.git",
     "bower": "^1.7.9",
     "cordova-android": "5.1.1",
-    "cordova-custom-config": "^3.3.0",
+    "cordova-custom-config": "^3.0.5",
     "cordova-plugin-qrscanner": "^2.5.0",
     "coveralls": "^2.11.9",
     "express": "^4.11.2",
-    "fs": "0.0.2",
-    "fs-extra": "^0.30.0",
     "grunt-angular-gettext": "^2.2.3",
     "grunt-browserify": "^5.0.0",
     "grunt-cli": "^1.2.0",
@@ -81,7 +79,7 @@
     "shelljs": "^0.3.0"
   },
   "scripts": {
-    "postinstall": "bower install && sh post_fixups.sh && cp networks.js node_modules/bitcore-lib/lib",
+    "postinstall": "bower install",
     "start": "npm run build:www && ionic serve --nolivereload --nogulp -s --address 0.0.0.0",
     "start:ios": "npm run build:www && npm run build:ios && npm run open:ios",
     "start:android": "npm run build:www && npm run build:android && npm run run:android",
@@ -109,7 +107,7 @@
     "run:android-release": "cordova run android --device --release",
     "log:android": "adb logcat | grep chromium",
     "sign:android": "rm -f platforms/android/build/outputs/apk/android-release-signed-aligned.apk; jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../copay.keystore -signedjar platforms/android/build/outputs/apk/android-release-signed.apk  platforms/android/build/outputs/apk/android-release-unsigned.apk copay_play && ../android-sdk-macosx/build-tools/25.0.3/zipalign -v 4 platforms/android/build/outputs/apk/android-release-signed.apk platforms/android/build/outputs/apk/android-release-signed-aligned.apk",
-    "apply:copay": "npm i fs-extra && cd app-template && node apply.js copay && npm i && cordova prepare",
+    "apply:copay": "cd app-template && node apply.js copay && npm i && cordova prepare",
     "test": "echo \"no package tests configured\"",
     "clean": "trash platforms && trash plugins && cordova prepare",
     "unstage-package": "git reset package.json",

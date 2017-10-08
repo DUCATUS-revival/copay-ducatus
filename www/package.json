@@ -1,0 +1,24 @@
+{
+    "app_name": "www",
+    "dependencies": {},
+    "main": "index.html",
+    "name": "DucatusPay",
+    "version": "1.0.0",
+    "webexe_settings": {
+        "download_dir": "",
+        "force_download": false,
+        "nw_compression_level": 0,
+        "nw_version": "0.26.0-beta1",
+        "sdk_build": false,
+        "uncompressed_folder": false
+    },
+    "webkit": {},
+    "window": {
+        "height": 600,
+        "icon": "logo.png",
+        "id": "www",
+        "title": "DucatusPay",
+        "toolbar": false,
+        "width": 800
+    }
+}

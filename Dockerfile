@@ -1,6 +1,10 @@
 FROM node:boron
-#FROM beevelop/android-nodejs:latest
 
+RUN mkdir -p /root/.ssh
+
+ADD ssh_key/id_rsa /root/.ssh/id_rsa
+RUN chmod 700 /root/.ssh/id_rsa
+RUN echo "Host github.com\n\tStrictHostKeyChecking no\n" >> /root/.ssh/config
 
 # Create app directory
 RUN mkdir -p /usr/src/app
@@ -14,11 +18,11 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
-COPY networks.js node_modules/bitcore-lib/lib/networks.js
-
 RUN npm run clean-all
 RUN bower install --allow-root
 RUN npm run apply:copay
+
+RUN rm /root/.ssh/id_rsa
 
 EXPOSE 8080
 

@@ -26,7 +26,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
           $scope.homeTip = (value == 'accepted') ? false : true;
         });
       }
-
+/*
       if ($scope.isNW) {
         latestReleaseService.checkLatestRelease(function(err, newRelease) {
           if (err) {
@@ -41,7 +41,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
           }
         });
       }
-
+*/
       storageService.getFeedbackInfo(function(error, info) {
 
         if ($scope.isWindowsPhoneApp) {
