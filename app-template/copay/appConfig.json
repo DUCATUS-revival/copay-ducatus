@@ -3,7 +3,7 @@
   "packageDescription": "DucatusPay DucatusCoin Wallet",
   "packageNameId": "io.ducatus.ducatuspay",
   "userVisibleName": "DucatusPay",
-  "purposeLine": "Copay DucatusCoin Wallet",
+  "purposeLine": "DucatusPay DucatusCoin Wallet",
   "bundleName": "ducatuspay",
   "appUri": "ducatuspay",
   "name": "ducatuspay",
