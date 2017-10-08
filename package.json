@@ -1,9 +1,11 @@
-{
-  "//": "        Modify it in the app-template directory",
-  "name": "copay",
-  "description": "A Secure DucatusCoin Wallet",
-  "author": "BitPay",
-  "version": "3.6.2",
+ { 
+  "//":"Changes to this file will be overwritten",
+  "//":"        Modify it in the app-template directory", 
+
+  "name": "ducatuspay",
+  "description": "DucatusPay - A Secure DucatusCoin Wallet",
+  "author": "Ducatus",
+  "version": "1.0.0",
   "keywords": [
     "ducatuscoin",
     "wallet",
@@ -13,9 +15,9 @@
     "bitcore"
   ],
   "main": "www/index.html",
-  "title": "Copay",
+  "title": "DucatusPay",
   "window": {
-    "title": "Copay - Copay DucatusCoin Wallet",
+    "title": "DucatusPay - DucatusPay DucatusCoin Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,
@@ -37,18 +39,18 @@
   },
   "dom_storage_quota": 200,
   "id": "jid1-x7bV5evAaI1P9Q",
-  "homepage": "https://copay.io",
+  "homepage": "https://ducatus.io",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/bitpay/copay.git",
+    "url": "git://github.com/ducatus/ducatus-copay.git",
     "type": "git"
   },
   "bugs": {
     "url": "https://github.com/bitpay/copay/issues"
   },
   "engines": {
-    "node": "6",
-    "npm": "3"
+   "node": "6",
+   "npm": "3"
   },
   "dependencies": {
     "adm-zip": "^0.4.7",
