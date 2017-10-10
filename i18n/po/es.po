@@ -85,8 +85,8 @@ msgid "Add Account"
 msgstr "Agregar Cuenta"
 
 #: src/js/services/bitpayAccountService.js:69
-msgid "Add BitPay Account?"
-msgstr "¿Agregar cuenta de BitPay?"
+msgid "Add Ducatus Account?"
+msgstr "¿Agregar cuenta de Ducatus?"
 
 #: www/views/addressbook.add.html:4
 #: www/views/addressbook.html:22
@@ -126,8 +126,8 @@ msgid "Add funds"
 msgstr "Agregar fondos"
 
 #: src/js/services/bitpayAccountService.js:78
-msgid "Add this BitPay account ({{email}})?"
-msgstr "¿Agregar esta cuenta BitPay ({{email}})?"
+msgid "Add this Ducatus account ({{email}})?"
+msgstr "¿Agregar esta cuenta Ducatus ({{email}})?"
 
 #: www/views/add.html:3
 msgid "Add wallet"
@@ -258,13 +258,13 @@ msgid "Are you sure you want to skip it?"
 msgstr "¿Estás seguro de omitirla?"
 
 #: www/views/modals/bitpay-card-confirmation.html:4
-msgid "Are you sure you would like to log out of your BitPay Card account?"
-msgstr "¿Está seguro que desea cerrar la sesión de su cuenta BitPay Card?"
+msgid "Are you sure you would like to log out of your Ducatus Card account?"
+msgstr "¿Está seguro que desea cerrar la sesión de su cuenta Ducatus Card?"
 
 #: src/js/controllers/preferencesBitpayCard.js:7
 #: src/js/controllers/preferencesBitpayServices.js:20
-msgid "Are you sure you would like to remove your BitPay Card ({{lastFourDigits}}) from this device?"
-msgstr "¿Estás seguro de quitar tu BitPay Card ({{lastFourDigits}}) de este dispositivo?"
+msgid "Are you sure you would like to remove your Ducatus Card ({{lastFourDigits}}) from this device?"
+msgstr "¿Estás seguro de quitar tu Ducatus Card ({{lastFourDigits}}) de este dispositivo?"
 
 #: www/views/includes/walletInfo.html:5
 msgid "Auditable"
@@ -333,8 +333,8 @@ msgid "Be sure to store your recovery phrase in a secure place. If this app is d
 msgstr "Asegúrate de guardar la frase de recuperación en un lugar seguro. Si se elimina esta aplicación, no se podrá recuperar el dinero."
 
 #: www/views/preferencesBitpayServices.html:9
-msgid "BitPay Visa&reg; Cards"
-msgstr "Tarjetas BitPay Visa&reg;"
+msgid "Ducatus Visa&reg; Cards"
+msgstr "Tarjetas Ducatus Visa&reg;"
 
 #: www/views/addressbook.add.html:38
 msgid "DucatusCoin Address"
@@ -519,8 +519,8 @@ msgid "Confirming"
 msgstr "Confirmando"
 
 #: www/views/bitpayCardIntro.html:37
-msgid "Connect my BitPay Card"
-msgstr "Conecte mi BitPay Card"
+msgid "Connect my Ducatus Card"
+msgstr "Conecte mi Ducatus Card"
 
 #: src/js/services/onGoingProcess.js:13
 msgid "Connecting to Coinbase..."
@@ -866,8 +866,8 @@ msgid "Enter Spending Password"
 msgstr "Ingrese contraseña para pagos"
 
 #: src/js/services/bitpayAccountService.js:110
-msgid "Enter Two Factor for your BitPay account"
-msgstr "Ingrese Autenticación de Dos Pasos para su cuenta de BitPay"
+msgid "Enter Two Factor for your Ducatus account"
+msgstr "Ingrese Autenticación de Dos Pasos para su cuenta de Ducatus"
 
 #: src/js/services/walletService.js:1030
 msgid "Enter new spending password"
@@ -972,8 +972,8 @@ msgid "Error in Payment Protocol"
 msgstr "Error en el Protocolo de Pago"
 
 #: src/js/controllers/bitpayCardIntro.js:14
-msgid "Error pairing BitPay Account"
-msgstr "Error de sincronización con la cuenta de BitPay"
+msgid "Error pairing Ducatus Account"
+msgstr "Error de sincronización con la cuenta de Ducatus"
 
 #: src/js/controllers/paperWallet.js:41
 msgid "Error scanning funds:"
@@ -1055,8 +1055,8 @@ msgid "Feedback could not be submitted. Please try again later."
 msgstr "No se pudo enviar el comentario. Por favor intente nuevamente."
 
 #: src/js/services/onGoingProcess.js:42
-msgid "Fetching BitPay Account..."
-msgstr "Buscando Cuenta de BitPay..."
+msgid "Fetching Ducatus Account..."
+msgstr "Buscando Cuenta de Ducatus..."
 
 #: src/js/services/onGoingProcess.js:21
 msgid "Fetching Payment Information"
@@ -1090,8 +1090,8 @@ msgid "From"
 msgstr "Desde"
 
 #: src/js/controllers/bitpayCardIntro.js:71
-msgid "From BitPay account"
-msgstr "De la cuenta de BitPay"
+msgid "From Ducatus account"
+msgstr "De la cuenta de Ducatus"
 
 #: www/views/tab-import-phrase.html:54
 msgid "From Hardware Wallet"
@@ -1142,8 +1142,8 @@ msgid "Get local cash anywhere you go, from any Visa<sup>&reg;</sup> compatible 
 msgstr "Consigue efectivo local dondequiera que vayas, desde cualquier ATM Visa<sup>&reg;</sup> compatible. Comisión de parte del ATM pueden ser aplicadas."
 
 #: www/views/onboarding/collectEmail.html:15
-msgid "Get news and updates from BitPay"
-msgstr "Recibir noticias y actualizaciones de BitPay"
+msgid "Get news and updates from Ducatus"
+msgstr "Recibir noticias y actualizaciones de Ducatus"
 
 #: www/views/bitpayCard.html:49
 #: www/views/onboarding/welcome.html:8
@@ -1295,8 +1295,8 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "Si se habilita, las billeteras podrán gastar los fondos sin confirmar. Esta opción puede causar demoras en la transacción."
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
-msgstr "Si pierdes este dispositivo o esta aplicación es eliminada, ni tú ni BitPay podrán recuperar el dinero."
+msgid "If this device is replaced or this app is deleted, neither you nor Ducatus can recover your funds without a backup."
+msgstr "Si pierdes este dispositivo o esta aplicación es eliminada, ni tú ni Ducatus podrán recuperar el dinero."
 
 #: www/views/feedback/complete.html:23
 msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
@@ -1670,8 +1670,8 @@ msgid "Not enough funds for fee"
 msgstr "No hay suficientes fondos para la comisión"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
-msgstr "Ni siquiera BitPay puede acceder a ellos."
+msgid "Not even Ducatus can access it."
+msgstr "Ni siquiera Ducatus puede acceder a ellos."
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
@@ -1775,8 +1775,8 @@ msgid "Open wallet"
 msgstr "Abrir billetera"
 
 #: www/views/bitpayCardIntro.html:34
-msgid "Order the BitPay Card"
-msgstr "Solicitar BitPay Card"
+msgid "Order the Ducatus Card"
+msgstr "Solicitar Ducatus Card"
 
 #: www/views/join.html:102
 #: www/views/join.html:93
@@ -2074,16 +2074,16 @@ msgid "Remove"
 msgstr "Remover"
 
 #: src/js/controllers/preferencesBitpayServices.js:7
-msgid "Remove BitPay Account?"
-msgstr "¿Eliminar Cuenta de BitPay?"
+msgid "Remove Ducatus Account?"
+msgstr "¿Eliminar Cuenta de Ducatus?"
 
 #: src/js/controllers/preferencesBitpayServices.js:19
-msgid "Remove BitPay Card?"
-msgstr "¿Eliminar BitPay Card?"
+msgid "Remove Ducatus Card?"
+msgstr "¿Eliminar Ducatus Card?"
 
 #: src/js/controllers/preferencesBitpayServices.js:8
-msgid "Removing your BitPay account will remove all associated BitPay account data from this device. Are you sure you would like to remove your BitPay Account ({{email}}) from this device?"
-msgstr "Al eliminar una cuenta de BitPay se eliminarán todos los datos asociados de este dispositivo. ¿Desea realmente eliminar la cuenta de BitPay ({{email}}) del dispositivo?"
+msgid "Removing your Ducatus account will remove all associated Ducatus account data from this device. Are you sure you would like to remove your Ducatus Account ({{email}}) from this device?"
+msgstr "Al eliminar una cuenta de Ducatus se eliminarán todos los datos asociados de este dispositivo. ¿Desea realmente eliminar la cuenta de Ducatus ({{email}}) del dispositivo?"
 
 #: www/views/join.html:113
 #: www/views/join.html:121
@@ -2510,8 +2510,8 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr "Se ha alcanzado el número máximo de direcciones consecutivas sin utilizar (20). Cuando una de sus direcciones reciba un pago, una nueva dirección se generará y se mostrará en la pestaña 'Recibir'."
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the BitPay website."
-msgstr "Los términos y condiciones oficiales en inglés se encuentran disponibles en la web de BitPay."
+msgid "The official English Terms of Service are available on the Ducatus website."
+msgstr "Los términos y condiciones oficiales en inglés se encuentran disponibles en la web de Ducatus."
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
@@ -2633,8 +2633,8 @@ msgid "To get started, you'll need to create a ducatuscoin wallet and get some d
 msgstr "Para empezar, necesitarás crear una billetera y obtener ducatuscoins."
 
 #: src/js/services/bitpayAccountService.js:73
-msgid "To {{reason}} you must first add your BitPay account - {{email}}"
-msgstr "Para {{reason}} primero debes agregar tu cuenta de BitPay - {{email}}"
+msgid "To {{reason}} you must first add your Ducatus account - {{email}}"
+msgstr "Para {{reason}} primero debes agregar tu cuenta de Ducatus - {{email}}"
 
 #: src/js/services/onGoingProcess.js:48
 msgid "Top up in progress..."
@@ -3094,16 +3094,16 @@ msgid "You control your ducatuscoin."
 msgstr "Controlas tus ducatuscoins."
 
 #: www/views/modals/bitpay-card-confirmation.html:5
-msgid "You will need to log back for fill in your BitPay Card."
-msgstr "Tendrá que iniciar sesión para completar su BitPay Card."
+msgid "You will need to log back for fill in your Ducatus Card."
+msgstr "Tendrá que iniciar sesión para completar su Ducatus Card."
 
 #: www/views/preferencesNotifications.html:28
 msgid "You'll receive email notifications about payments sent and received from your wallets."
 msgstr "Recibirás notificaciones por correo electrónico acerca de pagos enviados y recibidos de tus billeteras."
 
 #: www/views/bitpayCard.html:50
-msgid "Your BitPay Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
-msgstr "Tu Tarjeta BitPay ya esta lista. Agrega fondos para comenzar a utilizarla en negocios y cajeros automáticos de todo el mundo."
+msgid "Your Ducatus Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
+msgstr "Tu Tarjeta Ducatus ya esta lista. Agrega fondos para comenzar a utilizarla en negocios y cajeros automáticos de todo el mundo."
 
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your ducatuscoin wallet is backed up!"
@@ -3148,8 +3148,8 @@ msgid "[Balance Hidden]"
 msgstr "[Balance Oculto]"
 
 #: src/js/controllers/bitpayCardIntro.js:11
-msgid "add your BitPay Visa card(s)"
-msgstr "agregar sus tarjetas BitPay Visa"
+msgid "add your Ducatus Visa card(s)"
+msgstr "agregar sus tarjetas Ducatus Visa"
 
 #: www/views/includes/available-balance.html:8
 msgid "locked by pending payments"
@@ -3182,8 +3182,8 @@ msgid "to send"
 msgstr "para enviar"
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}} depende de Bitcore Wallet Service (BWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a http://bws-1.twocatus.org:3232 (instancia pública de BitPay)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (Ducatus's public BWS instance)."
+msgstr "{{appName}} depende de Bitcore Wallet Service (BWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a http://bws-1.twocatus.org:3232 (instancia pública de Ducatus)."
 
 #: src/js/controllers/confirm.js:354
 msgid "{{fee}} will be deducted for ducatuscoin networking fees."

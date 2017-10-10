@@ -85,8 +85,8 @@ msgid "Add Account"
 msgstr "添加帐户"
 
 #: src/js/services/bitpayAccountService.js:69
-msgid "Add BitPay Account?"
-msgstr "添加 BitPay 帐户吗？"
+msgid "Add Ducatus Account?"
+msgstr "添加 Ducatus 帐户吗？"
 
 #: www/views/addressbook.add.html:4
 #: www/views/addressbook.html:22
@@ -126,7 +126,7 @@ msgid "Add funds"
 msgstr ""
 
 #: src/js/services/bitpayAccountService.js:78
-msgid "Add this BitPay account ({{email}})?"
+msgid "Add this Ducatus account ({{email}})?"
 msgstr ""
 
 #: www/views/add.html:3
@@ -258,13 +258,13 @@ msgid "Are you sure you want to skip it?"
 msgstr "你确定你想跳过它？"
 
 #: www/views/modals/bitpay-card-confirmation.html:4
-msgid "Are you sure you would like to log out of your BitPay Card account?"
+msgid "Are you sure you would like to log out of your Ducatus Card account?"
 msgstr ""
 
 #: src/js/controllers/preferencesBitpayCard.js:7
 #: src/js/controllers/preferencesBitpayServices.js:20
-msgid "Are you sure you would like to remove your BitPay Card ({{lastFourDigits}}) from this device?"
-msgstr "你确定你想要从这个设备中删除您的 BitPay 卡 ({{lastFourDigits}})吗？"
+msgid "Are you sure you would like to remove your Ducatus Card ({{lastFourDigits}}) from this device?"
+msgstr "你确定你想要从这个设备中删除您的 Ducatus 卡 ({{lastFourDigits}})吗？"
 
 #: www/views/includes/walletInfo.html:5
 msgid "Auditable"
@@ -333,8 +333,8 @@ msgid "Be sure to store your recovery phrase in a secure place. If this app is d
 msgstr "请务必将您的恢复短语存储在一个安全的地方。如果这个程序被删除，不能没有它恢复你的钱。"
 
 #: www/views/preferencesBitpayServices.html:9
-msgid "BitPay Visa&reg; Cards"
-msgstr "BitPay Visa&reg; 牌"
+msgid "Ducatus Visa&reg; Cards"
+msgstr "Ducatus Visa&reg; 牌"
 
 #: www/views/addressbook.add.html:38
 msgid "DucatusCoin Address"
@@ -519,8 +519,8 @@ msgid "Confirming"
 msgstr "确认"
 
 #: www/views/bitpayCardIntro.html:37
-msgid "Connect my BitPay Card"
-msgstr "我 BitPay 卡连接"
+msgid "Connect my Ducatus Card"
+msgstr "我 Ducatus 卡连接"
 
 #: src/js/services/onGoingProcess.js:13
 msgid "Connecting to Coinbase..."
@@ -866,8 +866,8 @@ msgid "Enter Spending Password"
 msgstr "输入支出密码"
 
 #: src/js/services/bitpayAccountService.js:110
-msgid "Enter Two Factor for your BitPay account"
-msgstr "为您的 BitPay 帐户输入两个因素"
+msgid "Enter Two Factor for your Ducatus account"
+msgstr "为您的 Ducatus 帐户输入两个因素"
 
 #: src/js/services/walletService.js:1030
 msgid "Enter new spending password"
@@ -972,7 +972,7 @@ msgid "Error in Payment Protocol"
 msgstr ""
 
 #: src/js/controllers/bitpayCardIntro.js:14
-msgid "Error pairing BitPay Account"
+msgid "Error pairing Ducatus Account"
 msgstr ""
 
 #: src/js/controllers/paperWallet.js:41
@@ -1055,7 +1055,7 @@ msgid "Feedback could not be submitted. Please try again later."
 msgstr "无法提交反馈。请稍后再试。"
 
 #: src/js/services/onGoingProcess.js:42
-msgid "Fetching BitPay Account..."
+msgid "Fetching Ducatus Account..."
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:21
@@ -1090,8 +1090,8 @@ msgid "From"
 msgstr "来自"
 
 #: src/js/controllers/bitpayCardIntro.js:71
-msgid "From BitPay account"
-msgstr "从 BitPay 帐户"
+msgid "From Ducatus account"
+msgstr "从 Ducatus 帐户"
 
 #: www/views/tab-import-phrase.html:54
 msgid "From Hardware Wallet"
@@ -1142,8 +1142,8 @@ msgid "Get local cash anywhere you go, from any Visa<sup>&reg;</sup> compatible 
 msgstr "得到当地现金任何地方您去，从任何 Visa<sup>®</sup> 兼容的自动取款机 ATM 银行费用可能适用。"
 
 #: www/views/onboarding/collectEmail.html:15
-msgid "Get news and updates from BitPay"
-msgstr "从 BitPay 获取新闻和更新"
+msgid "Get news and updates from Ducatus"
+msgstr "从 Ducatus 获取新闻和更新"
 
 #: www/views/bitpayCard.html:49
 #: www/views/onboarding/welcome.html:8
@@ -1295,8 +1295,8 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "如果启用了，钱包也尝试使用未经证实的资金。此选项可能会导致事务延迟。"
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
-msgstr "如果此设备被替换或删除此应用程序，你和 BitPay 都不可以恢复你的资金，也没有备份。"
+msgid "If this device is replaced or this app is deleted, neither you nor Ducatus can recover your funds without a backup."
+msgstr "如果此设备被替换或删除此应用程序，你和 Ducatus 都不可以恢复你的资金，也没有备份。"
 
 #: www/views/feedback/complete.html:23
 msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
@@ -1670,8 +1670,8 @@ msgid "Not enough funds for fee"
 msgstr "费用的资金不足"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
-msgstr "甚至没有 BitPay 可以访问它。"
+msgid "Not even Ducatus can access it."
+msgstr "甚至没有 Ducatus 可以访问它。"
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
@@ -1775,8 +1775,8 @@ msgid "Open wallet"
 msgstr "打开钱包"
 
 #: www/views/bitpayCardIntro.html:34
-msgid "Order the BitPay Card"
-msgstr "订单 BitPay 卡"
+msgid "Order the Ducatus Card"
+msgstr "订单 Ducatus 卡"
 
 #: www/views/join.html:102
 #: www/views/join.html:93
@@ -2074,15 +2074,15 @@ msgid "Remove"
 msgstr ""
 
 #: src/js/controllers/preferencesBitpayServices.js:7
-msgid "Remove BitPay Account?"
-msgstr "删除 BitPay 帐户吗？"
+msgid "Remove Ducatus Account?"
+msgstr "删除 Ducatus 帐户吗？"
 
 #: src/js/controllers/preferencesBitpayServices.js:19
-msgid "Remove BitPay Card?"
-msgstr "删除 BitPay 卡吗？"
+msgid "Remove Ducatus Card?"
+msgstr "删除 Ducatus 卡吗？"
 
 #: src/js/controllers/preferencesBitpayServices.js:8
-msgid "Removing your BitPay account will remove all associated BitPay account data from this device. Are you sure you would like to remove your BitPay Account ({{email}}) from this device?"
+msgid "Removing your Ducatus account will remove all associated Ducatus account data from this device. Are you sure you would like to remove your Ducatus Account ({{email}}) from this device?"
 msgstr ""
 
 #: www/views/join.html:113
@@ -2510,8 +2510,8 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr "已连续未使用的地址 (20) 的最大数目。当您未使用的地址之一收到付款时，将生成一个新的地址，和您接收选项卡所示。"
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the BitPay website."
-msgstr "官方的英语术语服务是可在 BitPay 网站上。"
+msgid "The official English Terms of Service are available on the Ducatus website."
+msgstr "官方的英语术语服务是可在 Ducatus 网站上。"
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
@@ -2633,7 +2633,7 @@ msgid "To get started, you'll need to create a ducatuscoin wallet and get some d
 msgstr "若要开始，您将需要创建一个比特币的钱包，并获得一些比特币。"
 
 #: src/js/services/bitpayAccountService.js:73
-msgid "To {{reason}} you must first add your BitPay account - {{email}}"
+msgid "To {{reason}} you must first add your Ducatus account - {{email}}"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:48
@@ -3094,7 +3094,7 @@ msgid "You control your ducatuscoin."
 msgstr "您可以控制您的比特币。"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
-msgid "You will need to log back for fill in your BitPay Card."
+msgid "You will need to log back for fill in your Ducatus Card."
 msgstr ""
 
 #: www/views/preferencesNotifications.html:28
@@ -3102,7 +3102,7 @@ msgid "You'll receive email notifications about payments sent and received from 
 msgstr "在您的钱包进行付款操作时发送通知。"
 
 #: www/views/bitpayCard.html:50
-msgid "Your BitPay Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
+msgid "Your Ducatus Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
 msgstr ""
 
 #: www/views/includes/confirmBackupPopup.html:6
@@ -3148,8 +3148,8 @@ msgid "[Balance Hidden]"
 msgstr "[隐藏余额]"
 
 #: src/js/controllers/bitpayCardIntro.js:11
-msgid "add your BitPay Visa card(s)"
-msgstr "添加您的 BitPay 签证卡"
+msgid "add your Ducatus Visa card(s)"
+msgstr "添加您的 Ducatus 签证卡"
 
 #: www/views/includes/available-balance.html:8
 msgid "locked by pending payments"
@@ -3182,8 +3182,8 @@ msgid "to send"
 msgstr "发送"
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (BitPay's public BWS instance)."
-msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)、网络和 Copayer synchronization。默认配置指向 http://bws-1.twocatus.org:3232 (BitPay 的公共 BWS 实例)。"
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to http://bws-1.twocatus.org:3232 (Ducatus's public BWS instance)."
+msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)、网络和 Copayer synchronization。默认配置指向 http://bws-1.twocatus.org:3232 (Ducatus 的公共 BWS 实例)。"
 
 #: src/js/controllers/confirm.js:354
 msgid "{{fee}} will be deducted for ducatuscoin networking fees."
