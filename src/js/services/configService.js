@@ -19,22 +19,22 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     download: {
       bitpay: {
-        url: 'https://bitpay.com/wallet'
+        url: 'https://ducatus.io/wallet'
       },
       copay: {
-        url: 'https://copay.io/#download'
+        url: 'https://ducatus.io/#download'
       }
     },
 
     rateApp: {
       bitpay: {
         ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1149581638&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
-        android: 'https://play.google.com/store/apps/details?id=com.bitpay.wallet',
+        android: 'https://play.google.com/store/apps/details?id=io.ducatus.ducatuspay',
         wp: ''
       },
       copay: {
         ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=951330296&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
-        android: 'https://play.google.com/store/apps/details?id=com.bitpay.copay',
+        android: 'https://play.google.com/store/apps/details?id=io.ducatus.ducatuspay',
         wp: ''
       }
     },
