@@ -66,7 +66,7 @@ RateService.prototype._fetchCurrencies = function() {
       //log.debug('Error fetching exchange rates', err);
       setTimeout(function() {
         backoffSeconds *= 1.5;
-        retrieve();
+        //retrieve();
       }, backoffSeconds * 1000);
       return;
     });
