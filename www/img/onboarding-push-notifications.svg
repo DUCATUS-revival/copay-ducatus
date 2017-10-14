@@ -1,37 +1,175 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="247px" height="248px" viewBox="0 0 247 248" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 7</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="89.4673583%" id="linearGradient-1">
-            <stop stop-color="#3950B5" offset="0%"></stop>
-            <stop stop-color="#162360" offset="100%"></stop>
-        </linearGradient>
-        <rect id="path-2" x="0" y="0" width="122" height="34"></rect>
-        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="122" height="34" fill="white">
-            <use xlink:href="#path-2"></use>
-        </mask>
-    </defs>
-    <g id="Onboarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="0.4---Allow-Push-Notifications" transform="translate(-64.000000, -209.000000)">
-            <g id="Group-7" transform="translate(64.000000, 210.000000)">
-                <path d="M123.5,247 C191.707167,247 247,191.707167 247,123.5 C247,55.2928334 191.707167,1.42108547e-14 123.5,1.42108547e-14 C55.2928334,1.42108547e-14 1.42108547e-14,55.2928334 1.42108547e-14,123.5 C1.42108547e-14,191.707167 55.2928334,247 123.5,247 Z" id="Oval-2" fill="url(#linearGradient-1)" opacity="0.300000012"></path>
-                <g id="Phone" transform="translate(62.000000, 0.000000)" stroke="#647CE8" stroke-width="2">
-                    <rect id="Combined-Shape" fill="#253377" x="0" y="0" width="122.16932" height="220.464844" rx="8"></rect>
-                    <path d="M0.636298539,187 L121.533021,187" id="Line" stroke-linecap="square"></path>
-                    <path d="M50.2675846,203 L73.174332,203" id="Line" stroke-linecap="square"></path>
-                </g>
-                <ellipse id="Oval-2" stroke="#647CE8" stroke-width="2" fill-opacity="0.41907269" fill="#5462B1" opacity="0.945615695" cx="169" cy="57.4884375" rx="47" ry="44.4884375"></ellipse>
-                <g id="Group-3" transform="translate(62.000000, 33.000000)">
-                    <path d="M12.7105489,19.5 L50.4911698,19.5" id="Line" stroke="#12E5B6" stroke-width="3" stroke-linecap="square"></path>
-                    <path d="M21.96,10.4166666 L43.0026407,10.4166666" id="Line" stroke="#12E5B6" stroke-width="3" stroke-linecap="square"></path>
-                    <use id="Rectangle-3" stroke="#677AE7" mask="url(#mask-3)" stroke-width="2" xlink:href="#path-2"></use>
-                </g>
-                <g id="android-notifications-none" opacity="0.900000036" transform="translate(144.642407, 28.000000)" fill="#FFFFFF">
-                    <path d="M24.5218837,9.5815024 C25.5031747,9.5815024 27.8345547,10.1736779 27.8345547,10.1736779 C34.1505329,11.5548918 38.5961981,17.1067187 38.5961981,23.375 L38.5961981,38.5 L38.5961981,40.2467788 L39.8875454,41.4848077 L40.9665083,42.5190986 L7.80017568,42.5190986 L8.87913857,41.4848077 L10.1704859,40.2467788 L10.1704859,38.5 L10.1704859,23.375 C10.1704859,17.106851 14.616151,11.5548918 20.9321293,10.1736779 C20.9321293,10.1736779 23.4318375,9.5815024 24.2448003,9.5815024 L24.5218837,9.5815024 Z M24.383342,0 C21.9447307,0 20.0803748,1.78723558 20.0803748,4.125 L20.0803748,6.04986779 C11.9043355,7.83776442 5.73715099,14.9875 5.73715099,23.375 L5.73715099,38.5 L-6.82121026e-13,44 L-6.82121026e-13,46.75 L48.766684,46.75 L48.766684,44 L43.029533,38.5 L43.029533,23.375 C43.029533,14.9875 36.8622099,7.83776442 28.6863091,6.04986779 L28.6863091,4.125 C28.6863091,1.78723558 26.8219533,0 24.383342,0 L24.383342,0 L24.383342,0 Z M30.120493,49.5 L18.6460524,49.5 C18.6460524,52.5251322 21.2275002,55 24.383342,55 C27.5391837,55 30.120493,52.5251322 30.120493,49.5 L30.120493,49.5 L30.120493,49.5 Z" id="Shape"></path>
-                </g>
-            </g>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="247px"
+   height="248px"
+   viewBox="0 0 247 248"
+   version="1.1"
+   id="svg36"
+   sodipodi:docname="onboarding-push-notifications.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata40">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="657"
+     id="namedview38"
+     showgrid="false"
+     inkscape:zoom="5.3831355"
+     inkscape:cx="108.78149"
+     inkscape:cy="176.73672"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Group-7" />
+  <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">Group 7</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs15">
+    <linearGradient
+       x1="123.5"
+       y1="1.4210855e-014"
+       x2="123.5"
+       y2="220.98438"
+       id="linearGradient-1"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#3950B5"
+         offset="0%"
+         id="stop6" />
+      <stop
+         stop-color="#162360"
+         offset="100%"
+         id="stop8" />
+    </linearGradient>
+    <rect
+       id="path-2"
+       x="0"
+       y="0"
+       width="122"
+       height="34" />
+    <mask
+       id="mask-3"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="122"
+       height="34"
+       fill="white">
+      <use
+         xlink:href="#path-2"
+         id="use12" />
+    </mask>
+  </defs>
+  <g
+     id="Onboarding"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="0.4---Allow-Push-Notifications"
+       transform="translate(-64.000000, -209.000000)">
+      <g
+         id="Group-7"
+         transform="translate(64.557296,210.37153)">
+        <path
+           d="M 123.5,247 C 191.70717,247 247,191.70717 247,123.5 247,55.292833 191.70717,0 123.5,0 55.292833,0 0,55.292833 0,123.5 0,191.70717 55.292833,247 123.5,247 Z"
+           id="Oval-2"
+           style="opacity:0.3;fill:url(#linearGradient-1)"
+           inkscape:connector-curvature="0" />
+        <g
+           id="Phone"
+           transform="translate(62)"
+           style="stroke:#647ce8;stroke-width:2">
+          <rect
+             id="Combined-Shape"
+             x="0"
+             y="0"
+             width="122.16932"
+             height="220.46484"
+             rx="8"
+             style="fill:#253377" />
+          <path
+             d="M 0.63629854,187 H 121.53302"
+             id="Line"
+             inkscape:connector-curvature="0"
+             style="stroke-linecap:square" />
+          <path
+             d="M 50.267585,203 H 73.174332"
+             id="path20"
+             inkscape:connector-curvature="0"
+             style="stroke-linecap:square" />
         </g>
+        <ellipse
+           id="ellipse23"
+           cx="169"
+           cy="57.488438"
+           rx="47"
+           ry="44.488438"
+           style="opacity:0.9456157;fill:#5462b1;fill-opacity:0.41907271;stroke:#647ce8;stroke-width:2" />
+        <g
+           id="Group-3"
+           transform="translate(62,33)"
+           style="fill:#ff2000;fill-opacity:0">
+          <path
+             d="M 12.710549,19.5 H 50.49117"
+             id="path25"
+             inkscape:connector-curvature="0"
+             style="stroke:#ff2a00;stroke-width:3;stroke-linecap:square;fill:#ff2a00;fill-opacity:1;stroke-opacity:1" />
+          <path
+             d="M 21.96,10.416667 H 43.002641"
+             id="path27"
+             inkscape:connector-curvature="0"
+             style="stroke:#ff2a00;stroke-width:3;stroke-linecap:square;fill:#ff2000;fill-opacity:0;stroke-opacity:1" />
+          <use
+             id="Rectangle-3"
+             mask="url(#mask-3)"
+             xlink:href="#path-2"
+             style="stroke:#677ae7;stroke-width:2;fill:#ff2000;fill-opacity:0"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+        <g
+           id="android-notifications-none"
+           transform="translate(144.64241,28)"
+           style="opacity:0.90000006;fill:#ffffff">
+          <path
+             d="m 24.521884,9.5815024 c 0.981291,0 3.312671,0.5921756 3.312671,0.5921756 6.315978,1.381214 10.761643,6.933041 10.761643,13.201322 V 38.5 40.246779 l 1.291347,1.238029 1.078963,1.034291 H 7.8001757 L 8.8791386,41.484808 10.170486,40.246779 V 38.5 23.375 c 0,-6.268149 4.445665,-11.820108 10.761643,-13.201322 0,0 2.499708,-0.5921756 3.312671,-0.5921756 z M 24.383342,0 C 21.944731,0 20.080375,1.7872356 20.080375,4.125 V 6.0498678 C 11.904336,7.8377644 5.737151,14.9875 5.737151,23.375 V 38.5 L 0,44 v 2.75 H 48.766684 V 44 L 43.029533,38.5 V 23.375 c 0,-8.3875 -6.167323,-15.5372356 -14.343224,-17.3251322 V 4.125 C 28.686309,1.7872356 26.821953,0 24.383342,0 v 0 z m 5.737151,49.5 H 18.646052 c 0,3.025132 2.581448,5.5 5.73729,5.5 3.155842,0 5.737151,-2.474868 5.737151,-5.5 v 0 z"
+             id="Shape"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
     </g>
+  </g>
 </svg>
