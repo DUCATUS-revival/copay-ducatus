@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: copay\n"
+"Project-Id-Version: copay-ducatus\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: copay\n"
+"X-Crowdin-Project: copay-ducatus\n"
 "X-Crowdin-Language: ja\n"
-"X-Crowdin-File: template.pot\n"
-"Last-Translator: cmgustavo83\n"
+"X-Crowdin-File: /master/i18n/po/template.pot\n"
+"Last-Translator: techduck88 <tech@ducatusx.com>\n"
 "Language-Team: Japanese\n"
-"Language: ja\n"
-"PO-Revision-Date: 2017-06-29 07:15-0400\n"
+"Language: ja_JP\n"
+"PO-Revision-Date: 2017-10-15 17:39-0400\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
@@ -1717,7 +1717,7 @@ msgstr "今一度周りの環境をよく見てみましょう。隠しカメラ
 #: src/js/services/popupService.js:16
 #: src/js/services/popupService.js:59
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: www/views/modals/tx-status.html:12
 #: www/views/modals/tx-status.html:24
@@ -3167,7 +3167,7 @@ msgstr "自分"
 
 #: www/views/addressbook.add.html:32
 msgid "name@example.com"
-msgstr "name@example.com"
+msgstr ""
 
 #: www/views/preferencesHistory.html:15
 msgid "preparing..."
@@ -3206,5 +3206,5 @@ msgstr "{{updatingTxHistoryProgress}} 個の取引ダウンロード済み"
 #: www/views/copayers.html:47
 #: www/views/includes/walletInfo.html:12
 msgid "{{wallet.m}}-of-{{wallet.n}}"
-msgstr "{{wallet.m}}-of-{{wallet.n}}"
+msgstr ""
 
