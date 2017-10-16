@@ -2,10 +2,10 @@
   <ion-content>
     <div id="success-container">
       <img src="img/onboarding-success.svg" id="success-image" />
-      <div id="success-message" translate>Wallet Created</div>
+      <div id="success-message" translate>Wallet Created </br>Please press "Skip" to continue</div>
     </div>
     <div id="collect-email">
-      <div id="collect-email-inner" ng-if="!confirmation">
+      <div id="collect-email-inner" ng-if="confirmation">
         <div translate class="heading" translate>Notifications by email</div>
         <div translate class="prompt" translate>Where would you like to receive email notifications about payments?</div>
         <form id="email-form" name="emailForm" ng-submit="confirm(emailForm)" novalidate>
