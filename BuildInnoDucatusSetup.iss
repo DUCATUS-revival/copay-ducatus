@@ -4,14 +4,15 @@
 #define MyAppName "DucatusPay"
 #define MyAppVersion "1.0.0"
 #define MyAppPublisher "Ducatus"
-#define MyAppURL "http://ducatus.io/"
+#define MyAppURL "https://ducatus.io"
 #define MyAppExeName "DucatusPay.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{16E487EC-5836-4C67-BEE1-0AC83330F0AC}
+AppId={{930FD058-1DFA-4B51-8432-105E7B547FD1}
+PrivilegesRequired=lowest
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -19,10 +20,9 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName={pf}\{#MyAppName}
+DefaultDirName={userappdata}\{#MyAppName}
 DisableProgramGroupPage=yes
 OutputBaseFilename=ducatuspay_setup
-SetupIconFile=C:\Users\vesh\Documents\Visual Studio 2015\Projects\copay-ducatus - Copy\app-template\copay\img\favicon.ico
 Compression=lzma
 SolidCompression=yes
 
