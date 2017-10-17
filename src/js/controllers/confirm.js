@@ -126,6 +126,7 @@ angular.module('copayApp.controllers').controller('confirmController', function(
       paypro: data.stateParams.paypro,
 
       feeLevel: configFeeLevel,
+      feeLevelName: feeService.getCurrentFeeLevel(), 
       spendUnconfirmed: walletConfig.spendUnconfirmed,
 
       // Vanity tx info (not in the real tx)
