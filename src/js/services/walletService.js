@@ -625,7 +625,7 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
 
   root.getTxHistory = function(wallet, opts, cb) {
     opts = opts || {};
-$log.debug("VESH: Got getTxHistory - walletService.js);
+$log.debug("VESH: Got getTxHistory - walletService.js");
     var walletId = wallet.credentials.walletId;
 
     if (!wallet.isComplete()) return cb();
