@@ -9,9 +9,9 @@ angular.module('copayApp.services').factory('feeService', function($log, $timeou
   root.feeOpts = {
     urgent: gettext('Urgent'),
     priority: gettext('Priority'),
-    normal: gettext('Normal'),
+    //normal: gettext('Normal'),
     economy: gettext('Economy'),
-    superEconomy: gettext('Super Economy')
+    //superEconomy: gettext('Super Economy')
   };
 
   var cache = {
@@ -19,7 +19,7 @@ angular.module('copayApp.services').factory('feeService', function($log, $timeou
   };
 
   root.getCurrentFeeLevel = function() {
-    return configService.getSync().wallet.settings.feeLevel || 'normal';
+    return configService.getSync().wallet.settings.feeLevel || 'urgent';
   };
 
 
@@ -44,6 +44,8 @@ angular.module('copayApp.services').factory('feeService', function($log, $timeou
       var feeRate = feeLevelRate.feePerKB;
 
       if (!fromCache) $log.debug('Dynamic fee: ' + feeLevel + '/' + network + ' ' + (feeLevelRate.feePerKB / 1000).toFixed() + ' SAT/B');
+
+      log.warn('feerate: ' + feeRate);
 
       return cb(null, feeRate);
     });
