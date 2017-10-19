@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: copay\n"
+"Project-Id-Version: copay-ducatus\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: copay\n"
+"X-Crowdin-Project: copay-ducatus\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: template.pot\n"
-"Last-Translator: cmgustavo83\n"
+"X-Crowdin-File: /master/i18n/po/template.pot\n"
+"Last-Translator: techduck88 <tech@ducatusx.com>\n"
 "Language-Team: Italian\n"
-"Language: it\n"
-"PO-Revision-Date: 2017-06-29 07:15-0400\n"
+"Language: it_IT\n"
+"PO-Revision-Date: 2017-10-16 02:11-0400\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
@@ -292,7 +292,7 @@ msgstr "Percorso BIP32 per generare l'indirizzo"
 
 #: www/views/preferences.html:39
 msgid "Backup"
-msgstr "Backup"
+msgstr ""
 
 #: www/views/includes/backupNeededPopup.html:7
 msgid "Backup Needed"
@@ -460,7 +460,7 @@ msgstr "Svuota la cache"
 
 #: src/js/controllers/modals/txpDetails.js:33
 msgid "Click"
-msgstr "Click"
+msgstr ""
 
 #: www/views/customAmount.html:4
 #: www/views/modals/paypro.html:4
@@ -476,7 +476,7 @@ msgstr "Colore"
 
 #: www/views/preferencesAbout.html:21
 msgid "Commit hash"
-msgstr "Commit hash"
+msgstr ""
 
 #: www/views/preferences.html:53
 msgid "Complete the backup process to use this option"
@@ -564,7 +564,7 @@ msgstr "Copayer iscritto"
 
 #: www/views/preferencesInformation.html:88
 msgid "Copayer {{$index}}"
-msgstr "Copayer {{$index}}"
+msgstr ""
 
 #: src/js/controllers/copayers.js:79
 #: src/js/controllers/export.js:193
@@ -813,7 +813,7 @@ msgstr "Non vedi la tua lingua su Crowdin? Contatta il proprietario su Crowdin! 
 #: www/views/tab-export-file.html:59
 #: www/views/tab-home.html:22
 msgid "Download"
-msgstr "Download"
+msgstr ""
 
 #: www/views/addresses.html:19
 msgid "Each ducatuscoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
@@ -830,7 +830,7 @@ msgstr "Modifica"
 #: www/views/addressbook.add.html:29
 #: www/views/addressbook.view.html:22
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #: www/views/preferencesNotifications.html:36
 msgid "Email Address"
@@ -1227,7 +1227,7 @@ msgstr "Nascondi opzioni avanzate"
 
 #: www/views/tabs.html:3
 msgid "Home"
-msgstr "Home"
+msgstr ""
 
 #: src/js/controllers/feedback/send.js:61
 #: src/js/controllers/feedback/send.js:65
@@ -1579,7 +1579,7 @@ msgstr "Nome"
 
 #: www/views/paymentUri.html:18
 msgid "Network"
-msgstr "Network"
+msgstr ""
 
 #: www/views/topup.html:63
 msgid "Network Fee"
@@ -1730,7 +1730,7 @@ msgstr "Dichiarazione di esclusione di responsabilità ufficiale in inglese"
 
 #: src/js/controllers/feedback/send.js:64
 msgid "Oh no!"
-msgstr "Oh no!"
+msgstr ""
 
 #: www/views/tab-home.html:39
 msgid "On this screen you can see all your wallets, accounts, and assets."
@@ -1787,7 +1787,7 @@ msgstr "Ordinare la carta Ducatus"
 #: www/views/tab-import-file.html:18
 #: www/views/tab-import-phrase.html:38
 msgid "Password"
-msgstr "Password"
+msgstr ""
 
 #: src/js/controllers/import.js:83
 msgid "Password required. Make sure to enter your password in advanced options"
@@ -2460,7 +2460,7 @@ msgstr "Termini di Utilizzo"
 #: www/views/tab-create-personal.html:116
 #: www/views/tab-import-phrase.html:65
 msgid "Testnet"
-msgstr "Testnet"
+msgstr ""
 
 #: src/js/controllers/feedback/send.js:27
 #: src/js/controllers/feedback/send.js:76

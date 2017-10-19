@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: copay\n"
+"Project-Id-Version: copay-ducatus\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: copay\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: template.pot\n"
-"Last-Translator: cmgustavo83\n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh\n"
-"PO-Revision-Date: 2017-06-29 07:15-0400\n"
+"X-Crowdin-Project: copay-ducatus\n"
+"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-File: /master/i18n/po/template.pot\n"
+"Last-Translator: techduck88 <tech@ducatusx.com>\n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
+"PO-Revision-Date: 2017-10-16 02:11-0400\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
@@ -564,7 +564,7 @@ msgstr "Copayer 加入"
 
 #: www/views/preferencesInformation.html:88
 msgid "Copayer {{$index}}"
-msgstr "Copayer {{$index}}"
+msgstr ""
 
 #: src/js/controllers/copayers.js:79
 #: src/js/controllers/export.js:193
@@ -1167,7 +1167,7 @@ msgstr "正在获取收费水平..."
 #: src/js/controllers/tab-settings.js:48
 #: src/js/controllers/tx-details.js:174
 msgid "Go Back"
-msgstr "返回	#"
+msgstr "返回\t#"
 
 #: src/js/controllers/onboarding/backupRequest.js:20
 #: src/js/controllers/onboarding/backupRequest.js:26
@@ -1722,7 +1722,7 @@ msgstr "好的"
 #: www/views/modals/tx-status.html:36
 #: www/views/modals/tx-status.html:46
 msgid "OKAY"
-msgstr "OKAY"
+msgstr ""
 
 #: www/views/modals/terms.html:15
 msgid "Official English Disclaimer"
@@ -2460,7 +2460,7 @@ msgstr "使用条款"
 #: www/views/tab-create-personal.html:116
 #: www/views/tab-import-phrase.html:65
 msgid "Testnet"
-msgstr "Testnet"
+msgstr ""
 
 #: src/js/controllers/feedback/send.js:27
 #: src/js/controllers/feedback/send.js:76
@@ -3161,7 +3161,7 @@ msgstr "我"
 
 #: www/views/addressbook.add.html:32
 msgid "name@example.com"
-msgstr "name@example.com"
+msgstr ""
 
 #: www/views/preferencesHistory.html:15
 msgid "preparing..."
