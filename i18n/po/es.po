@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: copay\n"
+"Project-Id-Version: copay-ducatus\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: copay\n"
+"X-Crowdin-Project: copay-ducatus\n"
 "X-Crowdin-Language: es-ES\n"
-"X-Crowdin-File: template.pot\n"
-"Last-Translator: cmgustavo83\n"
+"X-Crowdin-File: /development/i18n/po/template.pot\n"
+"Last-Translator: techduck88 <tech@ducatusx.com>\n"
 "Language-Team: Spanish\n"
-"Language: es\n"
-"PO-Revision-Date: 2017-06-29 08:05-0400\n"
+"Language: es_ES\n"
+"PO-Revision-Date: 2017-10-18 21:01-0400\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
@@ -460,7 +460,7 @@ msgstr "Limpiar cache"
 
 #: src/js/controllers/modals/txpDetails.js:33
 msgid "Click"
-msgstr "Click"
+msgstr ""
 
 #: www/views/customAmount.html:4
 #: www/views/modals/paypro.html:4
@@ -472,11 +472,11 @@ msgstr "Cerrar"
 
 #: www/views/preferences.html:22
 msgid "Color"
-msgstr "Color"
+msgstr ""
 
 #: www/views/preferencesAbout.html:21
 msgid "Commit hash"
-msgstr "Commit hash"
+msgstr ""
 
 #: www/views/preferences.html:53
 msgid "Complete the backup process to use this option"
@@ -564,7 +564,7 @@ msgstr "Copayer unido"
 
 #: www/views/preferencesInformation.html:88
 msgid "Copayer {{$index}}"
-msgstr "Copayer {{$index}}"
+msgstr ""
 
 #: src/js/controllers/copayers.js:79
 #: src/js/controllers/export.js:193
@@ -953,7 +953,7 @@ msgstr "Ingrese su contraseña"
 #: src/js/controllers/tx-details.js:100
 #: src/js/services/incomingData.js:98
 msgid "Error"
-msgstr "Error"
+msgstr ""
 
 #: src/js/controllers/confirm.js:443
 msgid "Error at confirm"
@@ -1659,7 +1659,7 @@ msgstr "No hay billeteras disponibles para recibir fondos"
 
 #: src/js/services/feeService.js:12
 msgid "Normal"
-msgstr "Normal"
+msgstr ""
 
 #: src/js/services/bwcError.js:80
 msgid "Not authorized"
@@ -1715,7 +1715,7 @@ msgstr "Es el momento perfecto para mirar a tu alrededor. ¿ventanas? ¿cámaras
 #: src/js/services/popupService.js:16
 #: src/js/services/popupService.js:59
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: www/views/modals/tx-status.html:12
 #: www/views/modals/tx-status.html:24
@@ -1916,7 +1916,7 @@ msgstr "Por favor, selecciona el archivo de copia de seguridad"
 
 #: www/views/bitpayCard.html:81
 msgid "Pre-Auth Holds"
-msgstr "Pre-Auth Holds"
+msgstr ""
 
 #: www/views/tab-settings.html:40
 msgid "Preferences"
@@ -2460,7 +2460,7 @@ msgstr "Términos de Uso"
 #: www/views/tab-create-personal.html:116
 #: www/views/tab-import-phrase.html:65
 msgid "Testnet"
-msgstr "Testnet"
+msgstr ""
 
 #: src/js/controllers/feedback/send.js:27
 #: src/js/controllers/feedback/send.js:76
@@ -2647,7 +2647,7 @@ msgstr "Recargar {{amountStr}} a la tarjeta de débito ({{cardLastNumber}})"
 #: www/views/modals/wallet-balance.html:23
 #: www/views/topup.html:70
 msgid "Total"
-msgstr "Total"
+msgstr ""
 
 #: www/views/walletDetails.html:185
 msgid "Total Locked Balance"
@@ -2903,7 +2903,7 @@ msgstr "La frase de recuperación no es válida"
 #: www/views/preferencesAdvanced.html:25
 #: www/views/tab-import-phrase.html:70
 msgid "Wallet Service URL"
-msgstr "Wallet Service URL"
+msgstr ""
 
 #: www/views/preferences.html:4
 msgid "Wallet Settings"
