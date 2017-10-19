@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: copay\n"
+"Project-Id-Version: copay-ducatus\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: copay\n"
+"X-Crowdin-Project: copay-ducatus\n"
 "X-Crowdin-Language: ru\n"
-"X-Crowdin-File: template.pot\n"
-"Last-Translator: cmgustavo83\n"
+"X-Crowdin-File: /development/i18n/po/template.pot\n"
+"Last-Translator: techduck88 <tech@ducatusx.com>\n"
 "Language-Team: Russian\n"
-"Language: ru\n"
-"PO-Revision-Date: 2017-06-29 07:15-0400\n"
+"Language: ru_RU\n"
+"PO-Revision-Date: 2017-10-18 21:01-0400\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
@@ -360,7 +360,7 @@ msgstr "Биткойн - это валюта."
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "DucatusCoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "DucatusCoin is different &ndash; it cannot be safely held with a bank or web service."
+msgstr ""
 
 #: www/views/onboarding/tour.html:18
 msgid "DucatusCoin is secure,<br>digital money."
@@ -368,7 +368,7 @@ msgstr "Биткойн это безопасные,<br>цифровые день
 
 #: www/views/preferencesFee.html:11
 msgid "DucatusCoin transactions include a fee collected by miners on the network."
-msgstr "DucatusCoin transactions include a fee collected by miners on the network."
+msgstr ""
 
 #: www/views/modals/txp-details.html:36
 msgid "Broadcast Payment"
@@ -460,7 +460,7 @@ msgstr "Очистить кэш"
 
 #: src/js/controllers/modals/txpDetails.js:33
 msgid "Click"
-msgstr "Click"
+msgstr ""
 
 #: www/views/customAmount.html:4
 #: www/views/modals/paypro.html:4
@@ -830,7 +830,7 @@ msgstr ""
 #: www/views/addressbook.add.html:29
 #: www/views/addressbook.view.html:22
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #: www/views/preferencesNotifications.html:36
 msgid "Email Address"
@@ -2460,7 +2460,7 @@ msgstr "Условия использования"
 #: www/views/tab-create-personal.html:116
 #: www/views/tab-import-phrase.html:65
 msgid "Testnet"
-msgstr "Testnet"
+msgstr ""
 
 #: src/js/controllers/feedback/send.js:27
 #: src/js/controllers/feedback/send.js:76
@@ -3161,7 +3161,7 @@ msgstr "мне"
 
 #: www/views/addressbook.add.html:32
 msgid "name@example.com"
-msgstr "name@example.com"
+msgstr ""
 
 #: www/views/preferencesHistory.html:15
 msgid "preparing..."
