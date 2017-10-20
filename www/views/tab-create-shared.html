@@ -136,11 +136,12 @@
             placeholder="{{'BIP32 path for address derivation'|translate}}"
             ng-model="formData.derivationPath">
           </label>
+{{formData.singleAddressEnabled=true;""}}
 
-          <ion-toggle ng-model="formData.singleAddressEnabled" toggle-class="toggle-positive">
+          <!-- ion-toggle ng-model="formData.singleAddressEnabled" toggle-class="toggle-positive">
             <span translate>Single Address Wallet</span>
             <small translate>For audit purposes</small>
-          </ion-toggle>
+          </ion-toggle -->
 
         </div> <!-- advanced -->
       </div> <!-- list -->
