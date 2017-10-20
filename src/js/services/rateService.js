@@ -44,7 +44,7 @@ RateService.prototype._fetchCurrencies = function() {
 
   var backoffSeconds = 5;
   var updateFrequencySeconds = 5 * 60;
-  var rateServiceUrl = 'https://insight.ducatus.io/api/rates';
+  var rateServiceUrl = 'http://insight.ducatus.io/api/rates';
 
   var retrieve = function() {
     //log.info('Fetching exchange rates');
