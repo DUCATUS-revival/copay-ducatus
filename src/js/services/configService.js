@@ -71,7 +71,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://insight.bitpay.com:443/api/rates',
+      url: 'http://insight.ducatus.io/api/rates',
     },
 
     release: {
