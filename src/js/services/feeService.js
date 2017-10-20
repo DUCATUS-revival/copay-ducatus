@@ -9,9 +9,9 @@ angular.module('copayApp.services').factory('feeService', function($log, $timeou
   root.feeOpts = {
     urgent: gettext('Urgent'),
     priority: gettext('Priority'),
-    //normal: gettext('Normal'),
-    economy: gettext('Economy'),
-    //superEconomy: gettext('Super Economy')
+    normal: gettext('Normal'),
+//    economy: gettext('Economy'),
+//    superEconomy: gettext('Super Economy')
   };
 
   var cache = {
@@ -19,7 +19,7 @@ angular.module('copayApp.services').factory('feeService', function($log, $timeou
   };
 
   root.getCurrentFeeLevel = function() {
-    return configService.getSync().wallet.settings.feeLevel || 'urgent';
+    return configService.getSync().wallet.settings.feeLevel || 'normal';
   };
 
 
