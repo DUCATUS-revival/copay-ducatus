@@ -7,11 +7,11 @@ msgstr ""
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: copay-ducatus\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /master/i18n/po/template.pot\n"
+"X-Crowdin-File: /development/i18n/po/template.pot\n"
 "Last-Translator: techduck88 <tech@ducatusx.com>\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2017-10-16 02:11-0400\n"
+"PO-Revision-Date: 2017-10-15 17:41-0400\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"

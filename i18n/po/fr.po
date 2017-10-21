@@ -7,11 +7,11 @@ msgstr ""
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: copay-ducatus\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /master/i18n/po/template.pot\n"
+"X-Crowdin-File: /development/i18n/po/template.pot\n"
 "Last-Translator: techduck88 <tech@ducatusx.com>\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2017-10-16 02:11-0400\n"
+"PO-Revision-Date: 2017-10-15 17:41-0400\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
@@ -333,7 +333,7 @@ msgid "Be sure to store your recovery phrase in a secure place. If this app is d
 msgstr "N’oubliez pas de conserver votre phrase de récupération dans un endroit sûr. Si cette application est supprimée, votre argent ne peut pas être récupéré sans elle."
 
 #: www/views/preferencesBitpayServices.html:9
-msgid "Ducatus Visa&reg; Cards"
+msgid "BitPay Visa&reg; Cards"
 msgstr ""
 
 #: www/views/addressbook.add.html:38
