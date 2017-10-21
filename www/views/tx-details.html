@@ -55,12 +55,12 @@
             {{btx.creatorName}}
           </span>
         </div>
-        <div class="item single-line" ng-if="btx.ts || btx.createdOn || btx.time">
+        <!-- div class="item single-line" ng-if="btx.ts || btx.createdOn || btx.time">
           <span class="label" translate>Date</span>
           <span class="item-note">
             <time>{{ (btx.ts || btx.createdOn || btx.time) * 1000 | amDateFormat:'MM/DD/YYYY hh:mm a'}}</time>
           </span>
-        </div>
+        </div -->
         <a class="item item-icon-right" ng-class="{'single-line': !btx.note.body && !btx.message}" ng-click="showCommentPopup()">
           <span class="label" translate>Memo</span>
           <div class="item-note" style="display: block; float: none; margin-bottom: .25rem;">
