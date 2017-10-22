@@ -18,7 +18,7 @@
     <div ng-show="!wallet.notAuthorized">
       <div class="list text-center">
         <div class="item item-heading item-text-wrap" translate>
-          Share this invitation with your ducatuspayers
+          Share this invitation with your copayers
         </div>
         <div class="item text-center">
           <div copy-to-clipboard="secret">
@@ -45,7 +45,7 @@
             <span class="text-gray right">
               [ <span translate>{{wallet.m}}-of-{{wallet.n}}</span> ]
             </span>
-            <span translate>Waiting for ducatuspayers</span>
+            <span translate>Waiting for copayers</span>
           </div>
           <div ng-include="'views/includes/copayers.html'"></div>
           <div ng-if="!wallet.isComplete()" class="item item-icon-left">

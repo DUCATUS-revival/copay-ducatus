@@ -33,8 +33,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\vesh\Documents\Visual Studio 2015\Projects\copay-ducatus - Copy\build\DucatusPay\win32\DucatusPay.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\vesh\Documents\Visual Studio 2015\Projects\copay-ducatus - Copy\build\DucatusPay\win32\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\vesh\Documents\ducatuspay_latest_build\build\DucatusPay\win32\DucatusPay.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\vesh\Documents\ducatuspay_latest_build\build\DucatusPay\win32\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
