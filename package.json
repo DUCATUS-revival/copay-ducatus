@@ -58,7 +58,7 @@
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.1",
     "bitauth": "^0.2.1",
-    "ducatuscore-wallet-client": "git+ssh://git@github.com/Ducatus/ducatuscore-wallet-client.git",
+    "ducatuscore-wallet-client": "git+ssh://git@github.com/Ducatus/ducatuscore-wallet-client.git#p90x",
     "bower": "^1.7.9",
     "cordova-android": "5.1.1",
     "cordova-custom-config": "^3.0.5",
