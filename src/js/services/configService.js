@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://dws.ducatus.io/bws/api',
+      url: 'https://dws.p90.ducatus.io/bws/api',
     },
 
     download: {
@@ -71,7 +71,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'http://insight.ducatus.io/api/rates',
+      url: 'http://insight.p90.ducatus.io/api/rates',
     },
 
     release: {
