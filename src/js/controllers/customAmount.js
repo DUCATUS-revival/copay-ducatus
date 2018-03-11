@@ -32,13 +32,13 @@ angular.module('copayApp.controllers').controller('customAmountController', func
         data.stateParams.amount, 
         data.stateParams.currency);
 
-      // Amount in USD or DTC
+      // Amount in USD or DUC
       var amount = parsedAmount.amount;
       var currency = parsedAmount.currency;
       $scope.amountUnitStr = parsedAmount.amountUnitStr;
 
-      if (currency != 'DTC') {
-        // Convert to DTC
+      if (currency != 'DUC') {
+        // Convert to DUC
         var config = configService.getSync().wallet.settings;
         var amountUnit = txFormatService.satToUnit(parsedAmount.amountSat);
         var btcParsedAmount = txFormatService.parseAmount(amountUnit, config.unitName);
@@ -46,7 +46,7 @@ angular.module('copayApp.controllers').controller('customAmountController', func
         $scope.amountBtc = btcParsedAmount.amount;
         $scope.altAmountStr = btcParsedAmount.amountUnitStr;
       } else {
-        $scope.amountBtc = amount; // DTC
+        $scope.amountBtc = amount; // DUC
         $scope.altAmountStr = txFormatService.formatAlternativeStr(parsedAmount.amountSat);
       }
     });

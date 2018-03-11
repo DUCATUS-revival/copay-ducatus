@@ -44,7 +44,7 @@ angular.module('copayApp.controllers').controller('sellGlideraController', funct
   });
 
   $scope.$on("$ionicView.beforeEnter", function(event, data) {
-    $scope.isFiat = data.stateParams.currency != 'bits' && data.stateParams.currency != 'DTC' ? true : false;
+    $scope.isFiat = data.stateParams.currency != 'bits' && data.stateParams.currency != 'DUC' ? true : false;
     var parsedAmount = txFormatService.parseAmount(
       data.stateParams.amount, 
       data.stateParams.currency);
