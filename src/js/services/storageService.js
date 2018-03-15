@@ -345,6 +345,7 @@ angular.module('copayApp.services')
 
     root.setTxHistory = function(txs, walletId, cb) {
       try {
+        $log.debug('Vesh: setTxHistory');
         storage.set('txsHistory-' + walletId, txs, cb);
       } catch (e) {
         $log.error('Error saving tx History. Size:' + txs.length);
@@ -354,6 +355,7 @@ angular.module('copayApp.services')
     }
 
     root.getTxHistory = function(walletId, cb) {
+      $log.debug('Vesh: getTxHistory');
       storage.get('txsHistory-' + walletId, cb);
     }
 

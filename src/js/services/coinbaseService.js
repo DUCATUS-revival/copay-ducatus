@@ -438,7 +438,7 @@ angular.module('copayApp.services').factory('coinbaseService', function($http, $
     var data = {
       amount: data.amount,
       currency: data.currency,
-      payment_method: data.payment_method || ??null,
+      payment_method: data.payment_method || null,
       commit: data.commit || false,
       quote: data.quote || false
     };
