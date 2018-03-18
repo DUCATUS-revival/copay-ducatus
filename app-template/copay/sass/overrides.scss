@@ -10,6 +10,7 @@ $v-accent-color:                                     #862633;
 $v-text-primary-color:                               #192c3a;
 $v-text-secondary-color:                             #444;
 $v-text-accent-color:                                #862633;
+$v-text-onboarding-button-color:                     #ffffff;
 
 $v-success-color:                                    #862633;
 $v-warning-color:                                    #bb331a;
@@ -22,17 +23,17 @@ $v-wallet-backup-select-phrase-color:                $v-secondary-color;
 $v-wallet-backup-select-word-bg:                     $v-accent-color;
 $v-wallet-backup-select-word-color:                  $v-text-primary-color;
 $v-wallet-backup-select-word-disabled-color:         $v-accent-color;
-$v-tou-bg:                                           $v-secondary-color;
+$v-tou-bg:                                           $v-primary-color;
 $v-tou-color:                                        $v-text-secondary-color;
 $v-icon-border-radius:                               3px;
 $v-ducatuscoin-icon:                                     url('../img/app/icon-ducatuscoin.svg');
 
 $v-button-primary-outline-active-color:              $v-text-primary-color;
 
-$v-button-secondary-bg:                              $v-secondary-color;
-$v-button-secondary-color:                           $v-accent-color;
+$v-button-secondary-bg:                              $v-accent-color;
+$v-button-secondary-color:                           $v-secondary-color;
 $v-button-secondary-active-bg:                       darken($v-secondary-color, 10%);
-$v-button-secondary-clear-color:                     $v-accent-color;
+$v-button-secondary-clear-color:                     $v-text-secondary-color;
 $v-button-secondary-outline-border:                  $v-accent-color;
 $v-button-secondary-outline-color:                   $v-accent-color;
 $v-button-secondary-outline-active-bg:               darken($v-accent-color, 10%);
@@ -59,8 +60,9 @@ $v-onboarding-backup-warning-bg:                     url(../img/app/backup-warni
 
 $v-onboarding-button-back-color:                     $v-accent-color;
 
-$v-onboarding-button-secondary-bg:                   $v-secondary-color;
-$v-onboarding-button-secondary-color:                $v-accent-color;
+$v-onboarding-button-secondary-bg:                   $v-accent-color;
+/*Affects front clear button and subsequent */
+$v-onboarding-button-secondary-color:             $v-text-onboarding-button-color;
 $v-onboarding-button-secondary-active-bg:            darken($v-secondary-color, 10%);
 $v-onboarding-button-secondary-clear-color:          $v-accent-color;
 $v-onboarding-button-secondary-outline-border:       $v-accent-color;
