@@ -11,6 +11,7 @@ $v-text-primary-color:                               #192c3a;
 $v-text-secondary-color:                             #444;
 $v-text-accent-color:                                #862633;
 $v-text-onboarding-button-color:                     #ffffff;
+$v-text-wallet-backup-button-color:                     #ffffff;
 
 $v-success-color:                                    #862633;
 $v-warning-color:                                    #bb331a;
@@ -21,7 +22,7 @@ $v-top-tabs-color:                                   $v-accent-color;
 $v-wallet-backup-phrase-color:                       $v-text-primary-color;
 $v-wallet-backup-select-phrase-color:                $v-secondary-color;
 $v-wallet-backup-select-word-bg:                     $v-accent-color;
-$v-wallet-backup-select-word-color:                  $v-text-primary-color;
+$v-wallet-backup-select-word-color:            $v-text-wallet-backup-button-color;
 $v-wallet-backup-select-word-disabled-color:         $v-accent-color;
 $v-tou-bg:                                           $v-primary-color;
 $v-tou-color:                                        $v-text-secondary-color;

@@ -59,7 +59,7 @@ $v-wallet-backup-phrase-bg:                          $v-subtle-gray !default;
 $v-wallet-backup-phrase-color:                       $v-dark-gray !default;
 $v-wallet-backup-select-phrase-color:                $v-subtle-gray;
 $v-wallet-backup-select-word-bg:                     #ffffff !default;
-$v-wallet-backup-select-word-color:                  $v-dark-gray !default;
+$v-wallet-backup-select-word-color:                  $ffffff !default;
 $v-wallet-backup-select-word-disabled-color:         $v-light-gray !default;
 $v-tou-bg:                                           #ffffff !default;
 $v-tou-color:                                        $v-dark-gray !default;
@@ -181,8 +181,8 @@ $item-default-active-border:                         darken($v-subtle-gray, 7%) 
 $item-divider-bg:                                    $v-subtle-gray !default;
 
 $bar-default-border:                                 $v-subtle-gray !default;
-$bar-royal-bg:                                       $v-primary-color !default;
-$bar-royal-border:                                   $v-primary-color !default;
+$bar-royal-bg:                                       $v-accent-color !default;
+$bar-royal-border:                                   $v-accent-color !default;
 $bar-royal-text:                                     #ffffff !default;
 
 $tabs-icon-size:                                     22px !default;
