@@ -312,6 +312,7 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
   };
 
   var getSavedTxs = function(walletId, cb) {
+    $log.debug("VESH: Got getSavedTxs - walletService.js");
     storageService.getTxHistory(walletId, function(err, txs) {
       if (err) return cb(err);
 
@@ -332,7 +333,7 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
 
   var getTxsFromServer = function(wallet, skip, endingTxid, limit, cb) {
     var res = [];
-
+$log.debug("VESH: Got getTxsFromServer - walletService.js");
     wallet.getTxHistory({
       skip: skip,
       limit: limit
@@ -359,6 +360,7 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
   }
 
   var processNewTxs = function(wallet, txs) {
+    $log.info('VESH: at processNewTxs - walletService.js');
     var config = configService.getSync().wallet.settings;
     var now = Math.floor(Date.now() / 1000);
     var txHistoryUnique = {};
@@ -396,6 +398,7 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
   };
 
   var updateLocalTxHistory = function(wallet, opts, cb) {
+    $log.info('VESH: at updateLocalTxHistory - walletService.js');
     var FIRST_LIMIT = 5;
     var LIMIT = 50;
     var requestLimit = FIRST_LIMIT;
@@ -429,6 +432,7 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
     };
 
     getSavedTxs(walletId, function(err, txsFromLocal) {
+      $log.info('VESH: at getSavedTxs - walletService.js');
       if (err) return cb(err);
 
       fixTxsUnit(txsFromLocal);
@@ -442,6 +446,7 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
       wallet.completeHistory = txsFromLocal;
 
       function getNewTxs(newTxs, skip, next) {
+        $log.info('VESH: at getNewTxs - walletService.js');
         getTxsFromServer(wallet, skip, endingTxid, requestLimit, function(err, res, shouldContinue) {
           if (err) {
             $log.warn(bwcError.msg(err, 'Server Error')); //TODO
