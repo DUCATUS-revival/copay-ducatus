@@ -10,7 +10,7 @@ angular.module('copayApp.controllers').controller('preferencesAltCurrencyControl
       var unusedCurrencyList = [{
         isoCode: 'LTL'
       }, {
-        isoCode: 'DTC'
+        isoCode: 'DUC'
       }];
       rateService.whenAvailable(function() {
 

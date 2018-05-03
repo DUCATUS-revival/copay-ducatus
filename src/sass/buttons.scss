@@ -28,7 +28,7 @@
 .onboarding .button {
   &.button-secondary {
     @include button-style($v-onboarding-button-secondary-bg, $v-onboarding-button-secondary-border, $v-onboarding-button-secondary-active-bg, $v-onboarding-button-secondary-active-border, $v-onboarding-button-secondary-color);
-    @include button-clear($v-onboarding-button-secondary-color);
+    @include button-clear($v-accent-color);
     @include button-outline($v-onboarding-button-secondary-color);
   }
 }

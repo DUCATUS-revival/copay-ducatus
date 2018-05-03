@@ -171,9 +171,9 @@ angular.module('copayApp.services').factory('coinbaseService', function($http, $
     var txNormalFeeKB = 450 / 1000;
     feeService.getFeeRate(null, 'normal', function(err, feePerKB) {
       if (err) return cb(err);
-      var feeDTC = (feePerKB * txNormalFeeKB / 100000000).toFixed(8);
+      var feeDUC = (feePerKB * txNormalFeeKB / 100000000).toFixed(8);
 
-      return cb(null, amount - feeDTC, feeDTC);
+      return cb(null, amount - feeDUC, feeDUC);
     });
   };
 
@@ -438,7 +438,7 @@ angular.module('copayApp.services').factory('coinbaseService', function($http, $
     var data = {
       amount: data.amount,
       currency: data.currency,
-      payment_method: data.payment_method ||  null,
+      payment_method: data.payment_method || null,
       commit: data.commit || false,
       quote: data.quote || false
     };
@@ -681,7 +681,7 @@ angular.module('copayApp.services').factory('coinbaseService', function($http, $
   var _sendToWallet = function(tx, accessToken, accountId, coinbasePendingTransactions) {
     if (!tx) return;
     var desc = appConfigService.nameCase + ' Wallet';
-    _getNetAmount(tx.amount.amount, function(err, amountDTC, feeDTC) {
+    _getNetAmount(tx.amount.amount, function(err, amountDUC, feeDUC) {
       if (err) {
         _savePendingTransaction(tx, {
           status: 'error',
@@ -695,10 +695,10 @@ angular.module('copayApp.services').factory('coinbaseService', function($http, $
 
       var data = {
         to: tx.toAddr,
-        amount: amountDTC,
+        amount: amountDUC,
         currency: tx.amount.currency,
         description: desc,
-        fee: feeDTC
+        fee: feeDUC
       };
       root.sendTo(accessToken, accountId, data, function(err, res) {
         if (err) {
@@ -735,7 +735,7 @@ angular.module('copayApp.services').factory('coinbaseService', function($http, $
     });
   };
 
-  var _updateCoinbasePendingTransactions = function(obj /*, …*/ ) {
+  var _updateCoinbasePendingTransactions = function(obj /*, ???*/ ) {
     for (var i = 1; i < arguments.length; i++) {
       for (var prop in arguments[i]) {
         var val = arguments[i][prop];

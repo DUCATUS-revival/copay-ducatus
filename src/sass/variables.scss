@@ -3,8 +3,8 @@
  */
 
 /* Fonts */
-$v-font-family:                                      "Roboto", sans-serif !default;
-$v-font-family-light:                                "Roboto-Light", sans-serif-light !default;
+$v-font-family:                                      "Montserrat", sans-serif !default;
+$v-font-family-light:                                "Montserrat-Light", sans-serif-light !default;
 
 /* Colors */
 $v-ducatuscoin-orange:                                   #ff9900 !default;
@@ -33,7 +33,7 @@ $v-wallet-color-map: (
    3: (color: #d0b136, name: 'Metallic Gold'),
    4: (color: #9edd72, name: 'Feijoa'),
    5: (color: #29bb9c, name: 'Shamrock'),
-   6: (color: #ff2a00, name: 'Ducatus'),
+   6: (color: #862633, name: 'Ducatus'),
    7: (color: #77dada, name: 'Turquoise Blue'),
    8: (color: #4a90e2, name: 'Cornflower Blue'),
    9: (color: #484ed3, name: 'Free Speech Blue'),
@@ -59,7 +59,7 @@ $v-wallet-backup-phrase-bg:                          $v-subtle-gray !default;
 $v-wallet-backup-phrase-color:                       $v-dark-gray !default;
 $v-wallet-backup-select-phrase-color:                $v-subtle-gray;
 $v-wallet-backup-select-word-bg:                     #ffffff !default;
-$v-wallet-backup-select-word-color:                  $v-dark-gray !default;
+$v-wallet-backup-select-word-color:                  $ffffff !default;
 $v-wallet-backup-select-word-disabled-color:         $v-light-gray !default;
 $v-tou-bg:                                           #ffffff !default;
 $v-tou-color:                                        $v-dark-gray !default;
@@ -99,7 +99,7 @@ $v-button-secondary-outline-active-color:            #ffffff !default;
 $v-slide-bg-color:                                   $v-accent-color !default;
 $v-slider-bg-color:                                  #5063B9 !default;
 $v-slide-text-color:                                 #FFFFFF !default;
-$v-success-bg-color:                                 #ff2a00 !default;
+$v-success-bg-color:                                 #862633 !default;
 
 /* Onboarding */
 $v-onboarding-pane-bg:                               $v-primary-color !default;
@@ -181,8 +181,8 @@ $item-default-active-border:                         darken($v-subtle-gray, 7%) 
 $item-divider-bg:                                    $v-subtle-gray !default;
 
 $bar-default-border:                                 $v-subtle-gray !default;
-$bar-royal-bg:                                       $v-primary-color !default;
-$bar-royal-border:                                   $v-primary-color !default;
+$bar-royal-bg:                                       $v-accent-color !default;
+$bar-royal-border:                                   $v-accent-color !default;
 $bar-royal-text:                                     #ffffff !default;
 
 $tabs-icon-size:                                     22px !default;

@@ -6,7 +6,12 @@ angular.module('copayApp.services')
     var isChromeApp = platformInfo.isChromeApp;
     var root = {};
     var ls = ((typeof window.localStorage !== "undefined") ? window.localStorage : null);
-
+$log.debug('Vesh: localStorage - localStorage.js');
+$log.debug('Vesh: ls is - localStorage.js ' + (typeof ls));
+// Store
+//ls.lastname = "Smith";
+// Retrieve
+$log.debug('Vesh: localstorage - name test - localStorage.js ' +ls.lastname );
     if (isChromeApp && !isNW && !ls) {
       $log.info('Using CHROME storage');
       ls = chrome.storage.local;

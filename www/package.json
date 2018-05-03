@@ -1,8 +1,8 @@
 {
-    "app_name": "DucatusPay",
+    "app_name": "DucatusWallet",
     "dependencies": {},
     "main": "index.html",
-    "name": "DucatusPay",
+    "name": "DucatusWallet",
     "version": "1.0.0",
     "webexe_settings": {
         "download_dir": "",
@@ -17,7 +17,7 @@
         "height": 600,
         "icon": "logo.png",
         "id": "www",
-        "title": "DucatusPay",
+        "title": "DucatusWallet",
         "toolbar": false,
         "width": 800
     }
