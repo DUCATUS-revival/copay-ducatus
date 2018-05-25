@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "DucatusWallet"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.1.0"
 #define MyAppPublisher "Ducatus"
 #define MyAppURL "https://ducatus.io"
 #define MyAppExeName "DucatusWallet.exe"
@@ -33,8 +33,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\User\Documents\copay-ducatus-clean\build\{#MyAppName}\win32\{#MyAppName}.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\User\Documents\copay-ducatus-clean\build\{#MyAppName}\win32\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "build\{#MyAppName}\win32\{#MyAppName}.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\{#MyAppName}\win32\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
