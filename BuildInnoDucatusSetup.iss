@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "DucatusWallet"
-#define MyAppVersion "1.1.0"
+#define MyAppVersion "1.1.1"
 #define MyAppPublisher "Ducatus"
 #define MyAppURL "https://ducatus.io"
 #define MyAppExeName "DucatusWallet.exe"
@@ -25,7 +25,7 @@ DisableProgramGroupPage=yes
 OutputBaseFilename={#MyAppName}_setup
 Compression=lzma
 SolidCompression=yes
-
+SetupIconFile=resources\ducatuswallet\windows\icon.ico
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
