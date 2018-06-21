@@ -1,23 +1,23 @@
-Обезопасьте биткойны на своих условиях кошельком от BitPay с открытым исходным кодом и мультиподписью. 
-Пользователи Copay могут хранить средства самостоятельно или безопасно управлять средствами совместно с помощью кошельков с мультиподписью, которые предотвращают несанкционированный платежи, требуя несколько одобрений. Вот некоторые способы того, как Copay может быть использован совместно:
+Secure ducatuscoin on your own terms with an open source, multisignature wallet from BitPay.
+Copay users can hold funds individually or share finances securely with other users with multisignature wallets, which prevent unauthorized payments by requiring multiple approvals. Here are some ways Copay can be used with others:
 
-Накопить на отпуск или совершать покупки вместе с друзьями 
-Отслеживать семейные траты и карманные деньги
-Управлять средствами и расходами бизнеса, клуба, или организации
+To save for vacations or joint purchases with friends 
+To track family spending and allowances
+To manage business, club, or organization funds and expenses
 
-Мы встроили следующие функции в эту версию Copay - биткойн-кошелька, который не идёт на компромиссы в отношении безопасности или доступности:
+We built the following features into this version of Copay for a ducatuscoin wallet that doesn't compromise on security or accessibility:
 
-Создание и управление множеством кошельков внутри приложения 
-Интуитивно-понятная реализация мультиподписи, для большей безопасности личных или совместных кошельков
-Легкий процесс трат в совместных кошельках и для групповых платежей
-Иерархически-детерминированная (HD) генерация адресов и бэкакоп кошельков 
-Безопасность на основе устройств: все закрытые ключи хранятся локально, а не в облаке
-Поддержка кошельков DucatusCoin testnet
-Синхронный доступ со всех основных мобильных и настольных платформ
-Поддержка платежных протоколов (BIP70-BIP73): легко идентифицируемые платежные запросы и проверяемо-безопасные биткойн-платежи
-Поддержка отображения баланса в более чем 150 валютах, а так же поддержка деноминирования в DTC или bits
-Уведомления о платежах и переводах по email
-Настраиваемые названия и фоновые цвета кошельков
-9 поддерживаемых языков (EN, CS, FR, DE, IT, ES, JA, PL, RU)
+Multiple wallet creation and management in-app 
+Intuitive multisignature security for personal or shared wallets
+Easy spending proposal flow for shared wallets and group payments
+Hierarchical deterministic (HD) address generation and wallet backups 
+Device-based security: all private keys are stored locally, not in the cloud
+Support for DucatusCoin testnet wallets
+Synchronous access across all major mobile and desktop platforms
+Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiably secure ducatuscoin payments
+Support for 150+ currency pricing options and unit denomination in DTC or bits
+Email notifications for payments and transfers
+Customizable wallet naming and background colors
+9 supported languages (EN, CS, FR, DE, IT, ES, JA, PL, RU)
 
-Copay бесплатен и является программным обеспечением с открытым исходным кодом, запускаемым на не-проприетарных серверах, поэтому нет необходимости полагаться на какую-либо компанию и её постоянную поддержку. Любой может просмотреть и сделать предложение по изменению исходного кода Copay на GitHub (https://github.com/bitpay/copay). 
+Copay is free and open source software run on non-proprietary servers, so there's no need to rely on any company for continuous support. Anyone can review or contribute to Copay's source code on GitHub (https://github.com/bitpay/copay). 
