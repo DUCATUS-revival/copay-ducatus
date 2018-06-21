@@ -189,21 +189,21 @@ angular.module('copayApp.services').factory('txFormatService', function($filter,
     var alternativeIsoCode = config.alternativeIsoCode;
 
     // If fiat currency
-    if (currency != 'bits' && currency != 'DTC' && currency != 'sat') {
+    if (currency != 'bits' && currency != 'DUC' && currency != 'sat') {
       amountUnitStr = $filter('formatFiatAmount')(amount) + ' ' + currency;
       amountSat = rateService.fromFiat(amount, currency).toFixed(0);
     } else if (currency == 'sat') {
       amountSat = amount;
       amountUnitStr = root.formatAmountStr(amountSat);
-      // convert sat to DTC
+      // convert sat to DUC
       amount = (amountSat * satToBtc).toFixed(8);
-      currency = 'DTC';
+      currency = 'DUC';
     } else {
       amountSat = parseInt((amount * unitToSatoshi).toFixed(0));
       amountUnitStr = root.formatAmountStr(amountSat);
-      // convert unit to DTC
+      // convert unit to DUC
       amount = (amountSat * satToBtc).toFixed(8);
-      currency = 'DTC';
+      currency = 'DUC';
     }
 
     return {

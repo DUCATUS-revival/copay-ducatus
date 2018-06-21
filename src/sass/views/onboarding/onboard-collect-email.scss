@@ -1,7 +1,7 @@
 $relish-success: 1.3s;
 
 #onboarding-collect-email {
-  background: rgb(255, 42, 0);
+  background: rgb(134, 38, 51);
 
   #success-container {
     top: 41vh;
@@ -12,6 +12,7 @@ $relish-success: 1.3s;
     animation-duration: .5s;
     animation-delay: $relish-success;
     animation-fill-mode: forwards;
+    color: #b2b2b2;
   }
   #success-image {
     width: 13vh;

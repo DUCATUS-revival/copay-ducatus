@@ -4,14 +4,14 @@ angular.module('copayApp.controllers').controller('preferencesUnitController', f
 
   var config = configService.getSync();
   $scope.unitList = [{
-    name: 'bits (1,000,000 bits = 1DTC)',
+    name: 'bits (1,000,000 bits = 1DUC)',
     shortName: 'bits',
     value: 100,
     decimals: 2,
     code: 'bit',
   }, {
-    name: 'DTC',
-    shortName: 'DTC',
+    name: 'DUC',
+    shortName: 'DUC',
     value: 100000000,
     decimals: 8,
     code: 'btc',

@@ -1,23 +1,22 @@
 {
-    "app_name": "DucatusPay",
+    "app_name": "DucatusWallet",
     "dependencies": {},
     "main": "index.html",
-    "name": "DucatusPay",
-    "version": "1.0.0",
+    "name": "DucatusWallet",
+    "version": "1.1.1",
     "webexe_settings": {
         "download_dir": "",
         "force_download": false,
         "nw_compression_level": 0,
-        "nw_version": "0.26.0-beta1",
         "sdk_build": false,
         "uncompressed_folder": false
     },
     "webkit": {},
     "window": {
         "height": 600,
-        "icon": "logo.png",
+        "icon": "resources\\ducatuswallet\\windows\\icon\\Square310x310Logo.scale-100.png",
         "id": "www",
-        "title": "DucatusPay",
+        "title": "DucatusWallet",
         "toolbar": false,
         "width": 800
     }

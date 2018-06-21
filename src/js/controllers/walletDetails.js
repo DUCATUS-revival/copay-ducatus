@@ -170,7 +170,7 @@ angular.module('copayApp.controllers').controller('walletDetailsController', fun
         $scope.$apply();
       });
     };
-
+/* vesh renable */
     feeService.getFeeLevels(function(err, levels){
       walletService.getTxHistory($scope.wallet, {
         progressFn: progressFn,
@@ -188,6 +188,7 @@ angular.module('copayApp.controllers').controller('walletDetailsController', fun
         return cb();
       });
     });
+/**/
   };
 
   $scope.showHistory = function() {

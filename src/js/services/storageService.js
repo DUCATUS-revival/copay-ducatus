@@ -345,6 +345,7 @@ angular.module('copayApp.services')
 
     root.setTxHistory = function(txs, walletId, cb) {
       try {
+        $log.debug('Vesh: setTxHistory - storageService.js');
         storage.set('txsHistory-' + walletId, txs, cb);
       } catch (e) {
         $log.error('Error saving tx History. Size:' + txs.length);
@@ -354,6 +355,7 @@ angular.module('copayApp.services')
     }
 
     root.getTxHistory = function(walletId, cb) {
+      $log.debug('Vesh: getTxHistory - storageService.js');
       storage.get('txsHistory-' + walletId, cb);
     }
 
@@ -575,6 +577,7 @@ angular.module('copayApp.services')
     };
 
     root.removeAllWalletData = function(walletId, cb) {
+      $log.debug('Vesh: removeAllWalletData - storageService.js');
       root.clearLastAddress(walletId, function(err) {
         if (err) return cb(err);
         root.removeTxHistory(walletId, function(err) {
@@ -603,10 +606,12 @@ angular.module('copayApp.services')
     };
 
     root.getTxConfirmNotification = function(txid, cb) {
+      $log.debug('Vesh: getTxConfirmNotification - storageService.js');
       storage.get('txConfirmNotif-' + txid, cb);
     };
 
     root.removeTxConfirmNotification = function(txid, cb) {
+      $log.debug('Vesh: removeTxConfirmNotification - storageService.js');
       storage.remove('txConfirmNotif-' + txid, cb);
     };
 

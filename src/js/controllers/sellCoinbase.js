@@ -36,9 +36,9 @@ angular.module('copayApp.controllers').controller('sellCoinbaseController', func
 
   var checkTransaction = lodash.throttle(function(count, txp) {
     $log.warn('Check if transaction has been received by Coinbase. Try ' + count + '/5');
-    // TX amount in DTC
+    // TX amount in DUC
     var satToBtc = 1 / 100000000;
-    var amountDTC = (txp.amount * satToBtc).toFixed(8);
+    var amountDUC = (txp.amount * satToBtc).toFixed(8);
     coinbaseService.init(function(err, res) {
       if (err) {
         $log.error(err);
@@ -69,7 +69,7 @@ angular.module('copayApp.controllers').controller('sellCoinbaseController', func
           var ctx;
           for(var i = 0; i < coinbaseTransactions.length; i++) {
             ctx = coinbaseTransactions[i];
-            if (ctx.type == 'send' && ctx.from && ctx.amount.amount == amountDTC ) {
+            if (ctx.type == 'send' && ctx.from && ctx.amount.amount == amountDUC ) {
               $log.warn('Transaction found!', ctx);
               txFound = true;
               $log.debug('Saving transaction to process later...');
@@ -125,7 +125,7 @@ angular.module('copayApp.controllers').controller('sellCoinbaseController', func
   });
 
   $scope.$on("$ionicView.beforeEnter", function(event, data) {
-    $scope.isFiat = data.stateParams.currency != 'bits' && data.stateParams.currency != 'DTC' ? true : false;
+    $scope.isFiat = data.stateParams.currency != 'bits' && data.stateParams.currency != 'DUC' ? true : false;
     var parsedAmount = txFormatService.parseAmount(
       data.stateParams.amount, 
       data.stateParams.currency);

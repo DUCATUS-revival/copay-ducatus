@@ -42,14 +42,14 @@ angular.module('copayApp.controllers').controller('buyCoinbaseController', funct
   });
 
   $scope.$on("$ionicView.beforeEnter", function(event, data) {
-    $scope.isFiat = data.stateParams.currency != 'bits' && data.stateParams.currency != 'DTC' ? true : false;
+    $scope.isFiat = data.stateParams.currency != 'bits' && data.stateParams.currency != 'DUC' ? true : false;
     var parsedAmount = txFormatService.parseAmount(
       data.stateParams.amount,
       data.stateParams.currency);
 
-    // Buy always in DTC
+    // Buy always in DUC
     amount = (parsedAmount.amountSat / 100000000).toFixed(8);
-    currency = 'DTC';
+    currency = 'DUC';
 
     $scope.amountUnitStr = parsedAmount.amountUnitStr;
 

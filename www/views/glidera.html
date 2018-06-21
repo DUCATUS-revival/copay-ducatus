@@ -69,7 +69,7 @@
           <img src="img/buy-ducatuscoin.svg" alt="buy ducatuscoin" width="25" class="item-img-buy">
           Buy DucatusCoin
           <span class="item-note" ng-show="account.price.buy">
-            ${{account.price.buy}}/DTC
+            ${{account.price.buy}}/DUC
           </span>
           <i class="icon bp-arrow-right"></i>
         </a>
@@ -79,7 +79,7 @@
           <img src="img/sell-ducatuscoin.svg" alt="buy ducatuscoin" width="25" class="item-img-sell">
           Sell DucatusCoin
           <span class="item-note" ng-show="account.price.sell">
-            ${{account.price.sell}}/DTC
+            ${{account.price.sell}}/DUC
           </span>
           <i class="icon bp-arrow-right"></i>
         </a>
@@ -111,7 +111,7 @@
           <h2>
             <span ng-show="tx.type == 'BUY'">Bought</span>
             <span ng-show="tx.type == 'SELL'">Sold</span>
-            <b>{{tx.qty}}</b> DTC
+            <b>{{tx.qty}}</b> DUC
           </h2>
           <p>
             {{tx.subtotal|currency:'':2}} {{tx.currency}}

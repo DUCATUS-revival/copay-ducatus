@@ -1,9 +1,11 @@
-{
-  "//": "        Modify it in the app-template directory",
+ { 
+  "//":"Changes to this file will be overwritten",
+  "//":"        Modify it in the app-template directory", 
+
   "name": "ducatuswallet",
   "description": "DucatusWallet - A Secure DucatusCoin Wallet",
   "author": "Ducatus",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "keywords": [
     "ducatuscoin",
     "wallet",
@@ -15,7 +17,7 @@
   "main": "www/index.html",
   "title": "DucatusWallet",
   "window": {
-    "title": "DucatusWallet - DucatusCoin Wallet",
+    "title": "DucatusWallet - DucatusWallet DucatusCoin Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,
@@ -47,8 +49,8 @@
     "url": "https://github.com/bitpay/copay/issues"
   },
   "engines": {
-    "node": "6",
-    "npm": "3"
+   "node": "6",
+   "npm": "3"
   },
   "dependencies": {
     "adm-zip": "^0.4.7",
@@ -61,7 +63,7 @@
     "bower": "^1.7.9",
     "cordova-android": "5.1.1",
     "cordova-custom-config": "^3.0.5",
-    "cordova-plugin-qrscanner": "^2.5.0",
+    "cordova-plugin-qrscanner": "git+ssh://git@github.com/Ducatus/cordova-plugin-qrscanner.git",
     "coveralls": "^2.11.9",
     "express": "^4.11.2",
     "fs": "0.0.2",
