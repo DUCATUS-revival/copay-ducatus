@@ -8,7 +8,7 @@ angular.module('copayApp.services')
     root.availableLanguages = [{
       name: 'English',
       isoCode: 'en',
-    } /*, {
+    } , {
       name: 'Español',
       isoCode: 'es',
     }, {
@@ -37,7 +37,7 @@ angular.module('copayApp.services')
     }, {
       name: 'Português',
       isoCode: 'pt',
-    }*/];
+    }];
 
     // }, {
     //   name: 'Český',
