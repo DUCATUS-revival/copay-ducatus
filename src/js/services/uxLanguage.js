@@ -9,6 +9,9 @@ angular.module('copayApp.services')
       name: 'English',
       isoCode: 'en',
     }, {
+      name: 'Deutsch',
+      isoCode: 'DE',
+    }, {
       name: 'Italiano',
       isoCode: 'it',
     }, {
