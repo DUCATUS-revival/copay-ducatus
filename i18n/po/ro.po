@@ -8,9 +8,9 @@ msgstr ""
 "X-Crowdin-Project: copay-ducatus\n"
 "X-Crowdin-Language: ro\n"
 "X-Crowdin-File: /master/i18n/po/template.pot\n"
-"Last-Translator: techduck88 <tech@ducatusx.com>\n"
+"Last-Translator: techduck88\n"
 "Language-Team: Romanian\n"
-"Language: ro_RO\n"
+"Language: ro\n"
 "PO-Revision-Date: 2017-10-15 17:40-0400\n"
 
 #: www/views/modals/paypro.html:34

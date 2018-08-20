@@ -8,7 +8,9 @@ You'll need [Sketch](https://www.sketchapp.com/) to make any changes to this dir
 
 Sketch and Homebrew are only available for macOS, and several processes in `generate.sh` require utilities that ship with macOS, so this process requires macOS.
 
-## Install dependencies
+## Install sketchtool
+
+If you do not have `sketchtool` installed, you'll first need to install it.
 
 ```sh
 sh install.sh
