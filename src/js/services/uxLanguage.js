@@ -14,15 +14,10 @@ angular.module('copayApp.services')
     }, {
       name: 'Deutsch',
       isoCode: 'de',
-    }, {
+    }/*, {
       name: 'Tiếng Việt',
       isoCode: 'vi'
-    }];
-
-    // }, {
-    //   name: 'Český',
-    //   isoCode: 'cs',
-    // }
+    }*/];
 
     root._detect = function(cb) {
       var userLang, androidLang;
