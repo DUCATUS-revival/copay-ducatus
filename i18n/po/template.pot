@@ -213,7 +213,8 @@ msgid "Anyone with your backup phrase can access or spend your ducatuscoin."
 msgstr ""
 
 #: www/views/addresses.html:94
-msgid "Approximate DucatusCoin network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate ducatuscoin network fee to transfer wallet's balance 
+(with normal priority)"
 msgstr ""
 
 #: www/views/backupWarning.html:10
