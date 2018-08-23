@@ -3,9 +3,9 @@
   "//":"        Modify it in the app-template directory", 
 
   "name": "ducatuswallet",
-  "description": "DucatusWallet - A Secure DucatusCoin Wallet",
+  "description": "A Secure DucatusCoin Wallet",
   "author": "Ducatus",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "keywords": [
     "ducatuscoin",
     "wallet",
@@ -17,7 +17,7 @@
   "main": "www/index.html",
   "title": "DucatusWallet",
   "window": {
-    "title": "DucatusWallet - DucatusWallet DucatusCoin Wallet",
+    "title": "DucatusWallet - DucatusCoin Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,
