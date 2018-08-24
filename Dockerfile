@@ -27,5 +27,5 @@ RUN npm run apply:copay
 RUN npm run build:www-release
 
 # Web Wallet
-#FROM nginx:alpine as web-wallet
-#COPY --from=builder /src/app/www /usr/share/nginx/html
+FROM nginx:alpine as web-wallet
+COPY --from=builder /src/app/www /usr/share/nginx/html
