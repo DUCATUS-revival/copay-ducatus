@@ -1,5 +1,5 @@
 var bwcModule = angular.module('bwcModule', []);
-var Client = require('../node_modules/ducatuscore-wallet-client');
+var Client = require('../node_modules/bitcore-wallet-client');
 
 bwcModule.constant('MODULE_VERSION', '1.0.0');
 

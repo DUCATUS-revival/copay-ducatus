@@ -1,4 +1,4 @@
-FROM node:boron
+FROM node:8 as builder
 
 RUN mkdir -p /root/.ssh
 
@@ -7,24 +7,25 @@ RUN chmod 700 /root/.ssh/id_rsa
 RUN echo "Host github.com\n\tStrictHostKeyChecking no\n" >> /root/.ssh/config
 
 # Create app directory
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+WORKDIR /src/app
 
 # Install app dependencies
-COPY package.json /usr/src/app/
-RUN npm install -g grunt bower
+COPY package.json /src/app/
+COPY package-lock.json /src/app/
+COPY bower.json /src/app/
+RUN npm install -g grunt bower ionic
 RUN npm install
 
 # Bundle app source
-COPY . /usr/src/app
+COPY . /src/app
+#RUN ionic cordova platform rm android && \
+#  rm -rf www/ platforms/ plugins/ && \
+#  ionic cordova platform add android
 
-RUN npm run clean-all
 RUN bower install --allow-root
 RUN npm run apply:copay
+RUN npm run build:www-release
 
-RUN rm /root/.ssh/id_rsa
-
-EXPOSE 8080
-
-CMD [ "/bin/bash" ]
-#CMD [ "npm", "run", "clean-all" ]
+# Web Wallet
+#FROM nginx:alpine as web-wallet
+#COPY --from=builder /src/app/www /usr/share/nginx/html
