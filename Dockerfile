@@ -15,12 +15,10 @@ COPY package-lock.json /src/app/
 COPY bower.json /src/app/
 RUN npm install -g grunt bower ionic
 RUN npm install
+RUN apt update; apt install -y vim; cp /usr/share/vim/vim74/vimrc_example.vim ~/.vimrc
 
 # Bundle app source
 COPY . /src/app
-#RUN ionic cordova platform rm android && \
-#  rm -rf www/ platforms/ plugins/ && \
-#  ionic cordova platform add android
 
 RUN bower install --allow-root
 RUN npm run apply:copay
