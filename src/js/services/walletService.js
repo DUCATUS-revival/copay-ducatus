@@ -1022,7 +1022,7 @@ $log.debug("VESH: Got getTxHistory - walletService.js");
     var opts = {
       inputType: 'password',
       forceHTMLPrompt: true,
-      class: 'text-warn'
+      class: 'text-warn', okText: gettextCatalog.getString('OK'), cancelText: gettextCatalog.getString('Cancel')
     };
     popupService.showPrompt(title, name, opts, function(res) {
       if (!res) return cb();

@@ -1,7 +1,6 @@
 'use strict';
 
 angular.module('copayApp.services').service('popupService', function($log, $ionicPopup, platformInfo, gettextCatalog) {
-
   var isCordova = platformInfo.isCordova;
   var isWindowsPhoneApp = platformInfo.isCordova && platformInfo.isWP;
 
@@ -16,14 +15,13 @@ angular.module('copayApp.services').service('popupService', function($log, $ioni
       okText: okText || gettextCatalog.getString('OK'),
     }).then(cb);
   };
-
   var _ionicConfirm = function(title, message, okText, cancelText, cb) {
     $ionicPopup.confirm({
       title: title,
       subTitle: message,
-      cancelText: cancelText,
+      cancelText: cancelText || gettextCatalog.getString('Cancel'),
       cancelType: 'button-clear button-positive',
-      okText: okText,
+      okText: okText || gettextCatalog.getString('OK'),
       okType: 'button-clear button-positive'
     }).then(function(res) {
       return cb(res);
@@ -35,7 +33,7 @@ angular.module('copayApp.services').service('popupService', function($log, $ioni
     $ionicPopup.prompt({
       title: title,
       subTitle: message,
-      cssClass: opts.class,
+      cssClass: opts.class, okText: opts.okText, cancelText: opts.cancelText,
       template: '<input ng-model="data.response" type="' + opts.inputType + '" value =" " autocomplete="off" autofocus>',
       inputPlaceholder: opts.inputPlaceholder,
       defaultText: opts.defaultText
@@ -58,8 +56,8 @@ angular.module('copayApp.services').service('popupService', function($log, $ioni
       if (buttonIndex == 2) return cb(true);
       else return cb(false);
     }
-    okText = okText || gettextCatalog.getString('OK');
-    cancelText = cancelText || gettextCatalog.getString('Cancel');
+    okText = gettextCatalog.getString('OK');
+    cancelText = gettextCatalog.getString('Cancel');
     title = title ? title : '';
     navigator.notification.confirm(message, onConfirm, title, [cancelText, okText]);
   };
