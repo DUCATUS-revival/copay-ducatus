@@ -3,8 +3,6 @@
 module.exports = function(grunt) {
 
   require('load-grunt-tasks')(grunt);
-
-  // Project Configuration
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     exec: {
@@ -169,8 +167,7 @@ module.exports = function(grunt) {
       },
       prod: {
         files: {
-          'www/js/app.js': ['www/js/app.js'],
-          'www/lib/angular-components.js': ['www/lib/angular-components.js']
+          'www/js/app.js': ['www/js/app.js']
         }
       }
     },
@@ -209,6 +206,12 @@ module.exports = function(grunt) {
         flatten: true,
         src: 'bower_components/ionic/release/js/ionic.bundle.min.js',
         dest: 'www/lib/'
+      },
+      android_xml: {
+        expand: true,
+        flatten: true,
+        src: 'config.xml',
+        dest: 'platforms/android/res/xml/'
       },
       linux: {
         files: [{

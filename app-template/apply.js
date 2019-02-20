@@ -105,11 +105,22 @@ function copyDir(from, to) {
   if (!fs.existsSync(from)) return; // nothing to do
   fs.copySync(from, to);
 }
-
+function makeDir(androidXmlDir) {
+  if (!fs.existsSync(androidXmlDir)){
+      fs.mkdirSync(androidXmlDir);
+  }
+}
 // Push Notification
 fs.copySync(configDir + '/GoogleService-Info.plist', '../GoogleService-Info.plist');
 fs.copySync(configDir + '/google-services.json', '../google-services.json');
 
 copyDir(configDir + '/img', '../www/img/app');
 copyDir(configDir + '/sass', '../src/sass/app');
+makeDir('../platforms/android/res');
+fs.copySync('../platforms/android/app/src/main/java','../platforms/android/src');
+fs.copySync('../platforms/android/app/src/main/res','../platforms/android/res');
+fs.copySync('AndroidManifest.xml', '../platforms/android/AndroidManifest.xml');
+//fs.copySync('../platforms/android/res/xml','../platforms/android/res/drawable');
+//fs.copySync('../platforms/android/res/xml','../platforms/android/res/layout');
+//fs.copySync('../platforms/android/res/xml','../platforms/android/res/values');
 console.log("apply.js finished. \n\n");
