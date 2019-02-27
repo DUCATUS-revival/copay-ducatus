@@ -19,35 +19,35 @@
     margin-right: 3rem;
   }
   .onboarding-topic {
-    font-size: 24px;
+    font-size: 1.2vw;
     margin-top: .5rem;
     line-height: 1.3;
     @media(max-width: 350px) {
-      font-size: 20px;
+      font-size: 1.5vw;
     }
   }
   .onboarding-description {
     margin-top: 1rem;
-    font-size: 16px;
+    font-size: 0.9vw;
     color: rgb(134, 38, 51);
     line-height: 1.5;
     @media(max-width: 350px) {
       line-height: 1.3;
     }
     @media(max-height: 480px) {
-      font-size: 16px;
+      font-size: 1.1vw;
     }
   }
   .onboarding-tldr {
-    font-size: 18px;
+    font-size: 1vw;
     margin-top: 1rem;
     margin-bottom: 1em;
     line-height: 1.3;
     @media(max-width: 350px) {
-      font-size: 16px;
+      font-size: 1.1vw;
     }
     @media(max-height: 480px) {
-      font-size: 14px;
+      font-size: 0.9vw;
     }
   }
 
