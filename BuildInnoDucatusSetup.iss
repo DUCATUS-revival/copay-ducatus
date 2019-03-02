@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "DucatusWallet"
-#define MyAppVersion "1.1.2"
+#define MyAppVersion "1.1.4"
 #define MyAppPublisher "Ducatus"
 #define MyAppURL "https://ducatus.io"
 #define MyAppExeName "DucatusWallet.exe"
